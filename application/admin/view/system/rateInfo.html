@@ -1,0 +1,95 @@
+{include file="head" /}
+
+
+
+<!-- 编辑器引入结束 -->
+
+{include file="menu" /}
+
+
+<!--main content start-->
+      <section>
+          <section class="wrapper">
+
+
+          <div class="row">
+                  <div class="col-sm-12">
+                      <aside class="profile-info col-lg-12">
+                      <section class="panel">
+
+                          <div class="panel-body bio-graph-info">
+                              <h4> 编辑比率信息</h4>
+                              <form class="form-horizontal" role="form" method="post" id="formid">
+                              		<div class="form-group"  style="display: none;">
+                                      <label class="col-lg-2 control-label">编号</label>
+                                      <div class="col-lg-6">
+                                          <input type="text" class="form-control" name="rid" value="{$rid}"  >
+                                      </div>
+                                  </div>
+                                  <div class="form-group">
+                                      <label class="col-lg-2 control-label">人民币（￥）</label>
+                                      <div class="col-lg-6">
+                                          <input type="text" class="form-control" name="rmbcoin" value="{$rmbcoin}"  >
+                                      </div>
+                                  </div>
+								                  <div class="form-group">
+                                      <label class="col-lg-2 control-label">美元（$）</label>
+                                      <div class="col-lg-6">
+                                          <input type="text" class="form-control" name="gamecoin" value="{$gamecoin}">
+                                      </div>
+                                  </div>
+                                  <div class="form-group">
+                                      <label class="col-lg-2 control-label">备注</label>
+                                      <div class="col-lg-6">
+                                          <input type="text" class="form-control" name="mark" value="{$mark}">
+                                      </div>
+                                  </div>
+                                  <div class="form-group">
+                                      <div class="col-lg-offset-2 col-lg-10">
+                                          <input type="submit" value="提交"  onclick="return editcon(this.form)" class="btn btn-success">
+                                      </div>
+                                  </div>
+
+                              </form>
+                          </div>
+                      </section>
+
+                  </aside>
+                  </div>
+
+          </div>
+
+
+
+
+          </section>
+      </section>
+      <!--main content end-->
+
+
+
+{include file="foot" /}
+<script type="text/javascript" src="/static/public/umeditor/umindex.js"></script>
+<script>
+
+	function editcon(form){
+    var rmbcoin = form.rmbcoin.value;
+    var gamecoin = form.gamecoin.value;
+    if(!rmbcoin){
+    	layer.msg('请填写人民币'); 
+    	return false;
+    }
+    
+    if(!gamecoin){
+    	layer.msg('请填写兑换的美金'); 
+    	return false;
+    }
+    var formurl = "{:Url('system/updateRateInfo')}";
+    var data = $('#formid').serialize();
+    var locurl = "{:Url('system/rechargeRate')}";
+    WPpost(formurl,data,locurl);
+    return false;
+	}
+
+
+</script>

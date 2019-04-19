@@ -1,0 +1,137 @@
+{include file="head" /}
+
+{include file="menu" /}
+
+
+
+  <link rel="stylesheet" type="text/css" href="__ADMIN__/gaiban/js/bootstrap-datetimepicker/css/datetimepicker-custom.css" />
+
+
+
+
+
+<section class="wrapper">
+        <!-- page start-->
+   <!--body wrapper start-->
+        <div class="row">
+            <div class="col-lg-12">
+                <section class="panel">
+                    <header class="panel-heading">
+                        佣金列表
+                    </header>
+                    <div class="panel-body">
+                        <form role="form" action="" method="get">
+                            <div class="form-group">
+                                <div class="col-lg-12">
+                                    <div class="row">
+                                        	 <div class="col-lg-3">
+                                              <div class="input-group m-bot15">
+                                              <span class="input-group-btn">
+                                                <button class="btn btn-default" type="button">代理名称</button>
+                                              </span>
+                                                <input type="text" class="form-control"     value="{$getdata.username?$getdata.username:''}" name="username" />
+                                            </div>
+                                            </div>
+                                      		
+                                      
+                                            <div class="col-lg-6">
+                                              <div class="input-group m-bot15">
+                                              <span class="input-group-btn">
+                                                <button class="btn btn-default" type="button">订单时间</button>
+                                              </span>
+                                                    <input size="16" type="text"  readonly class="form_datetime form-control"  placeholder="点击选择时间" name="starttime" value="{$getdata.starttime?$getdata.starttime:''}"  />
+                                                     <span class="input-group-addon">To</span>
+                                                     <input size="16" type="text" readonly class="form_datetime form-control"  placeholder="点击选择时间" name="endtime" value="{$getdata.endtime?$getdata.endtime:''}" />        
+                                            </div>                                                    
+                                            </div>
+                                            </div>
+                                  				<input class="btn btn-info"type="submit" value="搜 索">
+                                      </div>
+                          		</div>
+                        </form>
+                    </div>	
+                </section>
+            </div>
+        </div>
+		 <!--state overview end-->
+		<div style="margin-bottom: 20px;">
+          <a href="{:url('price/yongjin')}"><button class="btn btn-danger" type="submit">搜索 全部</button></a> 
+     	</div>	
+          
+ <div class="row">
+        <div class="col-sm-12">
+		
+		
+        <section class="panel">
+            <header class="panel-heading">
+  佣金报表
+            </header>
+            <div class="panel-body">
+                <section id="unseen">
+                  <form action="proorder" method="post">
+                    <table class="table table-bordered table-striped table-condensed">
+                        <thead>
+                        	 <thead class="ordertable">
+                              <tr>
+                                <th>编号</th>
+                                <th>代理名称</th>
+                                <th>订单id</th>
+                                <th>佣金金额</th>
+                                <th>备注</th>
+                                <th>日期</th>
+                            </tr>
+                        </thead>
+                      
+                       
+                        <tbody>
+							 <!-- {volist name="list" id="vo"} -->
+                              <tr>
+                                  <td>{$vo.id}</td>
+                                  <td><a href="{:url('user/userlist')}?uid={$vo.uid}">{$vo.username?$vo.username:$vo.utel}</a></td>
+                                  <td><a href="{:url('order/orderlist')}?oid={$vo.oid}">{$vo.oid}(点击查看)</a></td>
+                                  <td class="color_red">¥{$vo.account}</td>
+                                  <td>{$vo.content}</td>
+                                  <td>{$vo.time|date="Y-m-d H:i:s",###} </td>
+                                 
+                                  
+                                  
+                              </tr>
+							<!-- {/volist} -->
+                        	
+                        </tbody>  
+                  	</table>
+                   </form>
+                </section>
+                {$list->render()}
+            </div>
+        </section>	
+</div>
+</div>
+	
+  
+
+   
+  
+
+</section>
+
+<script type="text/javascript" src="__ADMIN__/gaiban/js/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js"></script>
+
+<script src="__ADMIN__/gaiban/js/pickers-init.js"></script>
+<!--pickers plugins-->
+
+
+
+
+
+{include file="foot" /}
+
+<script>  
+
+
+//时间选择器
+$('#datetimepicker').datetimepicker();
+$('#datetimepicker_end').datetimepicker();
+
+
+</script>

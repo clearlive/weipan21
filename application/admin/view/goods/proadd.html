@@ -1,0 +1,303 @@
+{include file="head" /}
+
+{include file="menu" /}
+
+
+		
+		
+        <!--body wrapper start-->
+        <div class="wrapper">	
+        <div class="row">
+        <div class="col-lg-12">
+        <section class="panel">
+            <header class="panel-heading">
+                {$pid?'编辑产品':'添加产品'}
+            </header>
+            <div class="panel-body">
+                <form class="form-horizontal adminex-form" role="form" id="formid" method="post" >
+                	<div class="form-group">
+                          <label class="col-sm-2 control-label col-lg-2" for="inputSuccess"><strong style="color: #a94442;">交易类型</strong></label>
+                          <div class="col-lg-10">
+                          	<div style="margin-top: 5px;">
+                          		<label>
+	                              <input name="trade_type" id="trade_type1" value="1" type="checkbox" onclick="selectTradeType(1)">
+	                              	<span>&nbsp;时间盘</span>
+	                              </input>
+	                            </label>
+	                              &nbsp;&nbsp;&nbsp;&nbsp;
+	                            <label>
+	                              <input name="trade_type" id="trade_type2" value="2" type="checkbox" onclick="selectTradeType(2)">
+	                              	<span>&nbsp;点位盘</span>
+	                              </input>
+	                            </label>
+                              <!--<select class="form-control m-bot15" id="trade_type" name="trade_type" onchange="selectTradeType()">
+                              	<option value="0">请选择类型</option>
+                                <option value="1" {if isset($trade_type) && $trade_type == 1} selected {/if}>时间盘</option>
+                                <option value="2" {if isset($trade_type) && $trade_type == 2} selected {/if}>点位盘</option>
+                              </select>-->
+                            </div>
+                          </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 col-sm-2 control-label">产品名称</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" placeholder="请填写产品名称" name="ptitle" value="{$ptitle?$ptitle:''}">
+                        </div>
+                    </div>
+                  	<div class="form-group">
+                        <label class="col-sm-2 col-sm-2 control-label">产品简介</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" placeholder="请填写简介(控制在10字左右)"name="jianjie" value="{$jianjie?$jianjie:''}">
+                            
+                        </div>
+                    </div>
+                  <div class="form-group">
+                        <label class="col-sm-2 col-sm-2 control-label">产品代码</label>
+                        <div class="col-sm-10">
+                             
+                            	<div class="row">
+                                  <div class="col-lg-12">
+                                      <input type="text" class="form-control" value="{$procode?$procode:''}"  placeholder="请填写产品代码" name="procode">
+                                  </div>
+                            	</div>	
+                        </div>
+                    </div> 
+                    <div class="form-group">
+                          <label class="col-sm-2 control-label col-lg-2" for="inputSuccess">产品分类</label>
+                          <div class="col-lg-10">
+                              <select class="form-control m-bot15" name="cid">
+                                  <option value="0">请选择分类</option>
+                                   <!-- {volist name="proclass" id="vo"} -->
+                                            	<option {if isset($cid) && $cid == $vo['pcid']} selected="selected" {/if} value="{$vo.pcid}">{$vo.pcname}</option>
+                                   <!-- {/volist} -->
+                              </select>
+                          </div>
+                     </div>
+					
+                  
+                    <div class="form-group">
+                        <label class="col-sm-2 col-sm-2 control-label">风控波动范围</label>
+                        <div class="col-sm-10">
+                             
+                            	<div class="row">
+                                  <div class="col-lg-6">
+                                      <input type="text" value="{$point_low?$point_low:''}" class="form-control" placeholder="风控波动最小值" name="point_low">
+                                  </div>
+                                  <div class="col-lg-6">
+                                      <input type="text" value="{$point_top?$point_top:''}" class="form-control" placeholder="风控波动最大值" name="point_top">
+                                  </div>
+                                 
+                            	</div>
+                          <span class="help-block" style="color: #a94442;"><strong>注意：</strong> 客户订单在条件范围内时，会根据订单的涨或跌，自动减或加最小值与最大值之间的随机数，留空或者0则为不开启</span>
+                        	
+                        </div>
+                    </div>
+                  
+                  	 <div class="form-group">
+                        <label class="col-sm-2 col-sm-2 control-label" id="rands_lable">时间盘波动范围</label>
+                        <div class="col-sm-10">
+                            	<div class="row">
+                                  <div class="col-lg-12">
+                                      <input type="text" class="form-control" placeholder="请填写随机波动范围"  name="rands" value="{$rands?$rands:''}">
+                                  </div>
+                            	</div>
+							<span class="help-block" style="color: #a94442;"><strong>注意：</strong> 产品获取接口值后，会加上+-此处的值。如5，则在接口获取的数据中加上-5~5之间的随机数。</span>
+                        	
+                        </div>
+                    </div>
+                    <!--<div class="form-group" id="insurance_value_div" {if !(isset($trade_type) && $trade_type == 2) } style="display: none;" {/if}>
+                        <label class="col-sm-2 col-sm-2 control-label" style="color: #a94442;">附加保险值</label>
+                        <div class="col-sm-10">
+                            	<div class="row">
+                                  <div class="col-lg-12">
+                                      <input type="text" class="form-control" placeholder="请填写附加保险值"  name="insurance_value" value="{$insurance_value?$insurance_value:'0'}">
+                                  </div>
+                            	</div>
+							<span class="help-block" style="color: #a94442;"><strong>注意：</strong> 产品获取接口值后，会加上+-此处的值。如5，则在接口获取的数据中加上-5~5之间的随机数。</span>
+                        </div>
+                    </div>-->
+                  
+                   <div class="form-group">
+                        <label class="col-sm-2 col-sm-2 control-label" id="protime_lable">时间玩法间隔</label>
+                        <div class="col-sm-10">
+                             
+                            	<div class="row">
+                                  <div class="col-lg-12">
+                                      <input type="text" class="form-control" value="{$protime?$protime:''}"  placeholder="请填写玩法间隔" name="protime">
+                                  </div>
+                            	</div>
+							<span class="help-block" style="color: #a94442;" id="protime_span"><strong>注意：</strong> 如时间为：1分、3分、5分、8分，则请用字母逗号将时间分开，如输入：1,3,5,8。必须为四个。</span>
+                        	
+                        </div>
+                    </div>
+                  <div class="form-group">
+                        <label class="col-sm-2 col-sm-2 control-label">盈亏比例</label>
+                        <div class="col-sm-10">
+                             
+                            	<div class="row">
+                                  <div class="col-lg-12">
+                                      <input type="text" class="form-control"  value="{$proscale?$proscale:''}"  placeholder="请填写盈亏比例" name="proscale">
+                                  </div>
+                            	</div>
+							<span class="help-block" style="color: #a94442;"><strong>注意：</strong> 如比例为：75%、77%，80%、85%，则请用字母逗号将比例分开，如输入：75,77,80,85。必须为四个，且不得为空。</span>
+                        	
+                        </div>
+                    </div>
+                   <div class="form-group">
+                        <label class="col-sm-2 col-sm-2 control-label">开市时间</label>
+                        <div class="col-sm-10">
+                             
+                            	<div class="row">
+                                  <div class="col-lg-3" style="margin-top: 5px;">
+                                      <input type="text" class="form-control" placeholder="周一" value="{$opentime[0]?$opentime[0]:''}" name="opentime[1]">
+                                  </div>
+                                  <div class="col-lg-3" style="margin-top: 5px;">
+                                      <input type="text" class="form-control" placeholder="周二" value="{$opentime[1]?$opentime[1]:''}"  name="opentime[2]">
+                                  </div>
+                                  <div class="col-lg-3" style="margin-top: 5px;">
+                                      <input type="text" class="form-control" placeholder="周三" value="{$opentime[2]?$opentime[2]:''}"  name="opentime[3]">
+                                  </div>
+                                  <div class="col-lg-3" style="margin-top: 5px;">
+                                      <input type="text" class="form-control" placeholder="周四" value="{$opentime[3]?$opentime[3]:''}" name="opentime[4]">
+                                  </div>
+                                  <div class="col-lg-3" style="margin-top: 5px;">
+                                      <input type="text" class="form-control" placeholder="周五" value="{$opentime[4]?$opentime[4]:''}" name="opentime[5]">
+                                  </div>
+                                  <div class="col-lg-3" style="margin-top: 5px;">
+                                      <input type="text" class="form-control" placeholder="周六" value="{$opentime[5]?$opentime[5]:''}" name="opentime[6]">
+                                  </div>
+                                  <div class="col-lg-3" style="margin-top: 5px;">
+                                      <input type="text" class="form-control" placeholder="周日" value="{$opentime[6]?$opentime[6]:''}" name="opentime[7]" >
+                                  </div>
+                            	</div>
+                       			
+							<span class="help-block" style="color: #a94442;"><strong>注意：</strong>  开市时间为00:00~18:00则输入 00:00~18:00 开市时间为00:00~03:00 和 08:00~24:00;则输入 如：00:00~03:00|08:00~24:00 不得出现中文符号，全天不开市请留空,时间一定要填写准确。</span>	
+                        </div>
+                     	
+                    </div>
+				
+                          <div class="form-group">
+                              <label class="col-sm-2 control-label">备注</label>
+                              <div class="col-sm-10">
+                                  <textarea rows="6" class="form-control">{$content?$content:''}</textarea>
+                              </div>
+                     
+         			</div>
+                  								<input type="hidden" name="pid" value="{$pid?$pid:''}">
+       					<div class="panel-body">
+                         
+
+                          <input type="submit" class="btn btn-primary" onclick="return editpro(this.form)" value="提交">
+                           <input type="button" class="btn btn-warning" onclick="returnBack();" value="返回">
+                        </div>
+      
+                </form>
+            </div>
+        </section>
+
+          
+        </div>
+        </div>
+	   
+	   </div>
+        <!--body wrapper end-->
+
+		
+
+
+{include file="foot" /}
+<script>
+var trade_type = '{if isset($trade_type)} {$trade_type} {else /} 0 {/if}';
+if(trade_type != 0){
+	selectTradeType(trade_type);
+}
+
+function selectTradeType(value){
+	
+	var rands_lable_html = "波动范围";
+	var protime_lable_html = "玩法间隔";
+	var protime_span_html = "<strong>注意事项</strong>";
+	var display = "none";
+	if(value == 1){
+		rands_lable_html = "时间盘波动范围";
+		protime_lable_html = "时间玩法间隔";
+		protime_span_html = "<strong>注意：</strong> 如时间为：1分、3分、5分，则请用字母逗号将时间分开，如输入：1,3,5。必须为三个。";
+		$("#trade_type2").removeAttr("checked");
+		$("#trade_type1").attr("checked",'true');//全选
+		
+	}else if(value == 2){
+		display = "block";
+		rands_lable_html = "点位盘波动范围";
+		protime_lable_html = "点位玩法间隔";
+		protime_span_html = "<strong>注意：</strong> 如点数为：0.1点、0.2点、0.3点、0.4点，则请用字母逗号将时间分开，如输入：0.1,0.2,0.3,0.4。必须为四个。";
+		$("#trade_type1").removeAttr("checked");
+		$("#trade_type2").attr("checked",'true');
+	}
+	$("#rands_lable").html(rands_lable_html);
+	$("#protime_lable").html(protime_lable_html);
+	$("#protime_span").html(protime_span_html);
+}
+function editpro(form){
+
+	var ptitle = form.ptitle.value;
+	var cid = form.cid.value;
+	var point_low = form.point_low.value;
+	var point_top = form.point_top.value;
+	var rands = form.rands.value;
+    var procode = form.procode.value;
+    var proscale = form.proscale.value;
+    var trade_type = "";
+    $.each($('input[name="trade_type"]:checked'),function(){
+	    if(this.checked){
+	        trade_type = $(this).val();
+	    }
+	});
+    
+	if(!ptitle){
+		layer.msg('请输入产品名称！'); 
+	    return false;
+	}
+	  if(!procode ){
+	    layer.msg('请输入产品代码！'); 
+	      return false;
+	  }
+	if(!cid || cid == 0){
+		layer.msg('请选择分类！'); 
+	    return false;
+	}
+
+	if(!trade_type || trade_type == ""){
+		layer.msg('请选择交易类型！'); 
+	    return false;
+	}
+
+	if(point_low < 0 || isNaN(point_low) || point_top < 0 || isNaN(point_top) || rands < 0 || isNaN(rands)){
+		layer.msg('风控值应为大于0的数字！'); 
+	    return false;
+	}
+
+	if(point_low > point_top ){
+		layer.msg('风控最小值应该小于最大值！'); 
+	    return false;
+	}
+
+
+
+  if(!proscale ){
+    layer.msg('请输入盈亏比例！'); 
+      return false;
+  }
+
+	var formurl = "{:Url('goods/proadd')}"
+    var data = $('#formid').serialize();
+    var locurl = "{:Url('admin/goods/prolist')}";
+
+    WPpost(formurl,data,locurl);
+	return false;
+
+}
+function returnBack(){
+
+	self.location.href="{:Url('admin/goods/prolist')}";
+}
+</script>

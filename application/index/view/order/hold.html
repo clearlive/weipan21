@@ -1,0 +1,78 @@
+{include file="head-gaiban" /}
+	<link href="/static/gaiban/css/xz-hold.css" rel="stylesheet">
+	<link href="/static/gaiban/css/xz-currency.css" rel="stylesheet">
+<body class="sticky-header user-body-cz">
+ <section>
+  	<div class="main-content" style="margin-left:0px;" >
+      	<!--头部开始-->
+        <div class="header-section"   style="left: 0px;">
+          	<div class="xg-left">
+              	<a href="javascript:history.go(-1);" style="color:#333;" class="fa fa-angle-left"></a>
+          	</div>
+        <!--头部导航文字-->
+        	<h3 style="text-align: center;height: 16px;line-height: 10px;font-size: 18px;font-weight: 500;color: #333;">交易记录</h3>
+		<!--头部导航文字-->
+        </div>		
+		<div class="wrapper" style="margin-top: 45px;">		
+			<div class="row">
+                <div class="ico-bottom-center col-md-12">
+                    <section class="panel">
+                        <header class="panel-heading custom-tab ">
+                            <ul class="nav nav-tabs">
+                                <li class="xz-header active" onclick="change_category(0)" >
+                                    <a href="#home" style="color:#333;" data-toggle="tab">持仓明细</a>
+                                </li>
+                                <li class="xz-header" onclick="change_category(1)">
+                                    <a href="#about" style="color:#333;" data-toggle="tab">历史明细</a>
+                                </li>
+                               
+                            </ul>
+                        </header>
+                        <div class="panel-body ">
+                            	<div class="tab-content trade_history_list ">
+                              
+                                      <div class="tab-pane active slider-left  " id="home"   data-index="0" >
+                                              <ul class="activity-list">
+                                                	
+                                              </ul>
+                                      </div>
+                              	
+                              	
+                                      <div class="tab-pane slider-right" id="about"  data-index="1" >
+                                              <ul class="activity-list uls">
+                                              </ul>
+                                      </div>
+                                  
+                            </div>
+                        </div>
+                    </section>
+                </div>
+             </div>	   
+		</div>	
+      	
+			
+      
+      
+      
+      
+    </div>
+ </section>
+ {include file="foot" /}
+  
+ <script src="/static/index/js/lk/hold.js"></script>
+<script type="text/javascript">
+  change_category(0)
+</script>
+
+
+  
+  
+  
+<script src="/static/gaiban/js/jquery-1.10.2.min.js"></script>
+<script src="/static/gaiban/js/jquery-ui-1.9.2.custom.min.js"></script>
+<script src="/static/gaiban/js/bootstrap.min.js"></script>
+<script src="/static/gaiban/js/modernizr.min.js"></script>
+<script src="/static/gaiban/js/jquery.nicescroll.js"></script>
+
+</body>
+</html>

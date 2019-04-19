@@ -1,0 +1,304 @@
+{include file="head" /}
+
+{include file="menu" /}
+<link rel="stylesheet" type="text/css" href="__ADMIN__/gaiban/js/bootstrap-datetimepicker/css/datetimepicker-custom.css" />
+
+<section class="wrapper">
+        <!-- page start-->
+   <!--body wrapper start-->
+        <div class="row">
+            <div class="col-lg-12">
+                <section class="panel">
+                    <header class="panel-heading">
+                        订单管理
+                    </header>
+                    <div class="panel-body">
+                        <form action="{:url('user/userlist')}" method="get">
+                            <div class="form-group">
+                                <div class="col-lg-12">
+                                    <div class="row">
+                                        	<div class="col-lg-3">
+                                              <div class="input-group m-bot15">
+                                              <span class="input-group-btn">
+                                                <button class="btn btn-default" type="button">订单编号</button>
+                                              </span>
+                                                <input type="text"  value="{$getdata['username']?$getdata['username']:''}"  class="form-control" name="username" placeholder="昵称/姓名/手机号/编号"/>
+                                            </div>
+                                            </div>
+                                      		<div class="col-lg-3">
+                                                    	<div class="input-group m-bot15">
+                                                          <span class="input-group-btn">
+                                                            <button class="btn btn-default" type="button">盈亏</button>
+                                                          </span>
+                                                          		<select class="form-control m-bot15" name="otype">
+                                                                      <option value="">默认不选</option>
+                                                                       <option {if isset($getdata['otype']) && $getdata['otype'] === 0} selected="selected" {/if} value="0">客户</option>
+                                  										<option {if isset($getdata['otype']) && $getdata['otype'] == 101} selected="selected" {/if} value="101">代理商</option>
+                                                              </select>
+                                                        </div>
+                                                  </div>
+                                      			<input class="btn btn-info"type="submit" value="搜 索">
+                                            </div>
+                                      </div>
+                          		</div>
+                        </form>
+                    </div>	
+                </section>
+            </div>
+        </div>
+		 <!--state overview end-->
+		<div style="margin-bottom: 20px;">
+          <a href="{:url('user/userlist')}"><button class="btn btn-danger" type="submit">所有 用户</button></a>
+          <a href="{:url('user/userlist',array('otype'=>0))}"><button class="btn btn-danger" type="submit">所有 客户</button></a>
+          <a href="{:url('user/userlist',array('otype'=>101))}"><button class="btn btn-danger" type="submit">所有 代理商</button></a>
+          <a href="{:url('user/userlist',array('today'=>1,'otype'=>0))}"><button class="btn btn-danger" type="submit">今日 客户</button></a>
+          <a href="{:url('user/userlist',array('today'=>1,'otype'=>101))}"><button class="btn btn-danger" type="submit">今日 代理商</button></a>
+          <a href="{:url('user/useradd')}"><button class="btn btn-danger" type="submit">添加 客户+</button></a>
+          <a href="{:url('user/vipuseradd')}"><button class="btn btn-danger" type="submit">添加 代理+</button></a>
+     	</div>
+          
+ <div class="row">
+        <div class="col-sm-12">
+		
+		
+        <section class="panel">
+            <header class="panel-heading">
+                     用户列表             
+            </header>
+            <div class="panel-body">
+                <section id="unseen">
+                    <table class="table table-bordered table-striped table-condensed">
+                        <thead>       
+                          	 <tr>   	
+                                <th>用户ID</th>
+                                <th>客户信息</th>
+                                <th>客户名称</th>
+                                <th>创建日期</th>
+                                <th>最近登录</th>
+                                <th>订单数</th>
+                                <th>账户余额(￥)</th>
+                                <th>账户余额($)</th>
+                                <th>身份</th>
+                                <th>红利</th>
+                                <th>佣金</th>
+                                <th>归属代理商</th>
+                                {if $otype == 3}
+                                <th>操作</th>
+                                {/if}
+                           
+                               
+                            </tr>
+                        </thead>
+                        <tbody>
+                             <!-- {volist name="userinfo" id="vo"} -->
+                              <tr>
+                                  <td>{$vo.uid}</td>
+                                  <td>{$vo.username}【{$vo.utel}】</td>
+                                  <td>{$vo.nickname}</td>
+                                  <td>{$vo.utime|date="Y-m-d H:i:s",###}</td>
+                                  <td>{$vo.logintime|date="Y-m-d H:i:s",###}</td>
+                                  <td>{:ordernum($vo['uid'])}</td>
+                                  <td class="color_red">¥{$vo.usermoney?$vo.usermoney:'0'}</td>
+                                  <td class="color_red">¥{$vo.userdollor?$vo.userdollor:'0'}</td>
+                                  <td>{if $vo.otype == 0}客户{elseif $vo.otype == 101}代理商{/if}</td>
+                                  <td>{$vo.rebate?$vo.rebate:'0'}%</td>
+                                  <td>{$vo.feerebate?$vo.feerebate:'0'}%</td>
+                                  <td><a href="{:url('userlist',array('oid'=>$vo['oid']))}">{:getuser($vo['oid'],"username")}</a></td>
+                                  
+                                  <td>
+                                      {if $vo.ustatus == 0}
+                                      <a href="javascript:;" onclick="doustatus(1,{$vo.uid})"> <button class="btn btn-danger btn-xs"> 禁用 </button> </a>
+                                      {else/}
+                                      <a href="javascript:;" onclick="doustatus(0,{$vo.uid})"> <button class="btn btn-primary btn-xs"> 启用 </button> </a>
+
+                                      {/if}
+                                 
+                                      {if $vo.otype == 101}
+                                      
+                                      <a href="{:url('userlist',array('oid'=>$vo['uid']))}"> <button class="btn btn-primary btn-xs"> 下级客户 </button> </a>
+                                      <a href="{:url('vipuserlist',array('oid'=>$vo['uid']))}"> <button class="btn btn-primary btn-xs"> 下级代理 </button> </a>
+                                      <a href="{:url('yeji',array('uid'=>$vo['uid']))}"> <button class="btn btn-primary btn-xs"> 业绩 </button> </a>
+
+                                      {if $_SESSION['otype'] == 3}
+									  {if $vo.dankong == 0}
+                                      <a href="javascript:;" onclick="dodankong(1,{$vo.uid})"> <button class="btn btn-danger btn-xs"> 允许单控 </button> </a>
+                                      {else/}
+                                      <a href="javascript:;" onclick="dodankong(0,{$vo.uid})"> <button class="btn btn-primary btn-xs"> 禁止单控 </button> </a>
+                                      {/if}
+                                      <a href="{:url('user/vipuseredit',array('uid'=>$vo['uid']))}"><button class="btn btn-danger btn-xs"><i class="icon-pencil"> 修改</i></button></a>
+                                      <a href="javascript:;" onclick="deleteuser({$vo.uid})" ><button class="btn btn-danger btn-xs"><i class="icon-pencil"> 删除</i></button></a> 
+                                      {/if}
+
+                                      {/if}
+                                      {if $vo.otype == 0}
+
+                                      <a href="javascript:;" onclick="dootype(101,{$vo.uid})"><button class="btn btn-success btn-xs">成为代理商</button></a>
+
+                                      {if $_SESSION['otype'] == 3}
+                                      <a href="{:url('user/useredit',array('uid'=>$vo['uid']))}"><button class="btn btn-danger btn-xs"><i class="icon-pencil"> 修改</i></button></a>
+                                      <a href="javascript:;" onclick="deleteuser({$vo.uid})" ><button class="btn btn-danger btn-xs"><i class="icon-pencil"> 删除</i></button></a> 
+                                      {/if}
+                                      {/if}
+
+                                      <a href="{:url('user/userbank',array('uid'=>$vo['uid']))}"><button class="btn btn-primary btn-xs">签约</button></a>
+
+                                       <a href="{:url('price/pricelist')}?username={$vo.username}"><button class="btn btn-primary btn-xs">资金报表</button></a>
+
+                                  </td>  
+                              </tr>
+							<!-- {/volist} -->
+                        </tbody>  
+                  	</table>
+                </section>
+               {$userinfo->render()}
+             
+            </div>
+        </section>	
+</div>
+</div>
+
+
+
+
+</section>
+
+
+
+
+
+
+
+
+{include file="foot" /}
+<script>
+
+function doustatus(type,uid) {
+  
+  if(type == 1){
+    var con = '确定禁用吗？';
+  }else if(type == 0){
+    var con = '确定启用吗？';
+  }else{
+    layer.msg('参数错误！');
+    return false;
+  }
+
+  if(!uid){
+    layer.msg('参数错误！');
+    return false;
+  }
+
+  layer.open({
+    content: con,
+    yes: function(index){
+      //do something
+      var formurl = "{:Url('user/doustatus')}";
+      var data = 'uid='+uid+'&ustatus='+type;
+
+      $.post(formurl,data,function(resdata){
+        layer.msg(resdata.data);
+        if(resdata.type == 1){
+          history.go(0);
+        }
+      })
+
+      
+    }
+  });
+}
+
+function dootype(type,uid) {
+  
+  if(type == 101){
+    var con = '确定要成为代理商吗？';
+  }else{
+    layer.msg('参数错误！');
+    return false;
+  }
+
+  if(!uid){
+    layer.msg('参数错误！');
+    return false;
+  }
+
+  layer.open({
+    content: con,
+    yes: function(index){
+      //do something
+      var formurl = "{:Url('user/dootype')}";
+      var data = 'uid='+uid+'&otype='+type;
+
+      $.post(formurl,data,function(resdata){
+        layer.msg(resdata.data);
+        if(resdata.type == 1){
+          history.go(0);
+        }
+      })
+
+      
+    }
+  });
+}
+
+
+function dodankong(type,uid) {
+  
+  if(type == 1){
+    var con = '确定启用单控吗？';
+  }else if(type == 0){
+    var con = '确定禁用单控吗？';
+  }else{
+    layer.msg('参数错误！');
+    return false;
+  }
+
+  if(!uid){
+    layer.msg('参数错误！');
+    return false;
+  }
+
+  layer.open({
+    content: con,
+    yes: function(index){
+      //do something
+      var formurl = "{:Url('user/dodankong')}";
+      var data = 'uid='+uid+'&dankong='+type;
+
+      $.post(formurl,data,function(resdata){
+        layer.msg(resdata.data);
+        if(resdata.type == 1){
+          history.go(0);
+        }
+      })
+
+      
+    }
+  });
+}
+
+
+function deleteuser (uid) {
+  
+  layer.open({
+    content: '你确定删除吗？不可恢复哦，请慎重操作！',
+    yes: function(index){
+      //do something
+      var formurl = "{:Url('user/deleteuser')}";
+      var data = 'uid='+uid;
+
+      $.post(formurl,data,function(resdata){
+        layer.msg(resdata.data);
+        if(resdata.type == 1){
+          history.go(0);
+        }
+      })
+
+      
+    }
+  });
+
+
+}
+
+
+</script>

@@ -1,0 +1,74 @@
+<div class="foot-row row">
+  <div class="col-sm-12" style="padding-left: 0px;padding-right: 0px;">
+    <section class="panel" style="margin-bottom:0;">
+      <div class="panel-body" style="padding: 0px;">
+        <li class="col-md-12" style="margin-bottom: 0px;">
+          <div class="xiugai-left">
+            <div class="avatar ">
+              <a href="{:url('news/index')}">
+
+                {if $actionname == 'news' }
+                <img src="__HOME__/img/foot-sy.png" alt="" width="60px">
+
+
+                {else /}
+                <img src="__HOME__/img/foot-sywx.png" alt="" width="60px">
+                {/if}
+
+              </a>
+            </div>
+          </div>
+          <div class="xiugai-left">
+            <div class="avatar">
+              <a href="{:url('/index/goods/goods/token/'.$token)}">
+
+                {if $actionname == 'goods' }
+                <img src="__HOME__/img/foot-zq.png" alt="" width="60px">
+
+
+                {else /}
+                <img src="__HOME__/img/foot-zqwx.png" alt="" width="60px">
+                {/if}
+
+              </a>
+            </div>
+          </div>
+          <div class="xiugai-left">
+            <div class="avatar">
+              <a href="{:url('/index/point/point/token/'.$token)}" class=" ">
+                {if $actionname == 'point' }
+                <img src="__HOME__/img/foot-dd.png" alt="" width="60px">
+
+
+                {else /}
+                <img src="__HOME__/img/foot-ddwx.png" alt="" width="60px">
+                {/if}
+              </a>
+            </div>
+          </div>
+
+          <div class="xiugai-left">
+              <div class="avatar">
+                <a href="{:url('/index/user/index/token/'.$token)}" class="">
+  
+                  {if $actionname == 'user' }
+                  <img src="__HOME__/img/foot-user.png" alt="" width="60px">
+  
+  
+                  {else /}
+                  <img src="__HOME__/img/foot-userwx.png" alt="" width="60px">
+                  {/if}
+  
+                </a>
+              </div>
+            </div>
+
+        </li>
+      </div>
+    </section>
+  </div>
+  <style>
+    .tab-item-active {
+      color: rgb(236, 181, 64) !important;
+    }
+  </style>

@@ -1,0 +1,72 @@
+{include file="head-gaiban" /}
+
+<body class="login-body">
+    <div class="login-bg">
+        <div class="container">
+            <div class="container-title">
+                <p> 您好，请登录</p>
+                <img src="__HOME__/img/logot.png" alt="">
+            </div>
+            <form class="form-signin" method="post" id="formid">
+                <!-- <div class="form-signin-heading text-center"> -->
+                <!-- <h1 class="sign-title">{$conf.web_name?$conf.web_name:'登入'}</h1> -->
+                <!-- </div> -->
+                <div class="login-wrap">
+                    <div class="login-item">
+                        <div class="phone-img"><img src="__HOME__/img/user.png" alt=""></div>
+                        <div class="phone"><input type="text" placeholder="请输入手机号" name="username" required=""
+                                class="form-control ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required">
+                        </div>
+                    </div>
+                    <div class="login-item">
+                        <div class="phone-img"><img src="__HOME__/img/paw.png" alt=""></div>
+                        <div class="phone"><input type="password" placeholder="请输入密码" name="upwd" required=""
+                                ng-keydown="go_signin()"
+                                class="form-control ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required">
+                        </div>
+                    </div>
+
+                   
+                    <label class="checkbox">
+                        <span class="pull-left">
+                            <a href="{:url('login/register')}"> 没有账号？马上注册</a>
+                        </span>
+                        <span class="pull-right">
+                            <a href="{:url('login/respass')}">忘记密码</a>
+                        </span>
+                    </label>
+                    <button class="btn btn-lg btn-login btn-block" onclick="return checkform(this.form);">
+                            登录
+                        </button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script>
+        function checkform(form) {
+            var username = form.username.value;
+            var upwd = form.upwd.value;
+            if (!username) {
+                layer.msg('请输入用户名');
+                return false;
+            }
+
+            if (!upwd) {
+                layer.msg('请输入密码');
+                return false;
+            }
+
+            var data = $('#formid').serialize();
+            var formurl = "{:Url('login/login')}";
+            var locurl = "{:Url('/index/news/index/token/'.$token)}";
+
+            WPloginpost(formurl, data, locurl);
+            return false;
+        }
+    </script>
+    <script src="/static/gaiban/js/jquery-1.10.2.min.js"></script>
+    <script src="/static/gaiban/js/bootstrap.min.js"></script>
+    <script src="/static/gaiban/js/modernizr.min.js"></script>
+</body>
+
+</html>
