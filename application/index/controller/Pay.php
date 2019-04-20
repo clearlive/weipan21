@@ -202,7 +202,6 @@ if($sign==$mysign){
     }
 
     public function pays(){
-
         if ($_REQUEST['pay_type'] == 1){    //支付宝1
             include ('sign.php');
             $price = sprintf("%.2f",$_POST['pay_money']);
@@ -306,37 +305,6 @@ if($sign==$mysign){
             // return redirect('kjpage',$data);
 
         }
-
-        // if ($_REQUEST['pay_type'] == 5){    //支付宝1
-        //     // $data0 = input('post.');
-
-        //     $price = sprintf("%.2f",$_POST['pay_money']);
-        //     // 请求数据赋值
-        //     $data = array();
-        //     $data['version']='1.8';
-        //     $data['merchantId']='9999999110';#商户号
-        //     $data['orderId']=date( 'YmdHis' );#商户订单号
-        //     $data['amount']= $price;#金额，单位:元
-        //     $data['goodsName']='qianxing';
-        //     $data['returnUrl']="http://".$_SERVER['SERVER_NAME']; #前端页面跳转通知地址
-        //     $data['notifyUrl']="http://".$_SERVER['SERVER_NAME']."/index/pay/qianxing_notify"; #支付成功后端回调地址
-        //     $data['signType']='MD5';
-        //     $mer_key = 'c4a9bbcde8f740a58cd4c9fe22ad15c4';
-        //     // 初始化
-        //     $common = new Common($mer_key);
-        //     // 准备待签名数据
-        //     $str_to_sign = $common->prepareSign($data);
-        //     // 数据签名
-        //     $sign = $common->sign($str_to_sign);
-        //     $data['sign'] = $sign;
-        //     // 生成表单数据，并提交支付网关
-        //     db('balance')->insert(['bptype'=>3,'remarks'=>'会员充值','isverified'=>0,'bptime'=>time(),'uid'=>$_SESSION['uid'],'bpprice'=>$price,'btime'=>time(),'balance_sn'=>$data['orderId'],'pay_type'=>'qianxing']);
-
-        //     $pay_url = 'http://pay.fa282.cn/pay';
-        //     echo $common->buildForm($data, $pay_url);
-        //     // return redirect('kjpage',$data);
-
-        // }
     }
     // 怡宝回调
     public function yibao_notify(){
@@ -393,19 +361,6 @@ if($sign==$mysign){
             echo "验证签名失败";
         }
     }
-
-
-
-
-
-
-
-
-        
-
-
-
-
 
     public function mcb_notify()
     {

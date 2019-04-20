@@ -15,23 +15,16 @@
  </style>
  <div class="login-bg">
       <div class="register-top">
-            <a href="{:url('login/login')}" class="login-top-img"><img src="__HOME__/img/back.png" alt=""></a> <h1 class="sign-title">返回登录页</h1>
+            <a href="{:url('login/login')}" class="login-top-img"><img src="__HOME__/img/back.png" alt=""></a> <h1 class="sign-title"></h1>
            </div>
 <div class="container">
       <div class="container-title" style="margin-top:15px;">
-            <p> 注册账号</p>
+            <p>忘记密码</p>
             <img src="__HOME__/img/logot.png" alt="">
         </div>
    <form class="form-signin" method="post" id="formid" style="margin-bottom: 0 !important;" >
         
-
-
         <div class="login-wrap">
-            <div class="login-item">
-                  <div class="phone-img"><img src="__HOME__/img/login-nickname.png" alt=""></div>
-                  <div class="phone"><input type="text" autofocus="" placeholder="请输入您的昵称" class="form-control nickname" name="nickname" >
-                  </div>
-              </div>
               <div class="login-item">
                   <div class="phone-img"><img src="__HOME__/img/user.png" alt=""></div>
                   <div class="phone"><input type="text" autofocus="" placeholder="请输入您的手机号码" class="form-control username" name="username" >
@@ -58,16 +51,11 @@
               </div>
               <div class="login-item">
                   <div class="phone-img"><img src="__HOME__/img/paw.png" alt=""></div>
-                  <div class="phone"> <input type="password" autofocus="" placeholder="请输入密码" class="form-control" name="upwd2"> 
-                  </div>
-              </div>
-              <div class="login-item">
-                  <div class="phone-img"><img src="__HOME__/img/login-tj.png" alt=""></div>
-                  <div class="phone">  <input type="text" autofocus="" placeholder="请输入邀请码" class="form-control" {if $oid} value="{$oid}" readonly="readonly" {/if} placeholder="请输入邀请码" name="oid" >
+                  <div class="phone"> <input type="password" autofocus="" placeholder="请确认密码" class="form-control" name="upwd2"> 
                   </div>
               </div>
                 <button  class="btn btn-lg btn-login btn-block" onclick="return checkform(this.form);">
-                     立即注册
+                     修改密码
                   </button>
                   <a class="registration btn btn-lg btn-login btn-block" href="{:url('login/login')}" >
                      返回登陆页
@@ -105,13 +93,11 @@
 //  //单击验证
 //   $("#check").click(function(){
 //    var inputCode = $("#input").val().toUpperCase(); //取得输入的验证码并转化为大写 
-//    console.log(inputCode);
 //   if(inputCode.length == 0) { //若输入的验证码长度为0
 //    //alert("请输入验证码！"); //则弹出请输入验证码
 //    	layer.msg('请输入验证码');
 // 		return false; 
-//   }    
-//   else if(inputCode!=codes.toUpperCase()) { //若输入的验证码与产生的验证码不一致时
+//   }else if(inputCode!=codes.toUpperCase()) { //若输入的验证码与产生的验证码不一致时
 //    //alert("验证码输入错误!请重新输入"); //则弹出验证码输入错误
 //    layer.msg('验证码输入错误!请重新输入');
 //    change();//刷新验证码
@@ -129,17 +115,10 @@
 </script> 
 <script>
 function checkform(form){
-	var nickname = form.nickname.value;
 	var username = form.username.value;
 	var phonecode = form.phonecode.value;
 	var upwd = form.upwd.value;
 	var upwd2 = form.upwd2.value;
-	var oid = form.oid.value;
-	if(!nickname){
-		layer.msg('请输入姓名');
-		return false; 
-	}
-
 	if(!username){
 		layer.msg('请输入手机号');
 		return false; 
@@ -170,14 +149,8 @@ function checkform(form){
 		return false;
 	}
 
-	if(!oid){
-		layer.msg('请输入邀请码');
-		return false; 
-	}
-
-
 	var data = $('#formid').serialize();
-    var formurl = "{:Url('login/register')}";
+    var formurl = "{:Url('login/forget')}";
     var locurl = "{:Url('/index/news/index/token/'.$token)}";
 
     WPpost(formurl,data,locurl);
