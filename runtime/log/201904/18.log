@@ -6916,15 +6916,15 @@
 [ info ] [ LOG ] INIT File
 
 ---------------------------------------------------------------
-[ 2019-04-18T13:44:20+08:00 ] ::1 ::1 POST /qq456dlht/price/pricesta.html
-[ log ] localhost/qq456dlht/price/pricesta.html [运行时间：0.051832s][吞吐率：19.29req/s] [内存消耗：3,153.59kb] [文件加载：57]
+[ 2019-04-18T13:44:20+08:00 ] ::1 ::1 POST /dlht/price/pricesta.html
+[ log ] localhost/dlht/price/pricesta.html [运行时间：0.051832s][吞吐率：19.29req/s] [内存消耗：3,153.59kb] [文件加载：57]
 [ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
 [ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
-    0 => 'qq456dlht',
+    0 => 'dlht',
     1 => 'price',
     2 => 'pricesta',
   ),
@@ -6945,11 +6945,11 @@
   'host' => 'localhost',
 )
 [ info ] [ PARAM ] array (
-  '/qq456dlht/price/pricesta_html' => '',
+  '/dlht/price/pricesta_html' => '',
 )
 [ info ] [ DB ] INIT mysql
 [ info ] [ LOG ] INIT File
-[ error ] [8]未定义数组索引: dankong[D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\qq456dlht\controller\Base.php:32]
+[ error ] [8]未定义数组索引: dankong[D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\dlht\controller\Base.php:32]
 
 ---------------------------------------------------------------
 [ 2019-04-18T13:44:29+08:00 ] ::1 ::1 GET /admin/price/pricelist.html
@@ -6999,15 +6999,15 @@
 [ info ] [ LOG ] INIT File
 
 ---------------------------------------------------------------
-[ 2019-04-18T13:44:30+08:00 ] ::1 ::1 POST /qq456dlht/price/pricesta.html
-[ log ] localhost/qq456dlht/price/pricesta.html [运行时间：0.037570s][吞吐率：26.62req/s] [内存消耗：3,153.61kb] [文件加载：57]
+[ 2019-04-18T13:44:30+08:00 ] ::1 ::1 POST /dlht/price/pricesta.html
+[ log ] localhost/dlht/price/pricesta.html [运行时间：0.037570s][吞吐率：26.62req/s] [内存消耗：3,153.61kb] [文件加载：57]
 [ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
 [ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
-    0 => 'qq456dlht',
+    0 => 'dlht',
     1 => 'price',
     2 => 'pricesta',
   ),
@@ -7028,11 +7028,11 @@
   'host' => 'localhost',
 )
 [ info ] [ PARAM ] array (
-  '/qq456dlht/price/pricesta_html' => '',
+  '/dlht/price/pricesta_html' => '',
 )
 [ info ] [ DB ] INIT mysql
 [ info ] [ LOG ] INIT File
-[ error ] [8]未定义数组索引: dankong[D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\qq456dlht\controller\Base.php:32]
+[ error ] [8]未定义数组索引: dankong[D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\dlht\controller\Base.php:32]
 
 ---------------------------------------------------------------
 [ 2019-04-18T13:44:30+08:00 ] ::1 ::1 GET /admin/price/yongjin.html
@@ -7124,15 +7124,15 @@
 [ info ] [ LOG ] INIT File
 
 ---------------------------------------------------------------
-[ 2019-04-18T13:44:32+08:00 ] ::1 ::1 POST /qq456dlht/price/pricesta.html
-[ log ] localhost/qq456dlht/price/pricesta.html [运行时间：0.038156s][吞吐率：26.21req/s] [内存消耗：3,153.61kb] [文件加载：57]
+[ 2019-04-18T13:44:32+08:00 ] ::1 ::1 POST /dlht/price/pricesta.html
+[ log ] localhost/dlht/price/pricesta.html [运行时间：0.038156s][吞吐率：26.21req/s] [内存消耗：3,153.61kb] [文件加载：57]
 [ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
 [ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
-    0 => 'qq456dlht',
+    0 => 'dlht',
     1 => 'price',
     2 => 'pricesta',
   ),
@@ -7153,11 +7153,11 @@
   'host' => 'localhost',
 )
 [ info ] [ PARAM ] array (
-  '/qq456dlht/price/pricesta_html' => '',
+  '/dlht/price/pricesta_html' => '',
 )
 [ info ] [ DB ] INIT mysql
 [ info ] [ LOG ] INIT File
-[ error ] [8]未定义数组索引: dankong[D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\qq456dlht\controller\Base.php:32]
+[ error ] [8]未定义数组索引: dankong[D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\dlht\controller\Base.php:32]
 
 ---------------------------------------------------------------
 [ 2019-04-18T13:46:02+08:00 ] ::1 ::1 GET /admin/price/pricelist.html
@@ -7245,15 +7245,15 @@
 [ info ] [ LOG ] INIT File
 
 ---------------------------------------------------------------
-[ 2019-04-18T13:47:11+08:00 ] ::1 ::1 POST /qq456dlht/price/pricesta.html
-[ log ] localhost/qq456dlht/price/pricesta.html [运行时间：0.057685s][吞吐率：17.34req/s] [内存消耗：3,153.70kb] [文件加载：57]
+[ 2019-04-18T13:47:11+08:00 ] ::1 ::1 POST /dlht/price/pricesta.html
+[ log ] localhost/dlht/price/pricesta.html [运行时间：0.057685s][吞吐率：17.34req/s] [内存消耗：3,153.70kb] [文件加载：57]
 [ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
 [ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
-    0 => 'qq456dlht',
+    0 => 'dlht',
     1 => 'price',
     2 => 'pricesta',
   ),
@@ -7274,11 +7274,11 @@
   'host' => 'localhost',
 )
 [ info ] [ PARAM ] array (
-  '/qq456dlht/price/pricesta_html' => '',
+  '/dlht/price/pricesta_html' => '',
 )
 [ info ] [ DB ] INIT mysql
 [ info ] [ LOG ] INIT File
-[ error ] [8]未定义数组索引: dankong[D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\qq456dlht\controller\Base.php:32]
+[ error ] [8]未定义数组索引: dankong[D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\dlht\controller\Base.php:32]
 
 ---------------------------------------------------------------
 [ 2019-04-18T13:47:21+08:00 ] ::1 ::1 GET /admin/price/pricelist.html
@@ -7328,15 +7328,15 @@
 [ info ] [ LOG ] INIT File
 
 ---------------------------------------------------------------
-[ 2019-04-18T13:47:21+08:00 ] ::1 ::1 POST /qq456dlht/price/pricesta.html
-[ log ] localhost/qq456dlht/price/pricesta.html [运行时间：0.039876s][吞吐率：25.08req/s] [内存消耗：3,153.61kb] [文件加载：57]
+[ 2019-04-18T13:47:21+08:00 ] ::1 ::1 POST /dlht/price/pricesta.html
+[ log ] localhost/dlht/price/pricesta.html [运行时间：0.039876s][吞吐率：25.08req/s] [内存消耗：3,153.61kb] [文件加载：57]
 [ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
 [ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
-    0 => 'qq456dlht',
+    0 => 'dlht',
     1 => 'price',
     2 => 'pricesta',
   ),
@@ -7357,11 +7357,11 @@
   'host' => 'localhost',
 )
 [ info ] [ PARAM ] array (
-  '/qq456dlht/price/pricesta_html' => '',
+  '/dlht/price/pricesta_html' => '',
 )
 [ info ] [ DB ] INIT mysql
 [ info ] [ LOG ] INIT File
-[ error ] [8]未定义数组索引: dankong[D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\qq456dlht\controller\Base.php:32]
+[ error ] [8]未定义数组索引: dankong[D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\dlht\controller\Base.php:32]
 
 ---------------------------------------------------------------
 [ 2019-04-18T13:47:22+08:00 ] ::1 ::1 GET /admin/price/yongjin.html
@@ -7579,15 +7579,15 @@
 [ info ] [ LOG ] INIT File
 
 ---------------------------------------------------------------
-[ 2019-04-18T13:47:30+08:00 ] ::1 ::1 POST /qq456dlht/price/pricesta.html
-[ log ] localhost/qq456dlht/price/pricesta.html [运行时间：0.039015s][吞吐率：25.63req/s] [内存消耗：3,153.61kb] [文件加载：57]
+[ 2019-04-18T13:47:30+08:00 ] ::1 ::1 POST /dlht/price/pricesta.html
+[ log ] localhost/dlht/price/pricesta.html [运行时间：0.039015s][吞吐率：25.63req/s] [内存消耗：3,153.61kb] [文件加载：57]
 [ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
 [ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
-    0 => 'qq456dlht',
+    0 => 'dlht',
     1 => 'price',
     2 => 'pricesta',
   ),
@@ -7608,11 +7608,11 @@
   'host' => 'localhost',
 )
 [ info ] [ PARAM ] array (
-  '/qq456dlht/price/pricesta_html' => '',
+  '/dlht/price/pricesta_html' => '',
 )
 [ info ] [ DB ] INIT mysql
 [ info ] [ LOG ] INIT File
-[ error ] [8]未定义数组索引: dankong[D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\qq456dlht\controller\Base.php:32]
+[ error ] [8]未定义数组索引: dankong[D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\dlht\controller\Base.php:32]
 
 ---------------------------------------------------------------
 [ 2019-04-18T13:47:32+08:00 ] ::1 ::1 GET /admin/price/myprice.html
@@ -7788,15 +7788,15 @@
 [ info ] [ LOG ] INIT File
 
 ---------------------------------------------------------------
-[ 2019-04-18T13:47:40+08:00 ] ::1 ::1 POST /qq456dlht/price/pricesta.html
-[ log ] localhost/qq456dlht/price/pricesta.html [运行时间：0.048940s][吞吐率：20.43req/s] [内存消耗：3,153.61kb] [文件加载：57]
+[ 2019-04-18T13:47:40+08:00 ] ::1 ::1 POST /dlht/price/pricesta.html
+[ log ] localhost/dlht/price/pricesta.html [运行时间：0.048940s][吞吐率：20.43req/s] [内存消耗：3,153.61kb] [文件加载：57]
 [ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
 [ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
-    0 => 'qq456dlht',
+    0 => 'dlht',
     1 => 'price',
     2 => 'pricesta',
   ),
@@ -7817,11 +7817,11 @@
   'host' => 'localhost',
 )
 [ info ] [ PARAM ] array (
-  '/qq456dlht/price/pricesta_html' => '',
+  '/dlht/price/pricesta_html' => '',
 )
 [ info ] [ DB ] INIT mysql
 [ info ] [ LOG ] INIT File
-[ error ] [8]未定义数组索引: dankong[D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\qq456dlht\controller\Base.php:32]
+[ error ] [8]未定义数组索引: dankong[D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\dlht\controller\Base.php:32]
 
 ---------------------------------------------------------------
 [ 2019-04-18T13:48:42+08:00 ] ::1 ::1 GET /admin/price/pricelist.html

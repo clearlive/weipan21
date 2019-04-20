@@ -1474,15 +1474,15 @@
 [ info ] [ LOG ] INIT File
 
 ---------------------------------------------------------------
-[ 2019-04-17T21:35:29+08:00 ] ::1 ::1 GET /qq456dlht/setup/proportion.html
-[ log ] localhost/qq456dlht/setup/proportion.html [运行时间：0.093389s][吞吐率：10.71req/s] [内存消耗：1,836.84kb] [文件加载：42]
+[ 2019-04-17T21:35:29+08:00 ] ::1 ::1 GET /dlht/setup/proportion.html
+[ log ] localhost/dlht/setup/proportion.html [运行时间：0.093389s][吞吐率：10.71req/s] [内存消耗：1,836.84kb] [文件加载：42]
 [ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
 [ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
-    0 => 'qq456dlht',
+    0 => 'dlht',
     1 => 'setup',
     2 => 'proportion',
   ),
@@ -1500,20 +1500,20 @@
   'host' => 'localhost',
 )
 [ info ] [ PARAM ] array (
-  '/qq456dlht/setup/proportion_html' => '',
+  '/dlht/setup/proportion_html' => '',
 )
 [ info ] [ LOG ] INIT File
 
 ---------------------------------------------------------------
-[ 2019-04-17T21:35:36+08:00 ] ::1 ::1 GET /qq456dlht
-[ log ] localhost/qq456dlht [运行时间：0.071630s][吞吐率：13.96req/s] [内存消耗：3,087.13kb] [文件加载：57]
+[ 2019-04-17T21:35:36+08:00 ] ::1 ::1 GET /dlht
+[ log ] localhost/dlht [运行时间：0.071630s][吞吐率：13.96req/s] [内存消耗：3,087.13kb] [文件加载：57]
 [ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
 [ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
-    0 => 'qq456dlht',
+    0 => 'dlht',
     1 => NULL,
     2 => NULL,
   ),
@@ -1531,22 +1531,22 @@
   'host' => 'localhost',
 )
 [ info ] [ PARAM ] array (
-  '/qq456dlht' => '',
+  '/dlht' => '',
 )
 [ info ] [ DB ] INIT mysql
 [ info ] [ LOG ] INIT File
-[ error ] [8]未定义数组索引: dankong[D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\qq456dlht\controller\Base.php:32]
+[ error ] [8]未定义数组索引: dankong[D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\dlht\controller\Base.php:32]
 
 ---------------------------------------------------------------
-[ 2019-04-17T21:35:39+08:00 ] ::1 ::1 GET /qq456dlht/setup/proportion.html
-[ log ] localhost/qq456dlht/setup/proportion.html [运行时间：0.029870s][吞吐率：33.48req/s] [内存消耗：1,836.80kb] [文件加载：42]
+[ 2019-04-17T21:35:39+08:00 ] ::1 ::1 GET /dlht/setup/proportion.html
+[ log ] localhost/dlht/setup/proportion.html [运行时间：0.029870s][吞吐率：33.48req/s] [内存消耗：1,836.80kb] [文件加载：42]
 [ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
 [ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
-    0 => 'qq456dlht',
+    0 => 'dlht',
     1 => 'setup',
     2 => 'proportion',
   ),
@@ -1564,7 +1564,7 @@
   'host' => 'localhost',
 )
 [ info ] [ PARAM ] array (
-  '/qq456dlht/setup/proportion_html' => '',
+  '/dlht/setup/proportion_html' => '',
 )
 [ info ] [ LOG ] INIT File
 
@@ -1609,15 +1609,15 @@
 [ info ] [ LOG ] INIT File
 
 ---------------------------------------------------------------
-[ 2019-04-17T21:35:44+08:00 ] ::1 ::1 GET /qq456dlht/setup/proportion.html
-[ log ] localhost/qq456dlht/setup/proportion.html [运行时间：0.026034s][吞吐率：38.41req/s] [内存消耗：1,836.80kb] [文件加载：42]
+[ 2019-04-17T21:35:44+08:00 ] ::1 ::1 GET /dlht/setup/proportion.html
+[ log ] localhost/dlht/setup/proportion.html [运行时间：0.026034s][吞吐率：38.41req/s] [内存消耗：1,836.80kb] [文件加载：42]
 [ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
 [ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
-    0 => 'qq456dlht',
+    0 => 'dlht',
     1 => 'setup',
     2 => 'proportion',
   ),
@@ -1635,20 +1635,20 @@
   'host' => 'localhost',
 )
 [ info ] [ PARAM ] array (
-  '/qq456dlht/setup/proportion_html' => '',
+  '/dlht/setup/proportion_html' => '',
 )
 [ info ] [ LOG ] INIT File
 
 ---------------------------------------------------------------
-[ 2019-04-17T21:36:15+08:00 ] ::1 ::1 GET /qq456dlht
-[ log ] localhost/qq456dlht [运行时间：0.135084s][吞吐率：7.40req/s] [内存消耗：3,087.24kb] [文件加载：57]
+[ 2019-04-17T21:36:15+08:00 ] ::1 ::1 GET /dlht
+[ log ] localhost/dlht [运行时间：0.135084s][吞吐率：7.40req/s] [内存消耗：3,087.24kb] [文件加载：57]
 [ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
 [ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
-    0 => 'qq456dlht',
+    0 => 'dlht',
     1 => NULL,
     2 => NULL,
   ),
@@ -1666,22 +1666,22 @@
   'host' => 'localhost',
 )
 [ info ] [ PARAM ] array (
-  '/qq456dlht' => '',
+  '/dlht' => '',
 )
 [ info ] [ DB ] INIT mysql
 [ info ] [ LOG ] INIT File
-[ error ] [8]未定义数组索引: dankong[D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\qq456dlht\controller\Base.php:32]
+[ error ] [8]未定义数组索引: dankong[D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\dlht\controller\Base.php:32]
 
 ---------------------------------------------------------------
-[ 2019-04-17T21:36:22+08:00 ] ::1 ::1 GET /qq456dlht
-[ log ] localhost/qq456dlht [运行时间：0.051398s][吞吐率：19.46req/s] [内存消耗：3,087.17kb] [文件加载：57]
+[ 2019-04-17T21:36:22+08:00 ] ::1 ::1 GET /dlht
+[ log ] localhost/dlht [运行时间：0.051398s][吞吐率：19.46req/s] [内存消耗：3,087.17kb] [文件加载：57]
 [ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
 [ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
-    0 => 'qq456dlht',
+    0 => 'dlht',
     1 => NULL,
     2 => NULL,
   ),
@@ -1699,22 +1699,22 @@
   'host' => 'localhost',
 )
 [ info ] [ PARAM ] array (
-  '/qq456dlht' => '',
+  '/dlht' => '',
 )
 [ info ] [ DB ] INIT mysql
 [ info ] [ LOG ] INIT File
-[ error ] [8]未定义数组索引: dankong[D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\qq456dlht\controller\Base.php:32]
+[ error ] [8]未定义数组索引: dankong[D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\dlht\controller\Base.php:32]
 
 ---------------------------------------------------------------
-[ 2019-04-17T21:38:34+08:00 ] ::1 ::1 GET /qq456dlht/setup/proportion.html
-[ log ] localhost/qq456dlht/setup/proportion.html [运行时间：0.096823s][吞吐率：10.33req/s] [内存消耗：1,836.84kb] [文件加载：42]
+[ 2019-04-17T21:38:34+08:00 ] ::1 ::1 GET /dlht/setup/proportion.html
+[ log ] localhost/dlht/setup/proportion.html [运行时间：0.096823s][吞吐率：10.33req/s] [内存消耗：1,836.84kb] [文件加载：42]
 [ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
 [ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
-    0 => 'qq456dlht',
+    0 => 'dlht',
     1 => 'setup',
     2 => 'proportion',
   ),
@@ -1732,7 +1732,7 @@
   'host' => 'localhost',
 )
 [ info ] [ PARAM ] array (
-  '/qq456dlht/setup/proportion_html' => '',
+  '/dlht/setup/proportion_html' => '',
 )
 [ info ] [ LOG ] INIT File
 
