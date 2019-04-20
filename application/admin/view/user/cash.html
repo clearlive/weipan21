@@ -1,0 +1,219 @@
+{include file="head" /}
+{include file="menu" /}
+<link rel="stylesheet" type="text/css" href="__ADMIN__/gaiban/js/bootstrap-datetimepicker/css/datetimepicker-custom.css" />
+<section class="wrapper">
+        <!-- page start-->
+   <!--body wrapper start-->
+        <div class="row">
+            <div class="col-lg-12">
+                <section class="panel">
+                    <header class="panel-heading">
+                        充值列表
+                    </header>
+                    <div class="panel-body">
+                        <form role="form" action="" method="get">
+                            <div class="form-group">
+                                <div class="col-lg-12">
+                                    <div class="row">
+                                        	 <div class="col-lg-3 container-fluid">
+                                               
+                                              
+                                              	<div class="input-group m-bot15 ">
+                                              <span class="input-group-btn "     style="width: 26%;">
+                                                	
+                                                <select class="form-control m-bot15" name="stype" >
+                                                    <option {if isset($getdata.stype) && $getdata.stype == 1} selected="selected" {/if} value="1">客户</option>
+                                                    <option {if isset($getdata.stype) && $getdata.stype == 2} selected="selected" {/if}  value="2">代理商</option>
+                                                 </select>
+                                              </span>
+                                                <input type="text" class="form-control" value="{$getdata.username?$getdata.username:''}" name="username"  >
+                                            </div>
+                                              
+                                            </div>
+                                      		
+                                      
+                                            <div class="col-lg-6">
+                                              <div class="input-group m-bot15">
+                                              <span class="input-group-btn">
+                                                <button class="btn btn-default" type="button">订单时间</button>
+                                              </span>
+                                                    <input size="16" type="text"  readonly class="form_datetime form-control"  placeholder="点击选择时间" name="starttime" value="{$getdata.starttime?$getdata.starttime:''}" />
+                                                     <span class="input-group-addon">To</span>
+                                                     <input size="16" type="text" readonly class="form_datetime form-control" placeholder="点击选择时间" name="endtime" value="{$getdata.endtime?$getdata.endtime:''}"  />        
+                                            </div>
+                                          
+												
+                                                             
+                                            </div>
+                                    		 <div class="col-lg-3">
+                                                    	
+                                                    	<div class="input-group m-bot15">
+                                                          <span class="input-group-btn">
+                                                            <button class="btn btn-default" type="button">类型</button>
+                                                          </span>
+                                                          <select class="form-control m-bot15"  name="isverified">
+                                                                  <option value="">默认不选</option>
+                                                                  <option {if isset($getdata['isverified']) && $getdata['isverified'] == 0} selected="selected" {/if} value="0">未处理</option>
+                                                                  <option {if isset($getdata['isverified']) && $getdata['isverified'] == 1} selected="selected" {/if} value="1">已通过</option>
+                                                                  <option {if isset($getdata['isverified']) && $getdata['isverified'] == 2} selected="selected" {/if} value="2">已拒绝</option>
+                                                           </select>
+                                                        </div>
+                                                  </div>
+                                            </div>
+                                  				<input class="btn btn-info"type="submit" value="搜 索">
+                                      </div>
+                          		</div>
+                        </form>
+                    </div>	
+                </section>
+            </div>
+        </div>
+		 <!--state overview end-->
+		<div style="margin-bottom: 20px;">
+          <a href=""><button class="btn btn-danger" type="submit">搜索 全部</button></a> 
+     	</div>	
+          
+ <div class="row">
+        <div class="col-sm-12">
+		
+		
+        <section class="panel">
+            <header class="panel-heading">
+               充值与提现           
+            </header>
+            <div class="panel-body">
+                <section id="unseen">
+                
+                    <table class="table table-bordered table-striped table-condensed">
+                        <thead>
+                        	 	 <tr>
+                                <th>编号</th>
+                                <th>交易账号</th>
+                                <th>交易姓名</th>
+                                <th>操作时间</th>
+                                <th>申请金额(RMB)</th>
+                                <th>申请金额(USDT)</th>
+                                <th>手续费</th>
+                                <th>到账金额(RMB)</th>
+                                <th>到账金额(USDT)</th>
+                                <th>会员账户余额(RMB)</th>
+                                <th>会员账户余额(USDT)</th>
+                                <th>备注</th>
+                                <th>审核时间</th>
+                                <th>所属代理商</th>
+                                <th>审核/状态</th>
+                            </tr>
+                        </thead>
+                      
+                       
+                        <tbody>
+								<!-- {volist name="balance" id="vo"} -->
+                              <tr>
+                                  <td>{$vo.bpid}</td>
+                                  <td>{$vo.username}</td>
+                                  <td>{$vo.nickname} </td>
+                                  <td>{$vo.bptime|date="Y-m-d H:i:s",###} </td>
+                                  <td class="color_red">¥{$vo.bpprice}</td>
+                                  <td class="color_red">${$vo.bpprice}</td>
+                                  <td class="color_red">{$vo.reg_par}%</td>
+                                  <td class="color_red">￥{:round(($vo['bpprice']*(100-$vo['reg_par'])/100)*($bl.rmbcoin/$bl.gamecoin),2)}</td>
+                                  <td class="color_red">${:round($vo['bpprice']*(100-$vo['reg_par'])/100,2)}</td>
+                                  <td class="color_red">￥{$vo.bpbalance}</td>
+                                  <td class="color_red">${$vo.bpbalancedollor}</td>
+                                  <td>{$vo.remarks}</td>
+                                  <td>{$vo.cltime|date="Y-m-d H:i:s",###} </td>
+                                  <td>{$vo.managername}</td>
+
+                                  <td>{if $vo.bptype == 1}
+                                      {$vo.remarks}
+                                      {elseif $vo.bptype == 0 && $vo.isverified == 0 && $otype == 3/}
+                                      <button class="btn btn-primary btn-xs price" data-toggle="modal" data-bpid="{$vo.bpid}" data-userid="{$vo.uid}" data-target="#myModal"> <a href="#myModal" style="color:#fff">处理/拒绝</a></button>
+                                      {elseif $vo.bptype == 0 && $vo.isverified == 0 /}
+                                          <span class="color_red">审核中</span>
+                                      {elseif $vo.bptype == 0 && $vo.isverified == 2 /}
+                                      	<span class="color_red">已拒绝</span>
+                                      {else/}
+										                    <span class="color_green" >已通过 </span>
+                                	<button class="btn btn-primary btn-xs price" data-toggle="modal" data-bpid="{$vo.bpid}" data-userid="{$vo.uid}" data-target="#myModal"> <a href="#myModal" style="color:#fff">处理/拒绝</a></button>
+                                  
+                                      {/if}
+                                      <a href="{:url('user/userbank',array('uid'=>$vo['uid']))}"><button class="btn btn-primary btn-xs">签约</button></a>
+                                      <a href="{:url('order/orderlist')}?username={$vo.username}"><button class="btn btn-primary btn-xs">交易流水</button></a>
+                                    
+                                    
+
+                                  </td>
+                              </tr>
+							<!-- {/volist} -->
+                        </tbody>  
+                  	</table>
+            
+                </section>
+             {$balance->render()}
+            </div>
+        </section>	
+</div>
+</div>
+	
+  
+
+                                    <div aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" id="myModal" class="modal fade" >
+                                        <div class="modal-dialog" style="left:0%;padding-top: 15%;">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
+                                                    <h4 class="modal-title"> 用户提现</h4>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="input-group">
+                                                       拒绝时备注：<textarea name="content" class="form-control cash_content" cols="60" rows="5"></textarea>
+                                                    </div>
+													
+                                                </div>
+                                                <div class="modal-footer">
+                                                  	<button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                                                    <button type="button" class="btn btn-primary " onclick="dopay(1)">确认</button>
+                                                    <button type="button" class="btn btn-danger " onclick="dopay(2)">拒绝</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+   
+  
+
+</section>
+
+<script type="text/javascript" src="__ADMIN__/gaiban/js/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js"></script>
+
+<script src="__ADMIN__/gaiban/js/pickers-init.js"></script>
+<!--pickers plugins-->
+
+{include file="foot" /}
+<script>
+  
+
+  
+  
+var userid = '';
+var bpid = '';
+var content = '';
+	$(".price").click(function(){
+      userid = $(this).attr('data-userid');
+      bpid = $(this).attr('data-bpid');
+      $('.priceinfo').html('提现金额以实际“到账金额”为准，若同意提现，点击“同意”，若不同意提现点击“拒绝”');
+      $('.cash_content').val('');
+    });
+
+    function dopay(type){
+    	content = $('.cash_content').val();
+    	var formurl = "{:Url('user/dorecharge')}";
+    	var data = 'uid='+userid+'&bpid='+bpid+"&cash_content="+content+'&type='+type;
+	    var locurl = "{:Url('user/cash')}";
+	    WPpost(formurl,data,locurl);
+    };
+
+
+//时间选择器
+/*$('#datetimepicker').datetimepicker();
+$('#datetimepicker_end').datetimepicker();*/
+</script>

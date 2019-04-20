@@ -1,0 +1,65 @@
+{include file="head-gaiban" /}
+	<link href="/static/gaiban/css/xz-hold.css" rel="stylesheet">
+	<link href="/static/gaiban/css/xz-currency.css" rel="stylesheet">
+<body class="sticky-header">
+ <section>
+  	<div class="main-content" style="margin-left:0px;" >
+      	<!--头部开始-->
+        <div class="header-section"   style="left: 0px;">
+          	<div class="xg-left">
+              	<a style="color:#333;" href="javascript:history.go(-1);" class="fa fa-angle-left"></a>
+          	</div>
+        <!--头部导航文字-->
+        	<h3 style="text-align: center;height: 16px;line-height: 10px;font-size: 18px;font-weight: 500;color: #333333;">提现列表</h3>
+		<!--头部导航文字-->
+        </div>		
+		<div class="wrapper">		
+			<div class="row">
+                <div class="ico-bottom-center col-md-12">
+                    <section class="panel">
+                        <div class="panel-body ">
+                            	<div class="tab-content trade_history_list ">
+                              
+                                      <div class="tab-pane active slider-left  " id="home"   data-index="0" >
+                                              <ul class="activity-list">
+                                                   {volist name="list" id="vo"}
+                                                	<li>
+                                                      <div class="activity-desk" style="width: 100%;">
+                                                          <h5 style="color:#333;font-size:18px" >提现金额：&yen;{:$vo.bpprice}</h5>
+                                                      	  <p class="text-muted">状态： {if $vo.bptype == 0 && $vo.isverified == 0 /}
+                                                               <span style="color:#31B17A">审核中</span> 
+                                                            {elseif $vo.bptype == 0 && $vo.isverified == 2 /}
+                                                            <span style="color:red">已拒绝</span> 
+                                                            {else/}
+                                                            <span style="color:#31B17A">已通过</span> 
+                                                            {/if}</p>
+                                                          <p>{$vo.balance_sn}</p>
+                                                          <p class="text-muted">时间：{$vo.bptime|date="Y-m-d H:i:s",###}</p>
+
+                                                      </div>
+                                                      <!--
+                                                     <div class="xz-activity-desk">
+                                                          <h4>{:$vo.bpprice}</h4>
+                                                                                                    
+                                                      </div>-->
+                                                  </li> 
+                                                {/volist}
+
+                                                
+                                              </ul>
+                                      </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+             </div>	   
+		</div>	
+
+    </div>
+ </section>
+ {include file="foot" /}
+
+
+
+</body>
+</html>

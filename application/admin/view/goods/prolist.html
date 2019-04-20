@@ -1,0 +1,133 @@
+{include file="head" /}
+
+{include file="menu" /}
+
+
+
+		
+		
+        <!--body wrapper start-->
+        <div class="wrapper">
+        <div class="row">
+        <div class="col-sm-12">
+		
+		
+        <section class="panel">
+            <header class="panel-heading">
+               产品列表
+                       
+                            <div class="text-center pull-right " style="margin-top: -0.5rem;">
+								<a href="{:url('goods/proadd')}"  class="btn btn-success">    添加产品</a>
+                      		</div>
+                        
+            </header>
+            <div class="panel-body">
+                <section id="unseen">
+                  <form action="proorder" method="post">
+                    <table class="table table-bordered table-striped table-condensed">
+                        <thead>
+                        <tr>
+                            <th>排序</th>
+                            <th class="numeric">编号</th>
+                            <th class="numeric">商品名称</th>
+                            <th class="numeric">状态（大盘正常开市时间内）</th>
+                            <th class="numeric">所属分类</th>
+                            <th class="numeric">交易类型</th>
+                            <th class="numeric">随机值</th>
+                            <th class="numeric">风控最小值</th>
+                            <th class="numeric">风控最大值</th>
+                            <th class="numeric">操作</th>
+                        </tr>
+                        </thead>
+                      
+                       
+                        <tbody>
+                         <!-- {volist name="proinfo" id="vo"} -->
+                              <tr>
+                                  <td class="numeric"><input style="width: 50px;" type="text" name="proorder[{$vo.pid}]" value="{$vo.proorder}"></td>
+                                  <td class="numeric">{$vo.pid}</td>
+                                  <td>{$vo.ptitle}</td>
+                                  <td class="numeric">{if $vo.isopen == 1} 开市 {else /} 休市 {/if}</td>
+                                  <td class="numeric">{$vo.pcname}</td>
+                                  <td class="numeric">{if $vo.trade_type == 1} 时间盘 {else /} 点位盘 {/if}</td>
+                                  <td class="numeric">{$vo.rands}</td>
+                                  <td class="numeric">{$vo.point_low}</td>
+                                  <td class="numeric">{$vo.point_top}</td>
+                                  <td class="numeric">
+                                  {if $vo.isopen == 1}
+                                    <a class="btn btn-danger btn-xs" onclick="isopen(0,{$vo.pid})">点击休市</a>
+                                  {else /}
+                                  	<a class="btn btn-success btn-xs" onclick="isopen(1,{$vo.pid})">点击开市</a>
+                                  {/if}
+                                  {if $vo.trade_type == 1}
+                                    <a class="btn btn-primary btn-xs" href="{:url('goods/proadd',array('pid'=>$vo['pid']))}" title="编辑时间盘">
+                                  {else /}
+                                  	<a class="btn btn-warning btn-xs" href="{:url('goods/proadd',array('pid'=>$vo['pid']))}" title="编辑点位盘">
+                                  {/if}
+                                      <i class="icon-pencil"></i>
+                                    </a>
+                                    <a class="btn btn-danger btn-xs" onclick="deleteinfo('{$vo.pid}')" title="点击删除"><i class="icon-trash"></i></a>
+                                  </td>
+                              </tr>
+							<!-- {/volist} -->
+
+                          
+                          
+                        </tbody>
+                          
+                      
+                     
+                  	</table>
+                
+                    <button type="submit" class="btn btn-primary left">排序</button>
+                   </form>
+                </section>
+            </div>
+        </section>
+       
+	
+		
+</div>
+</div>
+</div>
+        <!--body wrapper end-->
+
+		
+		
+
+
+		
+{include file="foot" /}
+<script>
+/**
+ * 开、休市控制器
+ * @author lukui  2017-02-15
+ * @param  {[type]} data [description]
+ * @param  {[type]} pid  [description]
+ * @return {[type]}      [description]
+ */
+function isopen(data,pid){
+	var formurl = "{:Url('goods/proisopen')}"
+    var data = "isopen="+data+"&pid="+pid;
+    var locurl = "{:Url('admin/goods/prolist')}";
+
+    WPpost(formurl,data,locurl);
+    return false;
+ 	
+}
+//delete info
+	function deleteinfo(id){
+		layer.open({
+		  content: '确定删除吗',
+		  yes: function(index){
+		    //do something
+		    var url = "{:url('goods/delpro')}"+"?id="+id;
+		    var locurl = "{:Url('admin/goods/prolist')}"
+		    WPget(url,locurl);
+		  }
+		});
+	}
+
+
+
+</script>

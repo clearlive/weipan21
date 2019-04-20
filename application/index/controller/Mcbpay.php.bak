@@ -1,0 +1,169 @@
+<?php
+namespace app\index\controller;
+use think\Controller;
+use think\Db;
+use think\Loader;
+
+class Mcbpay extends Controller
+{
+    public function __construct(){
+	
+	}
+
+	public function apipay()
+	{
+		error_reporting(0);
+		header("Content-Type: text/html; charset=utf-8");
+		include($_SERVER["DOCUMENT_ROOT"].'/mcbpay/mcbconfig.php');
+		$getkey=$_GET['key'];
+		$tno=$_GET['tno'];
+		$payno=$_GET['payno'];
+		$money=$_GET['money'];
+		$sign=$_GET['sign'];
+		$typ=(int)$_GET['typ'];
+		if($typ==1){
+			$typname='手工充值';
+		}else if($typ==2){
+			$typname='支付宝充值';
+		}else if($typ==3){
+			$typname='财付通充值';
+		}else if($typ==4){
+			$typname='手Q充值';
+		}else if($typ==5){
+			$typname='微信充值';
+		}
+		if(!$tno)exit('没有订单号');
+		if(!$payno)exit('没有付款说明');
+		if($getkey!=MCB_key)exit('KEY错误');
+		if(strtoupper($sign)!=strtoupper(md5($tno.$payno.$money.MCB_md5key)))exit('签名错误');
+		$money=$money/MCB_beilv;
+		$user=db('userinfo')->where('username',$payno)->find();
+		if(!$user)exit('no user');
+		$ord=db('balance')->where('balance_sn',$tno)->find();
+		if($ord)exit('交易号存在');
+		$ord=db('balance')->where("uid={$user['uid']} and pay_type='mcb_wxpay' and bptime>".(time()-5*60))->order('bpid desc')->find();
+		if($ord&&!$ord['isverified']&&$ord['bptype']==3){
+			$_edit=array();
+			$_edit['bpid'] = $ord['bpid'];
+			$_edit['bptype'] = 1;
+			$_edit['isverified'] = 1;
+			$_edit['cltime'] = time();
+			$_edit['bpprice']=$money;
+			$_edit['balance_sn']=$tno;
+			$_edit['bpbalance']=$user['usermoney']+$money;
+			$is_edit =db('balance')->update($_edit);
+			if(!$is_edit)exit('更新订单错误');
+				$_ids=db('userinfo')->where('uid',$user['uid'])->setInc('usermoney',$money);
+			if(!$_ids)exit('更新金额错误');
+					//资金日志
+			set_price_log($user['uid'],1,$money,'充值','用户充值',$_edit['bpid'],$_edit['bpbalance']);
+			exit('1');
+		}
+		$data=array();
+		   		//插入充值数据
+   		$data['bptype'] =1;
+   		$data['bptime'] = time();
+   		$data['bpprice'] = $money;
+   		$data['remarks'] = '会员充值';
+   		$data['uid'] = $user['uid'];
+   		$data['isverified'] = 1;
+   		$data['btime'] = time();
+   		$data['reg_par'] = 0;
+   		$data['balance_sn'] = $tno;
+   		$data['pay_type'] = 'mcb_wxpay';
+   		$data['bpbalance'] = $user['usermoney']+$money;
+		$data['cltime'] = time();
+   		$ids = db('balance')->insertGetId($data);
+		if(!$ids)exit('插入订单错误');
+		$_ids=db('userinfo')->where('uid',$user['uid'])->setInc('usermoney',$money);
+		if(!$_ids)exit('更新金额错误2');
+					//资金日志
+		set_price_log($user['uid'],1,$money,'充值','用户充值',$_ids,$data['bpbalance']);
+		exit('1');
+	}
+	public function back_url()
+	{
+		error_reporting(0);
+		header("Content-Type: text/html; charset=utf-8");
+		include($_SERVER["DOCUMENT_ROOT"].'/mcbpay/mcbconfig.php');
+				if(!MCB_APPID||!MCB_APPKEY)exit('接口没有设置');
+		if(count($this->minjine)!=count($this->fanbili))exit('set error');
+		if(!isset($_GET['appid'])||!isset($_GET['tno'])||!isset($_GET['payno'])||!isset($_GET['money'])||!isset($_GET['typ'])||!isset($_GET['paytime'])||!isset($_GET['sign'])){
+	exit('参数错误');
+		}
+		$appid=(int)$_GET['appid'];
+		$tno=$_GET['tno'];
+		$payno=$_GET['payno'];
+		$money=$_GET['money'];
+		$typ=(int)$_GET['typ'];
+		$paytime=$_GET['paytime'];
+		$sign=$_GET['sign'];
+		if(!$appid||!$tno||!$payno||!$money||!$typ||!$paytime||!$sign){
+			exit('参数错误');
+		}
+		if($appid!=MCB_APPID)exit('APPID error');
+		$appkey=MCB_APPKEY;
+		//sign 校验
+		if($sign!=md5($appid."|".$appkey."|".$tno."|".$payno."|".$money."|".$paytime."|".$typ)){
+			exit('<script>self.location="/index/user/index.html"; </script>');
+			exit('签名错误');
+		}
+		$money=$money/MCB_beilv;
+		if($typ==1){
+			$typname='手工充值';
+		}else if($typ==2){
+			$typname='支付宝充值';
+		}else if($typ==3){
+			$typname='财付通充值';
+		}else if($typ==4){
+			$typname='手Q充值';
+		}else if($typ==5){
+			$typname='微信充值';
+		}
+		if(!$tno)exit('没有订单号');
+		if(!$payno)exit('没有付款说明');
+		$user=db('userinfo')->where('username',$payno)->find();
+		if(!$user)exit('no user');
+		$ord=db('balance')->where('balance_sn',$tno)->find();
+		if($ord)exit('<script>self.location="/index/user/index.html"; </script>');
+		$ord=db('balance')->where("uid={$user['uid']} and pay_type='mcb_wxpay' and bptime>".(time()-5*60))->order('bpid desc')->find();
+		if($ord&&!$ord['isverified']&&$ord['bptype']==3){
+			$_edit=array();
+			$_edit['bpid'] = $ord['bpid'];
+			$_edit['bptype'] = 1;
+			$_edit['isverified'] = 1;
+			$_edit['cltime'] = time();
+			$_edit['bpprice']=$money;
+			$_edit['balance_sn']=$tno;
+			$_edit['bpbalance']=$user['usermoney']+$money;
+			$is_edit =db('balance')->update($_edit);
+			if(!$is_edit)exit('更新订单错误');
+				$_ids=db('userinfo')->where('uid',$user['uid'])->setInc('usermoney',$money);
+			if(!$_ids)exit('更新金额错误');
+					//资金日志
+			set_price_log($user['uid'],1,$money,'充值','用户充值',$_edit['bpid'],$_edit['bpbalance']);
+			exit('<script>self.location="/index/user/index.html"; </script>');
+		}
+		$data=array();
+		   		//插入充值数据
+   		$data['bptype'] =1;
+   		$data['bptime'] = time();
+   		$data['bpprice'] = $money;
+   		$data['remarks'] = '会员充值';
+   		$data['uid'] = $user['uid'];
+   		$data['isverified'] = 1;
+   		$data['btime'] = time();
+   		$data['reg_par'] = 0;
+   		$data['balance_sn'] = $tno;
+   		$data['pay_type'] = 'mcb_wxpay';
+   		$data['bpbalance'] = $user['usermoney']+$money;
+		$data['cltime'] = time();
+   		$ids = db('balance')->insertGetId($data);
+		if(!$ids)exit('插入订单错误');
+		$_ids=db('userinfo')->where('uid',$user['uid'])->setInc('usermoney',$money);
+		if(!$_ids)exit('更新金额错误2');
+					//资金日志
+		set_price_log($user['uid'],1,$money,'充值','用户充值',$_ids,$data['bpbalance']);
+		exit('<script>self.location="/index/user/index.html"; </script>');
+	}
+}

@@ -1,0 +1,72 @@
+{include file="head-gaiban" /}
+	<link href="/static/gaiban/css/xz-ercode.css" rel="stylesheet">
+	<link href="/static/gaiban/css/xz-currency.css" rel="stylesheet">
+<body class="sticky-header">
+ <section>
+  	<div class="main-content" style="margin-left:0px;" >
+      	<!--头部开始-->
+        <div class="header-section"   style="left: 0px;">
+          	<div class="xg-left">
+              	<a href="javascript:history.go(-1);" class="fa fa-angle-left"></a>
+          	</div>
+        <!--头部导航文字-->
+        	<h3 style="text-align: center;height: 16px;line-height: 10px;font-size: 18px;font-weight: 500;color: #65CEA7;">推广二维码</h3>
+		<!--头部导航文字-->
+        </div>		
+		<div class="wrapper">		
+					
+		
+        <!--body wrapper start-->
+      
+
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="row">
+                          <div class="col-md-12">
+                              <div class="panel">
+                                  <div class="panel-body">
+                                      <div class="profile-pic text-center">
+                                          <img alt="" src="https://api.qrserver.com/v1/create-qr-code/?size=240x240&data={$oid_url}">
+                                      </div>
+                                  </div>
+                                	<div class="xz-tuiguang">推广链接：<?php echo $oid_url;?><br><br><!--span value="<?php echo $oid_url;?>" class="copyVideo" style="color:#10b7ff;cursor:pointer;" onclick="copyVideoUrl(event)">点此复制链接</span--> </div>
+                              </div>
+                          </div>
+             		 </div>	
+ 				</div>
+          </div>
+          <!--body wrapper end-->	
+	   </div>	
+    </div>
+ </section>
+ {include file="foot" /}
+
+<script src="__HOME__/js/lk/user.js"></script>
+<script src="__HOME__/js/lk/jquery.qrcode.js"></script>
+<script src="__HOME__/js/lk/utf.js"></script>
+
+<script>
+function copyVideoUrl(event){
+
+    var value = $(event.target).closest("span").attr('value');
+    var success;
+    var $temp = $("<input>");
+    $("body").append($temp);
+    $temp.val(value).select();
+    try{
+       success = document.execCommand("copy");
+    }catch (e){
+        succeed = false;
+    }
+    if(success){
+        var $copySuccess = $("<div class='copy-tips'><div class='copy-tips-wrap'>复制成功</div></div>");
+        $("body").find(".copy-tips").remove().end().append($copySuccess);
+        $(".copy-tips").fadeOut(3000);
+    }
+
+    $temp.remove();
+}
+</script>
+
+</body>
+</html>

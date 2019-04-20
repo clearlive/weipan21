@@ -1,0 +1,142 @@
+{include file="head-gaiban" /}
+	<link href="/static/gaiban/css/xz-hold.css" rel="stylesheet">
+	<link href="/static/gaiban/css/xz-currency.css" rel="stylesheet">
+<body class="sticky-header user-body-cz">
+ <section>
+  	<div class="main-content" style="margin-left:0px;" >
+      	<!--头部开始-->
+        <div class="header-section"   style="left: 0px;">
+          	<div class="xg-left">
+              	<a style="color:#333;" href="javascript:history.go(-1);" class="fa fa-angle-left"></a>
+          	</div>
+        <!--头部导航文字-->
+        	<h3 style="text-align: center;height: 16px;line-height: 10px;font-size: 18px;font-weight: 500;color: #333;">充值</h3>
+		<!--头部导航文字-->
+        </div>
+        <style>
+            .asd{
+                width: 100%;
+                background: white;
+                margin-top: 60px;
+            }
+            .payimg{
+                display: flex;
+                width: 100%;
+				height: 80px;
+                justify-content: center;
+                align-items: center;
+				position: relative;
+            }
+			.backgr{
+				background: #EEEFF3;
+				width: 100%;
+				height: 15px;
+			}
+			.biankuang{
+				border: 1px red solid;
+				position: relative;
+			}
+			.xzjb{
+				position: absolute;
+				right: -23px;
+				bottom: -12px;
+			}
+
+        </style>
+		<form action="/index/pay/pays" method="post">
+		<div class="asd">
+			<div pay_type="1" class="payimg biankuang"><img src="/codeimg/alipay.jpg" alt=""><img class="xzjb" src="/codeimg/xzjb.png" alt=""></div>
+			<div class="backgr"></div>
+            <div pay_type="2" class="payimg"><img src="/codeimg/KJ.png" alt=""></div>
+			<div class="backgr"></div>
+			<div pay_type="5" class="payimg"><img src="/codeimg/weixin.jpg" alt=""></div>
+		</div>
+		<input name="pay_type" type="hidden" value="1">     <!--默认支付类型-->
+		<input name="pay_money" type="hidden" value="200">  <!--默认支付金额-->
+
+		<div class="money" style="width: 100%;height: 100px">
+
+			{volist name="reg_push" id="vo"}
+			<p pay_money="{$vo}" class="cash ">{$vo}元</p>
+			{/volist}
+
+			<style>
+				.money{
+            margin-top: 30px;
+			margin-left: 1%;
+				}
+				.cash{
+					display: inline-block;
+					background: white;
+				    width: 30%;
+					height: 30px;
+					line-height: 30px;
+					margin: 5px 5px;
+					text-align: center;
+					box-shadow: 1px 1px 2px #333;
+				}
+
+				.checks{
+					background: #0e90d2;
+				}
+			</style>
+		</div>
+
+
+		<div class="topay" >
+			<button class="but">确认支付</button>
+			<style>
+				.topay{
+					width: 100%;
+					display: flex;
+					justify-content: center;
+					margin-top:100px;
+				}
+				.but{
+					width: 70%;
+					background: #ef6000;
+					color: white;
+					height: 50px;
+					border-radius: 5px;
+					border: none;
+				}
+			</style>
+		</div>
+		</form>
+		<script>
+			$('.payimg').click(function () {
+				var _this = $(this)
+				var pay_type = _this.attr('pay_type')
+				$('input[name=pay_type]').val(pay_type)
+				_this.addClass('biankuang')
+				_this.siblings().removeClass('biankuang')
+				_this.siblings().find('.xzjb').remove()
+				_this.append('<img class="xzjb" src="/codeimg/xzjb.png" alt="">')
+			})
+			$('.cash').click(function () {
+				var _this = $(this)
+				var pay_money = _this.attr('pay_money')
+				$('input[name=pay_money]').val(pay_money)
+				_this.addClass('checks')
+				_this.siblings().removeClass('checks')
+
+			})
+		</script>
+      
+      
+      
+      
+    </div>
+ </section>
+ {include file="foot" /}
+  
+ <script src="/static/index/js/lk/hold.js"></script>
+<script type="text/javascript">
+  change_category(0)
+</script>
+
+
+
+
+</body>
+</html>
