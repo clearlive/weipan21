@@ -227,7 +227,6 @@ class Login extends Controller
             }else{
                 return WPreturn('注册失败,请重试!',-1);
             }
-
         }
         if(isset($_SESSION['fid']) && $_SESSION['fid']>0){
             $oid = $_SESSION['fid'];

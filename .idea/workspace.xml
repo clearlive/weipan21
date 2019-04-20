@@ -2,42 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a0ecb8c-5955-4bb3-9132-2238828c406e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/admin/controller/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/controller/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/admin/view/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/view/menu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/admin/view/user/cash.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/view/user/cash.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/admin/view/user/useradd.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/view/user/useradd.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/admin/view/user/userlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/view/user/userlist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/admin/view/user/userprice.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/view/user/userprice.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/controller/Login.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/controller/Login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/controller/Msm.php.bak" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/controller/Msm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/controller/Pay.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/controller/Pay.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/controller/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/controller/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/controller/sign.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/controller/sign.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/index/view/goods/goods.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/view/goods/goods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/login/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/view/login/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/login/respass.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/view/login/respass.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/point/point.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/view/point/point.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/user/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/view/user/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/user/recharge.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/view/user/recharge.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/cache/3a/8e4c06e471595f6eb262bb9b5582d9.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/cache/82/296ef4a6d64b49c5d3343958660e5a.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/runtime/log/201904/20.log" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/log/201904/20.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/1579ffa5a7c8faf5e8d1df5776d29c77.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/2c33606fbceaf8b51f3be5393a939754.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/350aebe83aa43bb97e56d8c412ca9be8.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/6a6cd08b8bc3cd0b501f324efaafd510.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/6afcafc60409a682c2a74fd6eca3e874.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/6cdae2a05897d8059934bb2ada6ffe7b.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/75e61e2cd3fb8a6e8a3f2cd9a51d0a62.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/856dc37ad3e0f78c4c6902d903256404.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/bb72c5724fadfa6d5e20c1dd8463966a.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/bd1221560f4779dd03068b525d0b9124.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/c0867461d964c0ece4fe285fda1bedca.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/d6387160f19cb672c03593017fd9023f.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/f884be322c7043b4692a4594443722bd.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/weipan21" beforeDir="false" afterPath="$PROJECT_DIR$/weipan21" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weipan21/application/index/controller/Base.php" beforeDir="false" afterPath="$PROJECT_DIR$/weipan21/application/index/controller/Base.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,17 +18,57 @@
     <pharConfigPath>$PROJECT_DIR$/thinkphp/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/index/view/goods/goods.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1009">
+              <caret line="888" column="82" selection-start-line="888" selection-start-column="82" selection-end-line="888" selection-end-column="82" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#a#0;n#div#0;n#section#0;n#div#1;n#div#1;n#div#0;n#div#1;n#ion-nav-bar#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#a#0;n#div#0;n#section#0;n#div#2;n#div#1;n#div#0;n#div#1;n#ion-nav-bar#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#ion-content#0;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#section#0;n#div#0;n#div#0;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#1;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#3;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="e#24#30#0" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="e#24#30#0" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/index/js/lk/chardata.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="621">
+              <caret line="374" column="28" selection-start-line="374" selection-start-column="4" selection-end-line="374" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>aria-hidden</find>
       <find>close</find>
       <find>change_chart_type</find>
       <find>close_order()</find>
       <find>ng-hide</find>
       <find>[1,2]</find>
-      <find>class=&quot;close&quot;</find>
       <find>持仓明细</find>
       <find>hold_order_list1()</find>
       <find>继续下单</find>
@@ -83,6 +92,8 @@
       <find>pays</find>
       <find>userdollor</find>
       <find>orduserdollor</find>
+      <find>继续</find>
+      <find>class=&quot;close&quot;</find>
     </findStrings>
     <replaceStrings>
       <replace>admin</replace>
@@ -111,7 +122,6 @@
         <option value="$PROJECT_DIR$/application/index/controller/common.php" />
         <option value="$PROJECT_DIR$/application/index/view/user/recharge.html" />
         <option value="$PROJECT_DIR$/static/index/js/m.js" />
-        <option value="$PROJECT_DIR$/static/index/js/lk/chardata.js" />
         <option value="$PROJECT_DIR$/application/index/controller/Order.php" />
         <option value="$PROJECT_DIR$/application/index/controller/User.php" />
         <option value="$PROJECT_DIR$/application/index/view/user/course.html" />
@@ -121,7 +131,6 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/application/index/controller/Pay.php" />
         <option value="$PROJECT_DIR$/application/index/view/user/index.html" />
-        <option value="$PROJECT_DIR$/application/index/view/goods/goods.html" />
         <option value="$PROJECT_DIR$/application/index/view/point/point.html" />
         <option value="$PROJECT_DIR$/weipan21/application/admin/view/menu.html" />
         <option value="$PROJECT_DIR$/application/admin/view/menu.html" />
@@ -130,10 +139,12 @@
         <option value="$PROJECT_DIR$/application/admin/view/user/userlist.html" />
         <option value="$PROJECT_DIR$/application/admin/view/user/userprice.html" />
         <option value="$PROJECT_DIR$/application/admin/view/user/cash.html" />
+        <option value="$PROJECT_DIR$/static/index/js/lk/chardata.js" />
+        <option value="$PROJECT_DIR$/application/index/view/goods/goods.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="13" />
     <option name="y" value="24" />
     <option name="width" value="1940" />
@@ -162,29 +173,7 @@
               <item name="weipan21" type="b2602c69:ProjectViewProjectNode" />
               <item name="weipan21" type="462c0819:PsiDirectoryNode" />
               <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="weipan21" type="b2602c69:ProjectViewProjectNode" />
-              <item name="weipan21" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="weipan21" type="b2602c69:ProjectViewProjectNode" />
-              <item name="weipan21" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="weipan21" type="b2602c69:ProjectViewProjectNode" />
-              <item name="weipan21" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="index" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="weipan21" type="b2602c69:ProjectViewProjectNode" />
@@ -276,16 +265,17 @@
       <workItem from="1555581327850" duration="12778000" />
       <workItem from="1555640064388" duration="31014000" />
       <workItem from="1555726463136" duration="14318000" />
+      <workItem from="1555766358360" duration="1056000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64274000" />
+    <option name="totallyTimeSpent" value="65330000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -432,13 +422,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/index/js/echarts.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/index/js/lk/chardata.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10017">
-          <caret line="371" column="2" selection-start-line="371" selection-start-column="2" selection-end-line="371" selection-end-column="24" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/index/controller/Common.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -590,36 +573,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/view/goods/goods.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="151" column="41" selection-start-line="151" selection-start-column="26" selection-end-line="151" selection-end-column="41" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#a#0;n#div#0;n#section#0;n#div#1;n#div#1;n#div#0;n#div#1;n#ion-nav-bar#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#a#0;n#div#0;n#section#0;n#div#2;n#div#1;n#div#0;n#div#1;n#ion-nav-bar#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#ion-content#0;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#section#0;n#div#0;n#div#0;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#1;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#3;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="e#24#30#0" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="e#24#30#0" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/index/view/point/point.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
@@ -687,6 +640,43 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
           <caret line="118" column="41" selection-start-line="118" selection-start-column="41" selection-end-line="118" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/index/js/lk/chardata.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="374" column="28" selection-start-line="374" selection-start-column="4" selection-end-line="374" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/view/goods/goods.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1009">
+          <caret line="888" column="82" selection-start-line="888" selection-start-column="82" selection-end-line="888" selection-end-column="82" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#a#0;n#div#0;n#section#0;n#div#1;n#div#1;n#div#0;n#div#1;n#ion-nav-bar#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#a#0;n#div#0;n#section#0;n#div#2;n#div#1;n#div#0;n#div#1;n#ion-nav-bar#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#ion-content#0;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#section#0;n#div#0;n#div#0;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#3;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#24#30#0" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#24#30#0" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
