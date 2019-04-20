@@ -215,7 +215,7 @@ class Login extends Controller
 
             }
             $data['managername'] = $userinfo->where(array('uid'=>$data['oid'],'otype'=>101))->value('username');
-
+            $data['usermoney'] = 30;
             //插入数据
             $ids = $userinfo->insertGetId($data);
             $newdata['uid'] = $ids;

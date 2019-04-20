@@ -153,7 +153,15 @@ class User extends Base
 				if($conf['cash_max'] < $data['price']){
 					return WPreturn('单笔最高提现金额为：'.$conf['cash_max'],-1);
 				}
-				
+				// 最少订单数提现
+				$ord_sum = Db::name('order')->where('uid',$uid)->count();
+				$map1['status'] = 1;
+				$map1['name'] = 'least_order';
+				$least_order = Db::name('config')->where($map1)->find();
+		
+				if($ord_sum < $least_order['value']){
+					return WPreturn('订单数不小于'.$conf['cash_max'].'才能提现',-1);
+				}
 				$_map['uid'] = $uid;
 				$_map['bptype'] = 0;
 				$cash_num = db('balance')->where($_map)->whereTime('bptime', 'd')->count();
