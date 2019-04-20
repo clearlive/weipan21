@@ -99,9 +99,9 @@
                                 <th>交易姓名</th>
                                 <th>操作时间</th>
                                 <th>金额（RMB）</th>
-                                <th>金额（USDT）</th>
+                                <!--<th>金额（USDT）</th>-->
                                 <th>会员账户余额（RMB）</th>
-                                <th>会员账户余额（USDT）</th>
+                                <!--<th>会员账户余额（USDT）</th>-->
                                 <th>备注</th>
                                 <th>审核时间</th>
                                 <th>审核/状态</th>
@@ -117,9 +117,9 @@
                                   <td>{$vo.nickname} </td>
                                   <td>{$vo.bptime|date="Y-m-d H:i:s",###} </td>
                                   <td class="color_red">¥{:round($vo.bpprice*($bl.rmbcoin/$bl.gamecoin),2)}</td>
-                                  <td class="color_red">${$vo.bpprice}</td>
+                                  <!--<td class="color_red">${$vo.bpprice}</td>-->
                                   <td class="color_red">{$vo.bpbalance}</td>
-                                  <td class="color_red">${$vo.bpbalancedollor}</td>
+                                  <!--<td class="color_red">${$vo.bpbalancedollor}</td>-->
                                   <td>{$vo.remarks}</td>
                                   <td>{$vo.cltime|date="Y-m-d H:i:s",###} </td>
                                  

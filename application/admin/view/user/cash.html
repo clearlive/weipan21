@@ -92,12 +92,12 @@
                                 <th>交易姓名</th>
                                 <th>操作时间</th>
                                 <th>申请金额(RMB)</th>
-                                <th>申请金额(USDT)</th>
+                                <!--<th>申请金额(USDT)</th>-->
                                 <th>手续费</th>
                                 <th>到账金额(RMB)</th>
-                                <th>到账金额(USDT)</th>
+                                <!--<th>到账金额(USDT)</th>-->
                                 <th>会员账户余额(RMB)</th>
-                                <th>会员账户余额(USDT)</th>
+                                <!--<th>会员账户余额(USDT)</th>-->
                                 <th>备注</th>
                                 <th>审核时间</th>
                                 <th>所属代理商</th>
@@ -114,12 +114,12 @@
                                   <td>{$vo.nickname} </td>
                                   <td>{$vo.bptime|date="Y-m-d H:i:s",###} </td>
                                   <td class="color_red">¥{$vo.bpprice}</td>
-                                  <td class="color_red">${$vo.bpprice}</td>
+                                  <!--<td class="color_red">${$vo.bpprice}</td>-->
                                   <td class="color_red">{$vo.reg_par}%</td>
                                   <td class="color_red">￥{:round(($vo['bpprice']*(100-$vo['reg_par'])/100)*($bl.rmbcoin/$bl.gamecoin),2)}</td>
-                                  <td class="color_red">${:round($vo['bpprice']*(100-$vo['reg_par'])/100,2)}</td>
+                                  <!--<td class="color_red">${:round($vo['bpprice']*(100-$vo['reg_par'])/100,2)}</td>-->
                                   <td class="color_red">￥{$vo.bpbalance}</td>
-                                  <td class="color_red">${$vo.bpbalancedollor}</td>
+                                  <!--<td class="color_red">${$vo.bpbalancedollor}</td>-->
                                   <td>{$vo.remarks}</td>
                                   <td>{$vo.cltime|date="Y-m-d H:i:s",###} </td>
                                   <td>{$vo.managername}</td>

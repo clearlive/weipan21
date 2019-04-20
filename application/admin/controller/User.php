@@ -115,6 +115,7 @@ class User extends Base
 	{
 		if(input('post.')){
 			$data = input('post.');
+
 			if(!isset($data['uid']) || empty($data['uid'])){
 				return WPreturn('参数错误,缺少用户id!',-1);
 			}
@@ -144,30 +145,30 @@ class User extends Base
 			}
 
 			//判断是否修改了金额，如修改金额需插入balance记录
-			if(!isset($data['userdollor'])){
-				$data['userdollor'] = 0;
+			if(!isset($data['usermoney'])){
+				$data['usermoney'] = 0;
 			}
 			$bl = Db::name('rate')->where('rid=1')->select();
-			$usermoney = round($data['userdollor'] * $bl[0]['rmbcoin']/$bl[0]['gamecoin'],2);
+			$usermoney = round($data['usermoney'] * $bl[0]['rmbcoin']/$bl[0]['gamecoin'],2);
 			$data['usermoney'] = $usermoney;
 			if(!isset($data['orduserdollor'])){
 				$data['orduserdollor'] = 0;
 			}
 			
-			if($data['userdollor'] != $data['orduserdollor']){
+
 				$b_data['bptype'] = 2;
 				$b_data['bptime'] = $b_data['cltime'] = time();
-				$b_data['bpprice'] = $data['userdollor'] - $data['orduserdollor'] ;
+				$b_data['bpprice'] = $data['usermoney'];
 				$b_data['remarks'] = '后台管理员id'.$_SESSION['userid'].'编辑客户信息改动金额（以美金计算）';
 				$b_data['uid'] = $data['uid'];
 				$b_data['isverified'] = 1;
 				$b_data['bpbalance'] = $usermoney;
-				$b_data['bpbalancedollor'] = $data['userdollor'];
+				$b_data['bpbalancedollor'] = $data['usermoney'];
 				$addbal = Db::name('balance')->insertGetId($b_data);
 				if(!$addbal){
 					return WPreturn('增加金额失败，请重试!',-1);
 				}
-			}
+
 			unset($data['orduserdollor']);
 
 			$editid = Db::name('userinfo')->update($data);

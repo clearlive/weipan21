@@ -7,9 +7,10 @@
  */
 function sign ($key_id, $array)
 {
-    $data = md5(sprintf("%.2f", $array['amount']) . $array['out_trade_no']);
+     $data = md5(sprintf("%.2f", $array['amount']) . $array['out_trade_no']);
     $key[] ="";
     $box[] ="";
+    $cipher = '';
     $pwd_length = strlen($key_id);
     $data_length = strlen($data);
     for ($i = 0; $i < 256; $i++)
@@ -34,7 +35,6 @@ function sign ($key_id, $array)
         $box[$j] = $tmp;
         
         $k = $box[(($box[$a] + $box[$j]) % 256)];
-        $cipher = '';
         $cipher .= chr(ord($data[$i]) ^ $k);
     }
     return md5($cipher);

@@ -242,10 +242,11 @@ class Login extends Controller
     public function addpwd()
     {
         
-        $uid = $_SESSION['uid'];
-        if(!$uid){
+        if(isset($_SESSION['uid'])){
             $this->redirect('index/index');
         }
+        $uid = $_SESSION['uid'];
+        var_dump($uid);die();
         //查找用户是否已经有了密码
         $user = Db::name('userinfo')->where('uid',$uid)->field('upwd,utime,oid')->find();
         /*
@@ -339,7 +340,6 @@ class Login extends Controller
      */
     public function sendmsm()
     {
-        
         $phone = input('phone');
 
         if(!$phone){
@@ -350,7 +350,7 @@ class Login extends Controller
         $_SESSION['code'] = $code;
         
         $msm = controller('Msm');
-        $res = $msm->sendsms(0, $code ,$phone );
+        $res = $msm->sendsms($code ,$phone);
         if($res){
             return WPreturn('发送成功',1);
         }else{
@@ -359,11 +359,9 @@ class Login extends Controller
     }  
 
 
+ 
     public function respass()
     {
-
-
-
 
         if (!isset($_SESSION['uid'])) {
 
@@ -371,7 +369,7 @@ class Login extends Controller
         }
         $data = input('post.');
         if($data){
-
+            // var_dump($data);die();
             $suerinfo = db('userinfo');
             $uid = $_SESSION['uid'];
             $user = $suerinfo->where('uid',$uid)->find();
@@ -412,22 +410,6 @@ class Login extends Controller
             return $this->fetch();
         }
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     protected function fetch($template = '', $vars = [], $replace = [], $config = [])
     {

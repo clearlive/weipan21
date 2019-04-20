@@ -203,35 +203,194 @@ if($sign==$mysign){
 
     public function pays(){
 
-        if ($_REQUEST['pay_type'] == 5){    //支付宝1
+        if ($_REQUEST['pay_type'] == 1){    //支付宝1
+            include ('sign.php');
+            $price = sprintf("%.2f",$_POST['pay_money']);
+            //请求获取的网页类型，json 返回json数据，text直接跳转html界面支付，如没有特殊需要，建议默认text即可
+            $content_type = 'text';
+            //商户ID->到平台首页自行复制粘贴
+            $account_id = '10522';
+            //S_KEY->商户KEY，到平台首页自行复制粘贴，该参数无需上传，用来做签名验证和回调验证，请勿泄露
+            $s_key = '4BDA4B88355765';
+            //订单号码->这个是四方网站发起订单时带的订单信息，一般为商户名，交易号，等字段信息
+            $out_trade_no = date("YmdHis") . mt_rand(10000,99999);
+            //支付通道：支付宝：alipay_auto、微信：wechat_auto、支付宝转卡：alipay_bank   支付宝红包收款 ：alipay_bonus
+            $thoroughfare = 'wechat_auto';
+            //支付金额
+            $amount = $price;
+            // $amount = 1.23;
+            //生成签名
+            $sign = sign($s_key, ['amount'=>$amount,'out_trade_no'=>$out_trade_no]);
+            //轮训状态，是否开启轮训，状态 1 为关闭   2为开启
+            $robin = 2;
+            //微信设备KEY，新增加一条支付通道，会自动生成一个device Key，可在平台的公开版下看见，如果为轮训状态无需附带此参数，如果$robin参数为1的话，就必须附带设备KEY，进行单通道支付
+            $device_key = '';
+            //异步通知接口url->用作于接收成功支付后回调请求
+            $callback_url = "http://".$_SERVER['SERVER_NAME']."/index/pay/yibao_notify";
+            //支付成功后自动跳转url
+            $success_url = "http://".$_SERVER['SERVER_NAME'];
+            //支付失败或者超时后跳转url
+            $error_url = "http://".$_SERVER['SERVER_NAME'];
+            //暂时没用到,无需传参也可以
+            $type = 2;
+            /**
+             * 组装form
+             * @param type $url
+             * @param type $data
+             * @return string
+             */
+            function createForm($url, $data) {
+                $str = '<!doctype html>
+                        <html>
+                            <head>
+                                <meta charset="utf8">
+                                <title>正在跳转付款页</title>
+                            </head>
+                            <body onLoad="document.pay.submit()">
+                            <form method="post" action="' . $url . '" name="pay">';
+
+                foreach ($data as $k => $vo) {
+                    $str .= '<input type="hidden" name="' . $k . '" value="' . $vo . '">';
+                }
+                $str .= '</form>
+                            <body>
+                        </html>';
+                return $str;
+            }
+            //-------------------------------------------------------
+            $data = [
+                'account_id' => $account_id,
+                'content_type' => $content_type,
+                'thoroughfare' => $thoroughfare,
+                'out_trade_no' => $out_trade_no,
+                'sign' => $sign,
+                'robin' => $robin,
+                'callback_url' => $callback_url,
+                'success_url' => $success_url,
+                'error_url' => $error_url,
+                'amount' => $amount,
+                'type' => $type,
+                'keyId' => $device_key
+            ];
+            db('balance')->insert(['bptype'=>3,'remarks'=>'会员充值','isverified'=>0,'bptime'=>time(),'uid'=>$_SESSION['uid'],'bpprice'=>$price,'btime'=>time(),'balance_sn'=>$out_trade_no,'pay_type'=>'yibao']);
+            // var_dump($data);die();
+            $jempform = createForm('http://www.ybpaypay.com/gateway/index/checkpoint.do', $data);
+            echo $jempform;
+        }else if($_REQUEST['pay_type'] == 2){    //集合
             // $data0 = input('post.');
 
-            $price = sprintf("%.2f",$_POST['pay_money']);
-            // 请求数据赋值
-            $data = array();
-            $data['version']='1.8';
-            $data['merchantId']='9999999110';#商户号
-            $data['orderId']=date( 'YmdHis' );#商户订单号
-            $data['amount']= $price;#金额，单位:元
-            $data['goodsName']='qianxing';
-            $data['returnUrl']="http://".$_SERVER['SERVER_NAME']; #前端页面跳转通知地址
-            $data['notifyUrl']="http://".$_SERVER['SERVER_NAME']."/index/pay/qianxing_notify"; #支付成功后端回调地址
-            $data['signType']='MD5';
-            $mer_key = 'c4a9bbcde8f740a58cd4c9fe22ad15c4';
-            // 初始化
-            $common = new Common($mer_key);
-            // 准备待签名数据
-            $str_to_sign = $common->prepareSign($data);
-            // 数据签名
-            $sign = $common->sign($str_to_sign);
-            $data['sign'] = $sign;
-            // 生成表单数据，并提交支付网关
-            db('balance')->insert(['bptype'=>3,'remarks'=>'会员充值','isverified'=>0,'bptime'=>time(),'uid'=>$_SESSION['uid'],'bpprice'=>$price,'btime'=>time(),'balance_sn'=>$data['orderId'],'pay_type'=>'qianxing']);
+            // $price = sprintf("%.2f",$_POST['pay_money']);
+            // // 请求数据赋值
+            // $data = array();
+            // $data['version']='1.8';
+            // $data['merchantId']='9999999110';#商户号
+            // $data['orderId']=date( 'YmdHis' );#商户订单号
+            // $data['amount']= $price;#金额，单位:元
+            // $data['goodsName']='qianxing';
+            // $data['returnUrl']="http://".$_SERVER['SERVER_NAME']; #前端页面跳转通知地址
+            // $data['notifyUrl']="http://".$_SERVER['SERVER_NAME']."/index/pay/qianxing_notify"; #支付成功后端回调地址
+            // $data['signType']='MD5';
+            // $mer_key = 'c4a9bbcde8f740a58cd4c9fe22ad15c4';
+            // // 初始化
+            // $common = new Common($mer_key);
+            // // 准备待签名数据
+            // $str_to_sign = $common->prepareSign($data);
+            // // 数据签名
+            // $sign = $common->sign($str_to_sign);
+            // $data['sign'] = $sign;
+            // // 生成表单数据，并提交支付网关
+            // db('balance')->insert(['bptype'=>3,'remarks'=>'会员充值','isverified'=>0,'bptime'=>time(),'uid'=>$_SESSION['uid'],'bpprice'=>$price,'btime'=>time(),'balance_sn'=>$data['orderId'],'pay_type'=>'qianxing']);
 
-            $pay_url = 'http://pay.fa282.cn/pay';
-            echo $common->buildForm($data, $pay_url);
+            // $pay_url = 'http://pay.fa282.cn/pay';
+            // echo $common->buildForm($data, $pay_url);
             // return redirect('kjpage',$data);
 
+        }
+
+        // if ($_REQUEST['pay_type'] == 5){    //支付宝1
+        //     // $data0 = input('post.');
+
+        //     $price = sprintf("%.2f",$_POST['pay_money']);
+        //     // 请求数据赋值
+        //     $data = array();
+        //     $data['version']='1.8';
+        //     $data['merchantId']='9999999110';#商户号
+        //     $data['orderId']=date( 'YmdHis' );#商户订单号
+        //     $data['amount']= $price;#金额，单位:元
+        //     $data['goodsName']='qianxing';
+        //     $data['returnUrl']="http://".$_SERVER['SERVER_NAME']; #前端页面跳转通知地址
+        //     $data['notifyUrl']="http://".$_SERVER['SERVER_NAME']."/index/pay/qianxing_notify"; #支付成功后端回调地址
+        //     $data['signType']='MD5';
+        //     $mer_key = 'c4a9bbcde8f740a58cd4c9fe22ad15c4';
+        //     // 初始化
+        //     $common = new Common($mer_key);
+        //     // 准备待签名数据
+        //     $str_to_sign = $common->prepareSign($data);
+        //     // 数据签名
+        //     $sign = $common->sign($str_to_sign);
+        //     $data['sign'] = $sign;
+        //     // 生成表单数据，并提交支付网关
+        //     db('balance')->insert(['bptype'=>3,'remarks'=>'会员充值','isverified'=>0,'bptime'=>time(),'uid'=>$_SESSION['uid'],'bpprice'=>$price,'btime'=>time(),'balance_sn'=>$data['orderId'],'pay_type'=>'qianxing']);
+
+        //     $pay_url = 'http://pay.fa282.cn/pay';
+        //     echo $common->buildForm($data, $pay_url);
+        //     // return redirect('kjpage',$data);
+
+        // }
+    }
+    // 怡宝回调
+    public function yibao_notify(){
+        include ('sign.php');
+        //商户名称
+        $account_name  = $_POST['account_name'];
+        //支付时间戳
+        $pay_time  = $_POST['pay_time'];
+        //支付状态
+        $status  = $_POST['status'];
+        //支付金额
+        $amount  = $_POST['amount'];
+        //支付时提交的订单信息
+        $out_trade_no  = $_POST['out_trade_no'];
+        //平台订单交易流水号
+        $trade_no  = $_POST['trade_no'];
+        //该笔交易手续费用
+        $fees  = $_POST['fees'];
+        //签名算法
+        $sign  = $_POST['sign'];
+        //回调时间戳
+        $callback_time  = $_POST['callback_time'];
+        //支付类型
+        $type = $_POST['type'];
+        //商户KEY（S_KEY）
+        $account_key = $_POST['account_key'];
+        
+        //自己商户的key
+        $s_key = '4BDA4B88355765';
+
+        //第一步，检测商户KEY是否一致
+        if ($account_key != $s_key) exit('error:key');
+        //第二步，验证签名是否一致
+        $sign1 = sign($s_key, ['amount'=>$amount,'out_trade_no'=>$out_trade_no]);
+        if ($sign == $sign1)
+        {
+            $this->qfgbnotifyokdopay($out_trade_no,$amount);
+            echo "SUCCESS";
+            // 签名验证通过
+
+            /*商户需要在此处判定通知中的订单状态做后续处理*/
+            /*由于页面跳转同步通知和异步通知均发到当前页面，所以此处还需要判定商户自己系统中的订单状态，避免重复处理。*/
+
+            // 根据$data['orderId']商户订单号，判定商户自己系统中的订单是否存在且未支付
+            /*
+            if(订单存在且未支付)
+            {
+                更新商户自己系统中的订单为支付成功，并完成其它业务处理
+                //回写SUCCESS，确认回调成功
+                echo "SUCCESS";
+            }
+            */
+        }else{
+            echo "验证签名失败";
         }
     }
 
@@ -239,7 +398,11 @@ if($sign==$mysign){
 
 
 
+
+
+
         
+
 
 
 
