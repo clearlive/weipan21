@@ -368,7 +368,7 @@ class Login extends Controller
         }
         $data = input('post.');
         if($data){
-
+            // var_dump($data);die();
             $suerinfo = db('userinfo');
             $uid = $_SESSION['uid'];
             $user = $suerinfo->where('uid',$uid)->find();

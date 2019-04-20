@@ -19,40 +19,13 @@
    background: #f5f5f5;
  }
  </style>
-<<<<<<< HEAD
-<div class="container">
-    <div class="login-top">
-      <a href="javascript:history.go(-1);" class="login-top-img"><img src="__HOME__/img/ic_back.png" alt=""></a> <h1 class="sign-title">找回密码</h1>
-     </div>
-    <div class="respass-lc clearfix">
-      <div class="csmm-img">
-          <img src="__HOME__/img/cs-sfz.png" alt="">
-          <p>验证身份</p>
-      </div>
-      <div class="csmm-dd">
-          <img src="__HOME__/img/csmm-dd.png" alt="">
-      </div>
-      <div class="csmm-img" >
-          <img src="__HOME__/img/cs-yz.png" alt="">
-          <p>重设密码</p>
-      </div>
-      <div class="csmm-dd">
-          <img src="__HOME__/img/csmm-dd.png" alt="">
-      </div>
-      <div class="csmm-img" >
-          <img src="__HOME__/img/cs-succes.png" alt="" style="width: 25px;">
-          <p>重设密码</p>
-      </div>
-    </div>
-=======
 
  <div class="container">
      <div class="login-top">
-         <a href="javascript:history.go(-1);" class="login-top-img"><img src="__HOME__/img/ic_back.png" alt=""></a> <h1 style="height: 50px" class="sign-title"></h1>
+         <a href="javascript:history.go(-1);" class="login-top-img"><img src="__HOME__/img/ic_back.png" alt=""></a> <h1 style="height: 50px" class="sign-title">个人设置</h1>
      </div>
 
 
->>>>>>> 44c2ed96c7725235b27df65ace59136205400f42
    <form class="form-signin" method="post" id="formid" >
          
         <div class="login-wrap">
@@ -74,10 +47,10 @@
                 </span>
             </div> -->
             <div class="respass-cz">
-                <div class="respass-title clearfix"><div class="fk"></div>验证身份</div>
+                <div class="respass-title clearfix"><div class="fk"></div>原始密码</div>
                 <div class="login-item">
                     <div class="phone-img"><img src="__HOME__/img/user.png" alt=""></div>
-                    <div class="phone"> <input type="text" autofocus="" placeholder="请输入手机号码" class="form-control username" name="username" >
+                    <div class="phone"> <input type="text" autofocus="" placeholder="请输入当前密码" class="form-control username" name="cur_pwd" >
                     </div>
                 </div>
             </div>
@@ -163,11 +136,11 @@
 </script> 
 <script>
 function checkform(form){
-	var username = form.username.value;
+	var cur_pwd = form.cur_pwd.value;
 	var upwd = form.upwd.value;
 	var upwd2 = form.upwd2.value;
-	if(!username){
-		layer.msg('请输入手机号');
+	if(!cur_pwd){
+		layer.msg('请输入原始密码');
 		return false; 
 	}
 
