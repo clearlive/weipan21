@@ -22,7 +22,7 @@
 
  <div class="container">
      <div class="login-top">
-         <a href="javascript:history.go(-1);" class="login-top-img"><img src="__HOME__/img/ic_back.png" alt=""></a> <h1 style="height: 50px" class="sign-title"></h1>
+         <a href="javascript:history.go(-1);" class="login-top-img"><img src="__HOME__/img/ic_back.png" alt=""></a> <h1 style="height: 50px" class="sign-title">个人设置</h1>
      </div>
 
 
@@ -47,7 +47,7 @@
                 </span>
             </div> -->
             <div class="respass-cz">
-                <div class="respass-title clearfix"><div class="fk"></div>请输入当前密码</div>
+                <div class="respass-title clearfix"><div class="fk"></div>原始密码</div>
                 <div class="login-item">
                     <div class="phone-img"><img src="__HOME__/img/user.png" alt=""></div>
                     <div class="phone"> <input type="text" autofocus="" placeholder="请输入当前密码" class="form-control username" name="cur_pwd" >
@@ -139,10 +139,10 @@ function checkform(form){
 	var cur_pwd = form.cur_pwd.value;
 	var upwd = form.upwd.value;
 	var upwd2 = form.upwd2.value;
-    if (!cur_pwd) {
-        layer.msg('请输入原密码');
-        return false;
-    }
+	if(!cur_pwd){
+		layer.msg('请输入原始密码');
+		return false; 
+	}
 
 	if (!upwd) {
 		layer.msg('请输入登录密码'); 
@@ -163,9 +163,14 @@ function checkform(form){
 		layer.msg('两次输入密码不同'); 
 		return false;
 	}
+
+	
+
+
 	var data = $('#formid').serialize();
     var formurl = "{:Url('login/respass')}";
     var locurl = "{:Url('index/user/index')}";
+
     WPpost(formurl,data,locurl);
     return false;
 }

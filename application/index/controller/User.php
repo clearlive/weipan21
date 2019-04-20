@@ -136,7 +136,14 @@ class User extends Base
 				}
 				$conf = $this->conf;
 
-				
+				$map['status'] = 1;
+				$map['name'] = 'role_ks';
+				$role_ks = Db::name('config')->where($map)->find();
+				$map['name'] = 'role_js';
+				$role_js = Db::name('config')->where($map)->find();
+				if(date('G') < $role_ks['value'] || date('G') > $role_js['value']){
+					return WPreturn('提现时间为'.$role_ks['value'].'-'.$role_js['value'],-1);
+				}
 				if($conf['is_cash'] != 1){
 					return WPreturn('抱歉！暂时无法出金',-1);
 				}
