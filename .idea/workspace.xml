@@ -13,11 +13,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/index/view/goods/goods.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="605">
+              <caret line="307" column="20" lean-forward="true" selection-start-line="307" selection-start-column="20" selection-end-line="307" selection-end-column="20" />
+=======
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/index/view/goods/goods.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="497">
               <caret line="359" column="45" selection-start-line="359" selection-start-column="45" selection-end-line="359" selection-end-column="45" />
+>>>>>>> 059801f519bdc0106ae3624f9f6347500e06da9d
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#ion-content#0;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
@@ -44,6 +52,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/application/index/view/point/point.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="247" column="6" selection-start-line="247" selection-start-column="6" selection-end-line="247" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+=======
+>>>>>>> 059801f519bdc0106ae3624f9f6347500e06da9d
         <entry file="file://$PROJECT_DIR$/application/index/controller/User.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="492">
@@ -53,6 +73,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/static/index/js/m.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+=======
+>>>>>>> 059801f519bdc0106ae3624f9f6347500e06da9d
         <entry file="file://$PROJECT_DIR$/application/common.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="290">
@@ -77,7 +109,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/index/view/user/index.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="10422">
+=======
             <state relative-caret-position="681">
+>>>>>>> 059801f519bdc0106ae3624f9f6347500e06da9d
               <caret line="386" column="14" selection-start-line="386" selection-start-column="14" selection-end-line="386" selection-end-column="14" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
@@ -91,17 +127,33 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/index/view/login/respass.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="-3153">
+              <caret line="23" column="139" selection-start-line="23" selection-start-column="139" selection-end-line="23" selection-end-column="139" />
+              <folding>
+                <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+              </folding>
+=======
             <state relative-caret-position="3584">
               <caret line="161" column="46" selection-start-line="161" selection-start-column="46" selection-end-line="161" selection-end-column="46" />
+>>>>>>> 059801f519bdc0106ae3624f9f6347500e06da9d
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/index/controller/Login.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="443">
+              <caret line="389" column="32" selection-start-line="389" selection-start-column="32" selection-end-line="389" selection-end-column="32" />
+=======
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/index/controller/Login.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="632">
               <caret line="384" column="12" lean-forward="true" selection-start-line="384" selection-start-column="12" selection-end-line="384" selection-end-column="12" />
+>>>>>>> 059801f519bdc0106ae3624f9f6347500e06da9d
             </state>
           </provider>
         </entry>
@@ -120,7 +172,10 @@
       <find>qq123adminhtgl</find>
       <find>买涨</find>
       <find>order_type rise</find>
+<<<<<<< HEAD
+=======
       <find>1m</find>
+>>>>>>> 059801f519bdc0106ae3624f9f6347500e06da9d
       <find>aria-hidden</find>
       <find>close</find>
       <find>change_chart_type</find>
@@ -138,8 +193,14 @@
       <find>javascript:</find>
       <find>ioc-fa</find>
       <find>sendsms</find>
+<<<<<<< HEAD
+      <find>新手教程</find>
+      <find>respass</find>
+      <find>1m</find>
+=======
       <find>respass</find>
       <find>新手教程</find>
+>>>>>>> 059801f519bdc0106ae3624f9f6347500e06da9d
     </findStrings>
     <replaceStrings>
       <replace>admin</replace>
@@ -149,6 +210,12 @@
       <dir>C:\code\weipan21_2019-4-18\weipan21</dir>
     </dirStrings>
   </component>
+<<<<<<< HEAD
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+=======
+>>>>>>> 059801f519bdc0106ae3624f9f6347500e06da9d
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -169,21 +236,39 @@
         <option value="$PROJECT_DIR$/static/index/js/lk/chardata.js" />
         <option value="$PROJECT_DIR$/application/index/controller/Order.php" />
         <option value="$PROJECT_DIR$/application/index/controller/User.php" />
+<<<<<<< HEAD
+=======
         <option value="$PROJECT_DIR$/application/index/view/goods/goods.html" />
+>>>>>>> 059801f519bdc0106ae3624f9f6347500e06da9d
         <option value="$PROJECT_DIR$/application/index/view/user/course.html" />
         <option value="$PROJECT_DIR$/application/common.php" />
         <option value="$PROJECT_DIR$/application/index/view/user/index.html" />
         <option value="$PROJECT_DIR$/application/index/view/login/respass.html" />
         <option value="$PROJECT_DIR$/application/index/controller/Login.php" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/application/index/view/goods/goods.html" />
+        <option value="$PROJECT_DIR$/application/index/view/point/point.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+=======
+>>>>>>> 059801f519bdc0106ae3624f9f6347500e06da9d
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+<<<<<<< HEAD
+    <option name="x" value="13" />
+    <option name="y" value="24" />
+    <option name="width" value="1940" />
+    <option name="height" value="1100" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+=======
     <option name="x" value="578" />
     <option name="y" value="169" />
     <option name="width" value="1400" />
     <option name="height" value="1008" />
   </component>
+>>>>>>> 059801f519bdc0106ae3624f9f6347500e06da9d
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -200,6 +285,9 @@
             <path>
               <item name="weipan21" type="b2602c69:ProjectViewProjectNode" />
               <item name="weipan21" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+              <item name="runtime" type="462c0819:PsiDirectoryNode" />
+=======
               <item name="application" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -234,6 +322,7 @@
               <item name="weipan21" type="b2602c69:ProjectViewProjectNode" />
               <item name="weipan21" type="462c0819:PsiDirectoryNode" />
               <item name="codeimg" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 059801f519bdc0106ae3624f9f6347500e06da9d
             </path>
           </expand>
           <select />
@@ -243,12 +332,20 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+<<<<<<< HEAD
+    <property name="last_opened_file_path" value="C:/360Downloads/backup/xiaochengxu2" />
+=======
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+>>>>>>> 059801f519bdc0106ae3624f9f6347500e06da9d
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+<<<<<<< HEAD
+      <recent name="C:\code\weipan21_2019-4-18\weipan21" />
+=======
+>>>>>>> 059801f519bdc0106ae3624f9f6347500e06da9d
       <recent name="C:\code\weipan21_2019-4-18\weipan21\codeimg" />
       <recent name="C:\code\weipan21_2019-4-18\weipan21\application\index\view\user" />
       <recent name="C:\code\weipan21_2019-4-18\weipan21\application\index\controller" />
@@ -281,22 +378,38 @@
       <updated>1555581326620</updated>
       <workItem from="1555581327850" duration="12778000" />
       <workItem from="1555640064388" duration="31014000" />
+<<<<<<< HEAD
+      <workItem from="1555726463136" duration="14318000" />
+=======
       <workItem from="1555726463136" duration="9329000" />
+>>>>>>> 059801f519bdc0106ae3624f9f6347500e06da9d
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="58672000" />
+=======
     <option name="totallyTimeSpent" value="53121000" />
+>>>>>>> 059801f519bdc0106ae3624f9f6347500e06da9d
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
+<<<<<<< HEAD
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286334" />
+=======
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+>>>>>>> 059801f519bdc0106ae3624f9f6347500e06da9d
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -327,6 +440,8 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
+=======
     <entry file="file://$PROJECT_DIR$/application/index/controller/Point.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="433">
@@ -334,6 +449,7 @@
         </state>
       </provider>
     </entry>
+>>>>>>> 059801f519bdc0106ae3624f9f6347500e06da9d
     <entry file="file://C:/仿站文件/yuki77.com/default.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -506,6 +622,8 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
     <entry file="file://$PROJECT_DIR$/static/index/js/m.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="281">
@@ -513,6 +631,7 @@
         </state>
       </provider>
     </entry>
+>>>>>>> 059801f519bdc0106ae3624f9f6347500e06da9d
     <entry file="file://$PROJECT_DIR$/application/index/view/order/hold.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -586,6 +705,16 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/application/index/view/user/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10422">
+          <caret line="386" column="14" selection-start-line="386" selection-start-column="14" selection-end-line="386" selection-end-column="14" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#1;n#h5#0;n#div#1;n#div#0;n#section#0;n#a#0;n#div#5;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#body#0;n#!!top" expanded="true" />
+=======
     <entry file="file://$PROJECT_DIR$/application/index/view/goods/goods.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="497">
@@ -610,10 +739,26 @@
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="e#24#30#0" expanded="true" />
             <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+>>>>>>> 059801f519bdc0106ae3624f9f6347500e06da9d
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/../../weipan21_2019-4-20000000/weipan21/application/index/view/login/respass.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="21" selection-start-line="21" selection-end-line="44" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/view/login/respass.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3153">
+          <caret line="23" column="139" selection-start-line="23" selection-start-column="139" selection-end-line="23" selection-end-column="139" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+=======
     <entry file="file://$PROJECT_DIR$/application/index/view/user/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="681">
@@ -622,10 +767,35 @@
             <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#1;n#h5#0;n#div#1;n#div#0;n#section#0;n#a#0;n#div#5;n#div#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#1;n#body#0;n#!!top" expanded="true" />
+>>>>>>> 059801f519bdc0106ae3624f9f6347500e06da9d
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/application/index/controller/Login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="389" column="32" selection-start-line="389" selection-start-column="32" selection-end-line="389" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/controller/Point.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="919">
+          <caret line="75" column="44" selection-start-line="75" selection-start-column="44" selection-end-line="75" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/index/js/m.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+=======
+>>>>>>> 059801f519bdc0106ae3624f9f6347500e06da9d
     <entry file="file://$PROJECT_DIR$/application/index/controller/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="492">
@@ -633,6 +803,47 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/application/index/view/point/point.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="247" column="6" selection-start-line="247" selection-start-column="6" selection-end-line="247" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/view/goods/goods.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="605">
+          <caret line="307" column="20" lean-forward="true" selection-start-line="307" selection-start-column="20" selection-end-line="307" selection-end-column="20" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#ion-content#0;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#section#0;n#div#0;n#div#0;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#3;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#24#30#0" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#24#30#0" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+          </folding>
+=======
     <entry file="file://$PROJECT_DIR$/application/index/view/login/respass.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3584">
@@ -644,6 +855,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="632">
           <caret line="384" column="12" lean-forward="true" selection-start-line="384" selection-start-column="12" selection-end-line="384" selection-end-column="12" />
+>>>>>>> 059801f519bdc0106ae3624f9f6347500e06da9d
         </state>
       </provider>
     </entry>

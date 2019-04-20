@@ -22,7 +22,10 @@ class Base extends Controller
         }		
         //file_put_contents( dirname(__FILE__).'/QTB___$actionname______URL.txt', var_export( $request, true ), FILE_APPEND );
 
-      
+        $time_status = db('config')->where(['name'=>'time_status'])->value('value');
+        $point_status = db('config')->where(['name'=>'point_status'])->value('value');
+        $this->assign('time_status',$time_status);
+        $this->assign('point_status',$point_status);
         $this->assign('actionname',$actionname);
       
       

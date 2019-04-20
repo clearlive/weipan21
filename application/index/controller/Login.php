@@ -409,19 +409,6 @@ class Login extends Controller
             return $this->fetch();
         }}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
     protected function fetch($template = '', $vars = [], $replace = [], $config = [])
     {
         $replace['__HOME__'] = str_replace('/index.php','',\think\Request::instance()->root()).'/static/index';

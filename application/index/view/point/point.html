@@ -252,12 +252,16 @@ var order_max_price = {:getconf('order_max_price')};
   <div class="foot-xiadan">
         <ul class="goods-bottom-ul clearfix" >
             
-                <li class="trade-chart-period line " ><a href="#" onclick="change_chart_type('line')">走势</a></li>
-                <li class="trade-chart-period 1M active" onclick="change_chart_period('1M','stock')"><a href="#">1M</a></li>
-                <li class="trade-chart-period 5M" onclick="change_chart_period('5M','stock')"><a href="#">5M</a></li> 
-                <li   class="trade-chart-period 15M" onclick="change_chart_period('15M','stock')"><a href="#">15M</a></li> 
-                <li class="trade-chart-period 30M" onclick="change_chart_period('30M','stock')"><a href="#">30M</a></li> 
-                <li class="trade-chart-period 1D" onclick="change_chart_period('1D','stock')"><a href="#">1D</a></li>
+
+                <li class="trade-chart-period line " ><a href="#" onclick="change_chart_type('line')">分时图</a></li>
+                <li class="trade-chart-period 1M active" onclick="change_chart_period('1M','stock')"><a href="#">1分钟k线</a></li>
+                <li class="trade-chart-period 5M" onclick="change_chart_period('5M','stock')"><a href="#">5分钟k线</a></li>
+                <li   class="trade-chart-period 15M" onclick="change_chart_period('15M','stock')"><a href="#">15分钟k线</a></li>
+                <li class="trade-chart-period 30M" onclick="change_chart_period('30M','stock')"><a href="#">30分钟k线</a></li>
+                <li class="trade-chart-period 1D" onclick="change_chart_period('1D','stock')"><a href="#">日线</a></li>
+
+
+
         </ul>
      {if $isopen == 1}
                   <div class="col-md-12" style="padding-left: 0px;padding-right: 0px; ">
