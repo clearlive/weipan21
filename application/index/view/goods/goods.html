@@ -152,21 +152,24 @@ var order_max_price = {:getconf('order_max_price')};
                       <li pid="{$vo.pid}"  class="xz-dw look qwe " onclick="parent.location='{:url('goods/goods',array('pid'=>$vo['pid'],'token'=>$token))}';"  id="pid{$vo.pid}"><a ><span  >{$vo.ptitle}</span></a>
                           <style>
                               .bg{
-                                  background: #e2ffe2;padding: 0px 15px
+                                  background: #e8af2e;padding: 0px 15px
                               }
                           </style>
                           <script>
+
                               $(function () {
                                   var cur_url = window.location.href;
                                   var arr = cur_url .split("pid/");
-                                  var num = arr[1].indexOf('/');
-                                 var pid = arr[1].substring(0,num);
-                                  $('.qwe').each(function (k1,v1) {
-                                      var _pid = $(this).attr('pid')
-                                      if (_pid == pid){
-                                          $(this).addClass('bg')
-                                      }
-                                  })
+                                  if (arr[1] !== undefined){
+                                      var num = arr[1].indexOf('/');
+                                      var pid = arr[1].substring(0,num);
+                                      $('.qwe').each(function (k1,v1) {
+                                          var _pid = $(this).attr('pid')
+                                          if (_pid == pid){
+                                              $(this).addClass('bg')
+                                          }
+                                      })
+                                  }
                               })
                           </script>
                               

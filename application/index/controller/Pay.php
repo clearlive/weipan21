@@ -202,6 +202,10 @@ if($sign==$mysign){
     }
 
     public function pays(){
+<<<<<<< HEAD
+=======
+
+>>>>>>> 516bfa2b2027c889b7384f46ddcb1ff795f77758
         if ($_REQUEST['pay_type'] == 1){    //支付宝1
             include ('sign.php');
             $price = sprintf("%.2f",$_POST['pay_money']);
@@ -361,6 +365,22 @@ if($sign==$mysign){
             echo "验证签名失败";
         }
     }
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+
+        
+
+
+
+
+>>>>>>> 516bfa2b2027c889b7384f46ddcb1ff795f77758
 
     public function mcb_notify()
     {

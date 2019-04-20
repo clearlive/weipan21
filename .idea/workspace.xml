@@ -1,7 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a0ecb8c-5955-4bb3-9132-2238828c406e" name="Default Changelist" comment="" />
+    <list default="true" id="2a0ecb8c-5955-4bb3-9132-2238828c406e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/admin/controller/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/controller/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/admin/view/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/view/menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/admin/view/user/cash.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/view/user/cash.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/admin/view/user/useradd.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/view/user/useradd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/admin/view/user/userlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/view/user/userlist.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/admin/view/user/userprice.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/view/user/userprice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/controller/Login.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/controller/Login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/controller/Msm.php.bak" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/controller/Msm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/controller/Pay.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/controller/Pay.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/controller/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/controller/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/controller/sign.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/controller/sign.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/view/goods/goods.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/view/goods/goods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/view/login/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/view/login/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/view/login/respass.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/view/login/respass.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/view/point/point.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/view/point/point.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/view/user/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/view/user/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/view/user/recharge.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/view/user/recharge.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/cache/3a/8e4c06e471595f6eb262bb9b5582d9.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/cache/82/296ef4a6d64b49c5d3343958660e5a.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/log/201904/20.log" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/log/201904/20.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/1579ffa5a7c8faf5e8d1df5776d29c77.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/2c33606fbceaf8b51f3be5393a939754.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/350aebe83aa43bb97e56d8c412ca9be8.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/6a6cd08b8bc3cd0b501f324efaafd510.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/6afcafc60409a682c2a74fd6eca3e874.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/6cdae2a05897d8059934bb2ada6ffe7b.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/75e61e2cd3fb8a6e8a3f2cd9a51d0a62.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/856dc37ad3e0f78c4c6902d903256404.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/bb72c5724fadfa6d5e20c1dd8463966a.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/bd1221560f4779dd03068b525d0b9124.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/c0867461d964c0ece4fe285fda1bedca.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/d6387160f19cb672c03593017fd9023f.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/f884be322c7043b4692a4594443722bd.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weipan21" beforeDir="false" afterPath="$PROJECT_DIR$/weipan21" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,135 +49,10 @@
     <pharConfigPath>$PROJECT_DIR$/thinkphp/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/index/view/goods/goods.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="605">
-              <caret line="307" column="20" lean-forward="true" selection-start-line="307" selection-start-column="20" selection-end-line="307" selection-end-column="20" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#1;n#ion-content#0;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#section#0;n#div#0;n#div#0;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#1;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#3;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="e#24#30#0" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="e#24#30#0" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/index/view/point/point.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="247" column="6" selection-start-line="247" selection-start-column="6" selection-end-line="247" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/index/controller/User.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="130" column="51" selection-start-line="130" selection-start-column="51" selection-end-line="130" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/index/js/m.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/common.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/index/view/user/course.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-              <folding>
-                <element signature="n#style#0;n#div#1;n#div#0;n#section#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#section#0;n#body#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/index/view/user/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10422">
-              <caret line="386" column="14" selection-start-line="386" selection-start-column="14" selection-end-line="386" selection-end-column="14" />
-              <folding>
-                <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#1;n#h5#0;n#div#1;n#div#0;n#section#0;n#a#0;n#div#5;n#div#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#1;n#body#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/index/view/login/respass.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3153">
-              <caret line="23" column="139" selection-start-line="23" selection-start-column="139" selection-end-line="23" selection-end-column="139" />
-              <folding>
-                <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/index/controller/Login.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="389" column="32" selection-start-line="389" selection-start-column="32" selection-end-line="389" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>pays</find>
-      <find>active</find>
-      <find>onload</find>
-      <find>getkl</find>
-      <find>good-yz-list</find>
-      <find>interval</find>
-      <find>余额</find>
-      <find>qq123adminhtgl</find>
-      <find>买涨</find>
-      <find>order_type rise</find>
       <find>aria-hidden</find>
       <find>close</find>
       <find>change_chart_type</find>
@@ -161,6 +73,16 @@
       <find>新手教程</find>
       <find>respass</find>
       <find>1m</find>
+      <find>&lt;&lt;&lt;&lt;</find>
+      <find>&lt;&lt;&lt;</find>
+      <find>voli</find>
+      <find>dd-index-cz</find>
+      <find>预购</find>
+      <find>充值转</find>
+      <find>联系客服</find>
+      <find>pays</find>
+      <find>userdollor</find>
+      <find>orduserdollor</find>
     </findStrings>
     <replaceStrings>
       <replace>admin</replace>
@@ -188,23 +110,30 @@
         <option value="$PROJECT_DIR$/static/index/js/lk/hold.js" />
         <option value="$PROJECT_DIR$/application/index/controller/common.php" />
         <option value="$PROJECT_DIR$/application/index/view/user/recharge.html" />
-        <option value="$PROJECT_DIR$/application/index/controller/Pay.php" />
         <option value="$PROJECT_DIR$/static/index/js/m.js" />
         <option value="$PROJECT_DIR$/static/index/js/lk/chardata.js" />
         <option value="$PROJECT_DIR$/application/index/controller/Order.php" />
         <option value="$PROJECT_DIR$/application/index/controller/User.php" />
         <option value="$PROJECT_DIR$/application/index/view/user/course.html" />
         <option value="$PROJECT_DIR$/application/common.php" />
-        <option value="$PROJECT_DIR$/application/index/view/user/index.html" />
         <option value="$PROJECT_DIR$/application/index/view/login/respass.html" />
         <option value="$PROJECT_DIR$/application/index/controller/Login.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/application/index/controller/Pay.php" />
+        <option value="$PROJECT_DIR$/application/index/view/user/index.html" />
         <option value="$PROJECT_DIR$/application/index/view/goods/goods.html" />
         <option value="$PROJECT_DIR$/application/index/view/point/point.html" />
-        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/weipan21/application/admin/view/menu.html" />
+        <option value="$PROJECT_DIR$/application/admin/view/menu.html" />
+        <option value="$PROJECT_DIR$/application/admin/controller/User.php" />
+        <option value="$PROJECT_DIR$/application/admin/view/user/useradd.html" />
+        <option value="$PROJECT_DIR$/application/admin/view/user/userlist.html" />
+        <option value="$PROJECT_DIR$/application/admin/view/user/userprice.html" />
+        <option value="$PROJECT_DIR$/application/admin/view/user/cash.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="13" />
     <option name="y" value="24" />
     <option name="width" value="1940" />
@@ -227,7 +156,77 @@
             <path>
               <item name="weipan21" type="b2602c69:ProjectViewProjectNode" />
               <item name="weipan21" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weipan21" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weipan21" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weipan21" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weipan21" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weipan21" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weipan21" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weipan21" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weipan21" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weipan21" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weipan21" type="462c0819:PsiDirectoryNode" />
               <item name="runtime" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weipan21" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weipan21" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weipan21" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weipan21" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weipan21" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weipan21" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="gaiban" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weipan21" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weipan21" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="gaiban" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weipan21" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weipan21" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="index" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weipan21" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weipan21" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="index" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -237,19 +236,19 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/360Downloads/backup/xiaochengxu2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../weipan21_2019-4-20000000/weipan21" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\code\weipan21_2019-4-18\weipan21" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\code\weipan21_2019-4-18\weipan21" />
       <recent name="C:\code\weipan21_2019-4-18\weipan21\codeimg" />
       <recent name="C:\code\weipan21_2019-4-18\weipan21\application\index\view\user" />
       <recent name="C:\code\weipan21_2019-4-18\weipan21\application\index\controller" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\code\weipan21_2019-4-18\weipan21" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -281,13 +280,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58672000" />
+    <option name="totallyTimeSpent" value="64274000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -322,41 +320,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/仿站文件/yuki77.com/default.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/index/css/ionic.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="3377" column="3" selection-start-line="3377" selection-start-column="3" selection-end-line="3377" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extend/qujuhepay/static/js/assets/css/amazeui.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret column="16811" selection-start-column="16811" selection-end-column="16811" />
-          <folding>
-            <element signature="e#41987#42310#1" expanded="true" />
-            <element signature="e#171285#172400#2" expanded="true" />
-            <element signature="e#173179#175302#2" expanded="true" />
-            <element signature="e#175449#177656#2" expanded="true" />
-            <element signature="e#177808#178199#2" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/gaiban/css/xz-goods.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="107" column="9" selection-start-line="107" selection-start-column="4" selection-end-line="107" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/gaiban/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="335">
@@ -477,16 +440,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/controller/Pay.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4968">
-          <caret line="203" column="24" selection-start-line="203" selection-start-column="20" selection-end-line="203" selection-end-column="24" />
-          <folding>
-            <element signature="e#38#59#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/index/controller/Common.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
@@ -560,25 +513,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/common.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/view/user/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10422">
-          <caret line="386" column="14" selection-start-line="386" selection-start-column="14" selection-end-line="386" selection-end-column="14" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#1;n#h5#0;n#div#1;n#div#0;n#section#0;n#a#0;n#div#5;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#1;n#body#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../weipan21_2019-4-20000000/weipan21/application/index/view/login/respass.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
@@ -598,8 +532,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/index/controller/Login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="389" column="32" selection-start-line="389" selection-start-column="32" selection-end-line="389" selection-end-column="32" />
+        <state relative-caret-position="270">
+          <caret line="363" column="5" selection-start-line="363" selection-start-column="5" selection-end-line="363" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -624,13 +558,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/view/point/point.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="247" column="6" selection-start-line="247" selection-start-column="6" selection-end-line="247" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
@@ -638,11 +565,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/view/login/login.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/controller/Pay.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="400" selection-start-line="400" selection-end-line="400" />
+          <folding>
+            <element signature="e#38#59#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/view/user/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="304" column="28" selection-start-line="304" selection-start-column="28" selection-end-line="304" selection-end-column="28" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#1;n#h5#0;n#div#1;n#div#0;n#section#0;n#a#0;n#div#5;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#body#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/index/view/goods/goods.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="605">
-          <caret line="307" column="20" lean-forward="true" selection-start-line="307" selection-start-column="20" selection-end-line="307" selection-end-column="20" />
+        <state relative-caret-position="261">
+          <caret line="151" column="41" selection-start-line="151" selection-start-column="26" selection-end-line="151" selection-end-column="41" />
           <folding>
+            <element signature="n#style#0;n#div#0;n#a#0;n#div#0;n#section#0;n#div#1;n#div#1;n#div#0;n#div#1;n#ion-nav-bar#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#a#0;n#div#0;n#section#0;n#div#2;n#div#1;n#div#0;n#div#1;n#ion-nav-bar#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#ion-content#0;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#ion-view#0;n#ion-nav-view#0;n#body#0;n#!!top" expanded="true" />
@@ -663,6 +617,76 @@
             <element signature="e#24#30#0" expanded="true" />
             <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/view/point/point.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="405" column="70" selection-start-line="405" selection-start-column="70" selection-end-line="405" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weipan21/application/admin/view/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="79" column="136" selection-start-line="79" selection-start-column="136" selection-end-line="79" selection-end-column="136" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/view/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="79" column="45" selection-start-line="79" selection-end-line="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/view/user/adminadd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/common.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="82" column="9" selection-start-line="82" selection-start-column="9" selection-end-line="82" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/view/user/useradd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="72" column="80" selection-start-line="72" selection-start-column="80" selection-end-line="72" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/view/user/userlist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="101" column="30" selection-start-line="101" selection-start-column="30" selection-end-line="101" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/view/user/cash.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="115" column="65" selection-start-line="115" selection-start-column="65" selection-end-line="115" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/controller/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="165" column="61" selection-start-line="165" selection-start-column="61" selection-end-line="165" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/view/user/userprice.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="118" column="41" selection-start-line="118" selection-start-column="41" selection-end-line="118" selection-end-column="41" />
         </state>
       </provider>
     </entry>
