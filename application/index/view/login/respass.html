@@ -19,7 +19,30 @@
    background: #f5f5f5;
  }
  </style>
-
+<div class="container">
+    <div class="login-top">
+      <a href="javascript:history.go(-1);" class="login-top-img"><img src="__HOME__/img/ic_back.png" alt=""></a> <h1 class="sign-title">找回密码</h1>
+     </div>
+    <div class="respass-lc clearfix">
+      <div class="csmm-img">
+          <img src="__HOME__/img/cs-sfz.png" alt="">
+          <p>验证身份</p>
+      </div>
+      <div class="csmm-dd">
+          <img src="__HOME__/img/csmm-dd.png" alt="">
+      </div>
+      <div class="csmm-img" >
+          <img src="__HOME__/img/cs-yz.png" alt="">
+          <p>重设密码</p>
+      </div>
+      <div class="csmm-dd">
+          <img src="__HOME__/img/csmm-dd.png" alt="">
+      </div>
+      <div class="csmm-img" >
+          <img src="__HOME__/img/cs-succes.png" alt="" style="width: 25px;">
+          <p>重设密码</p>
+      </div>
+    </div>
    <form class="form-signin" method="post" id="formid" >
          
         <div class="login-wrap">
@@ -41,10 +64,10 @@
                 </span>
             </div> -->
             <div class="respass-cz">
-                <div class="respass-title clearfix"><div class="fk"></div>请输入当前密码</div>
+                <div class="respass-title clearfix"><div class="fk"></div>验证身份</div>
                 <div class="login-item">
                     <div class="phone-img"><img src="__HOME__/img/user.png" alt=""></div>
-                    <div class="phone"> <input type="text" autofocus="" placeholder="请输入当前密码" class="form-control username" name="cur_pwd" >
+                    <div class="phone"> <input type="text" autofocus="" placeholder="请输入手机号码" class="form-control username" name="username" >
                     </div>
                 </div>
             </div>
@@ -130,13 +153,13 @@
 </script> 
 <script>
 function checkform(form){
-	var cur_pwd = form.cur_pwd.value;
+	var username = form.username.value;
 	var upwd = form.upwd.value;
 	var upwd2 = form.upwd2.value;
-    if (!cur_pwd) {
-        layer.msg('请输入原密码');
-        return false;
-    }
+	if(!username){
+		layer.msg('请输入手机号');
+		return false; 
+	}
 
 	if (!upwd) {
 		layer.msg('请输入登录密码'); 
@@ -157,9 +180,14 @@ function checkform(form){
 		layer.msg('两次输入密码不同'); 
 		return false;
 	}
+
+	
+
+
 	var data = $('#formid').serialize();
     var formurl = "{:Url('login/respass')}";
     var locurl = "{:Url('index/user/index')}";
+
     WPpost(formurl,data,locurl);
     return false;
 }

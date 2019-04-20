@@ -31,52 +31,41 @@ class Msm extends Controller{
 	* 2017年9月1日19:07:16
 	* 80342014@qq.com
 	*/
-	public function sendsms($uid = 0, $code ,$phone){
-		$conf = getconf(''); 
-		$content = "验证码为{$code}，请勿将验证码提供给他人";
-		$url='http://utf8.api.smschinese.cn/?Uid='. $conf['msm_appkey'] .'&Key='. $conf['msm_secretkey'] .'&smsMob='.$phone .'&smsText='.$content;
-		$content = urlencode(iconv("UTF-8","GB2312",$content));
-	 
-		
-		
-		return  $this->curl_get($url); 
-		// echo "<pre>"; print_r($dd);die();
-		
-		/*
-		
-		-1	没有该用户账户
-		-2	接口密钥不正确 [查看密钥]
-		不是账户登陆密码
-		-21	MD5接口密钥加密不正确
-		-3	短信数量不足
-		-11	该用户被禁用
-		-14	短信内容出现非法字符
-		-4	手机号格式不正确
-		-41	手机号码为空
-		-42	短信内容为空
-		-51	短信签名格式不正确
-		接口签名格式为：【签名内容】
-		-6	IP限制
-		大于0	短信发送数量
-		
-		$url="http://service.winic.org:8009/sys_port/gateway/index.asp?";
-        $data = "id=%s&pwd=%s&to=%s&Content=%s&time=";
-        $id = urlencode(iconv("utf-8","gb2312",$conf['msm_appkey']));
-        $pwd = $conf['msm_secretkey'];
-        $to = $phone; 
-        $content = "验证码为:{$code},请勿将验证码提供给他人.【".$conf['msm_SignName']."】";
-        $content = urlencode(iconv("UTF-8","GB2312",$content));
-        $rdata = sprintf($data, $id, $pwd, $to, $content);
-        $ch = curl_init();
-        curl_setopt($ch, CURLOPT_POST,1);
-        curl_setopt($ch, CURLOPT_POSTFIELDS,$rdata);
-        curl_setopt($ch, CURLOPT_URL,$url);
-        curl_setopt($ch,CURLOPT_RETURNTRANSFER,true);
-        $result = curl_exec($ch);
-        curl_close($ch);
-        return $result;
+	public function sendsms( $code,$phone,$act = "register"){
 
-        */
+		$conf = getconf('');
+		$postArr = array (
+			'accesskey'  => $conf['msm_appkey'],
+			'secret' => $conf['msm_secretkey'],
+			'sign' => $conf['msm_SignName'],
+			// 'templateId' => $act=='register'?'25950':'25962',
+			'mobile' =>  $phone,
+			'content' => $code
+		);
+		if($act == "register"){		// 注册
+			$postArr['templateId'] = '25950';
+		}else if($act == "forget"){		// 修改密码
+			$postArr['templateId'] = '25962';
+		}else if($act == "withdraw"){		// 提现
+			$postArr['templateId'] = '25950';
+		}else if($act == "manager"){		// 申请经纪人
+			$postArr['templateId'] = '25950';
+		}
+		$result = $this->curlPost( 'http://api.1cloudsp.com/api/v2/single_send', $postArr);
+		if(!is_null(json_decode($result))){	
+			$output=json_decode($result,true);
+			if(isset($output['code'])  && $output['code']=='0'){
+				$sessKey = "{$phone}_{$act}";
+				session($sessKey, $code);
+				return array(true,$output['code']);
+			}else{
+				//echo $output['errorMsg'];
+				return array(false,$output['errorMsg']);
+			}
+		}else{
+				return array(false,$output['errorMsg']);
+		}
+		return $result;
 	}
 	
 	public function curl_get($url)
@@ -98,7 +87,43 @@ class Msm extends Controller{
 		return $file_contents;
 	}
 	
-
+/**
+	 * 通过CURL发送HTTP请求
+	 * @param string $url  //请求URL
+	 * @param array $postFields //请求参数 
+	 * @return mixed
+	 *  
+	 */
+	private function curlPost($url,$postFields){
+		$postFields = json_encode($postFields);
+		
+		$ch = curl_init ();
+		curl_setopt( $ch, CURLOPT_URL, $url ); 
+		curl_setopt( $ch, CURLOPT_HTTPHEADER, array(
+			'Content-Type: application/json; charset=utf-8'   //json版本需要填写  Content-Type: application/json;
+			)
+		);
+		curl_setopt($ch, CURLOPT_IPRESOLVE, CURL_IPRESOLVE_V4); 
+		curl_setopt( $ch, CURLOPT_RETURNTRANSFER, 1 );
+		curl_setopt( $ch, CURLOPT_POST, 1 );
+        curl_setopt( $ch, CURLOPT_POSTFIELDS, $postFields);
+        curl_setopt( $ch, CURLOPT_TIMEOUT,60); 
+        curl_setopt( $ch, CURLOPT_SSL_VERIFYHOST, 0);
+        curl_setopt( $ch, CURLOPT_SSL_VERIFYPEER, 0);
+		$ret = curl_exec ( $ch );
+        if (false == $ret) {
+            $result = curl_error(  $ch);
+        } else {
+            $rsp = curl_getinfo( $ch, CURLINFO_HTTP_CODE);
+            if (200 != $rsp) {
+                $result = "请求状态 ". $rsp . " " . curl_error($ch);
+            } else {
+                $result = $ret;
+            }
+        }
+		curl_close ( $ch );
+		return $result;
+	}
 	/*
 
 	public function sendsms($uid = 0, $code ,$phone){
