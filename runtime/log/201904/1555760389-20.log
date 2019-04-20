@@ -40976,17 +40976,17 @@
 [ info ] [ LOG ] INIT File
 
 ---------------------------------------------------------------
-[ 2019-04-20T19:40:52+08:00 ] 127.0.0.1 127.0.0.1 GET /
-[ log ] www.erheyi.com/ [运行时间：0.080250s][吞吐率：12.46req/s] [内存消耗：2,107.07kb] [文件加载：61]
+[ 2019-04-20T19:39:48+08:00 ] 127.0.0.1 127.0.0.1 GET /index/login/respass.html
+[ log ] www.erheyi.com/index/login/respass.html [运行时间：0.033752s][吞吐率：29.63req/s] [内存消耗：1,534.10kb] [文件加载：54]
 [ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
 [ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
-    0 => '',
-    1 => NULL,
-    2 => NULL,
+    0 => 'index',
+    1 => 'login',
+    2 => 'respass',
   ),
 )
 [ info ] [ HEADER ] array (
@@ -40994,6 +40994,7 @@
   'upgrade-insecure-requests' => '1',
   'cookie' => 'pid32=5307.91; pid29=82.075; pid27=145.48; pid25=1.32388; pid23=82.045; pid13=109.613; pid12=5307.51; pid11=1.73956; pid10=1.81697; pid9=0.86523; pid8=0.98572; pid7=1.29942; pid6=145.4502; PHPSESSID=6i0lnv568g0115m5annss6snn4; think_var=zh-cn; denglu=think%3A%7B%22otype%22%3A%223%22%2C%22userid%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22token%22%3A%223c341b110c44ad9e7da4160e4f865b63%22%7D',
   'connection' => 'close',
+  'referer' => 'http://www.erheyi.com/index/user/index.html',
   'accept-encoding' => 'gzip, deflate',
   'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
   'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
@@ -41001,27 +41002,25 @@
   'host' => 'www.erheyi.com',
 )
 [ info ] [ PARAM ] array (
+  '/index/login/respass_html' => '',
 )
 [ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
-[ info ] [ DB ] INIT mysql
-[ info ] [ DB ] INIT mysql
-[ info ] [ DB ] INIT mysql
 [ info ] [ CACHE ] INIT File
 [ info ] [ LOG ] INIT File
 [ error ] [8]unserialize(): Error at offset 0 of 1903 bytes[C:\code\weipan21_2019-4-18\weipan21\thinkphp\library\think\cache\driver\File.php:122]
 
 ---------------------------------------------------------------
-[ 2019-04-20T19:40:52+08:00 ] 127.0.0.1 127.0.0.1 GET /
-[ log ] www.erheyi.com/ [运行时间：0.084942s][吞吐率：11.77req/s] [内存消耗：2,107.07kb] [文件加载：61]
+[ 2019-04-20T19:39:48+08:00 ] 127.0.0.1 127.0.0.1 GET /index/login/respass.html
+[ log ] www.erheyi.com/index/login/respass.html [运行时间：0.037319s][吞吐率：26.80req/s] [内存消耗：1,534.10kb] [文件加载：54]
 [ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
 [ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
-    0 => '',
-    1 => NULL,
-    2 => NULL,
+    0 => 'index',
+    1 => 'login',
+    2 => 'respass',
   ),
 )
 [ info ] [ HEADER ] array (
@@ -41029,6 +41028,7 @@
   'upgrade-insecure-requests' => '1',
   'cookie' => 'pid32=5307.91; pid29=82.075; pid27=145.48; pid25=1.32388; pid23=82.045; pid13=109.613; pid12=5307.51; pid11=1.73956; pid10=1.81697; pid9=0.86523; pid8=0.98572; pid7=1.29942; pid6=145.4502; PHPSESSID=6i0lnv568g0115m5annss6snn4; think_var=zh-cn; denglu=think%3A%7B%22otype%22%3A%223%22%2C%22userid%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22token%22%3A%223c341b110c44ad9e7da4160e4f865b63%22%7D',
   'connection' => 'close',
+  'referer' => 'http://www.erheyi.com/index/user/index.html',
   'accept-encoding' => 'gzip, deflate',
   'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
   'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
@@ -41036,27 +41036,25 @@
   'host' => 'www.erheyi.com',
 )
 [ info ] [ PARAM ] array (
+  '/index/login/respass_html' => '',
 )
 [ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
-[ info ] [ DB ] INIT mysql
-[ info ] [ DB ] INIT mysql
-[ info ] [ DB ] INIT mysql
 [ info ] [ CACHE ] INIT File
 [ info ] [ LOG ] INIT File
 [ error ] [8]unserialize(): Error at offset 0 of 1903 bytes[C:\code\weipan21_2019-4-18\weipan21\thinkphp\library\think\cache\driver\File.php:122]
 
 ---------------------------------------------------------------
-[ 2019-04-20T19:40:53+08:00 ] 127.0.0.1 127.0.0.1 GET /
-[ log ] www.erheyi.com/ [运行时间：0.084539s][吞吐率：11.83req/s] [内存消耗：2,107.07kb] [文件加载：61]
+[ 2019-04-20T19:39:48+08:00 ] 127.0.0.1 127.0.0.1 GET /index/login/respass.html
+[ log ] www.erheyi.com/index/login/respass.html [运行时间：0.031496s][吞吐率：31.75req/s] [内存消耗：1,534.10kb] [文件加载：54]
 [ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
 [ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
-    0 => '',
-    1 => NULL,
-    2 => NULL,
+    0 => 'index',
+    1 => 'login',
+    2 => 'respass',
   ),
 )
 [ info ] [ HEADER ] array (
@@ -41064,6 +41062,7 @@
   'upgrade-insecure-requests' => '1',
   'cookie' => 'pid32=5307.91; pid29=82.075; pid27=145.48; pid25=1.32388; pid23=82.045; pid13=109.613; pid12=5307.51; pid11=1.73956; pid10=1.81697; pid9=0.86523; pid8=0.98572; pid7=1.29942; pid6=145.4502; PHPSESSID=6i0lnv568g0115m5annss6snn4; think_var=zh-cn; denglu=think%3A%7B%22otype%22%3A%223%22%2C%22userid%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22token%22%3A%223c341b110c44ad9e7da4160e4f865b63%22%7D',
   'connection' => 'close',
+  'referer' => 'http://www.erheyi.com/index/user/index.html',
   'accept-encoding' => 'gzip, deflate',
   'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
   'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
@@ -41071,11 +41070,43 @@
   'host' => 'www.erheyi.com',
 )
 [ info ] [ PARAM ] array (
+  '/index/login/respass_html' => '',
 )
 [ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
-[ info ] [ DB ] INIT mysql
-[ info ] [ DB ] INIT mysql
-[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ error ] [8]unserialize(): Error at offset 0 of 1903 bytes[C:\code\weipan21_2019-4-18\weipan21\thinkphp\library\think\cache\driver\File.php:122]
+
+---------------------------------------------------------------
+[ 2019-04-20T19:39:49+08:00 ] 127.0.0.1 127.0.0.1 GET /index/login/respass.html
+[ log ] www.erheyi.com/index/login/respass.html [运行时间：0.040126s][吞吐率：24.92req/s] [内存消耗：1,534.10kb] [文件加载：54]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'respass',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'pid32=5307.91; pid29=82.075; pid27=145.48; pid25=1.32388; pid23=82.045; pid13=109.613; pid12=5307.51; pid11=1.73956; pid10=1.81697; pid9=0.86523; pid8=0.98572; pid7=1.29942; pid6=145.4502; PHPSESSID=6i0lnv568g0115m5annss6snn4; think_var=zh-cn; denglu=think%3A%7B%22otype%22%3A%223%22%2C%22userid%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22token%22%3A%223c341b110c44ad9e7da4160e4f865b63%22%7D',
+  'connection' => 'close',
+  'referer' => 'http://www.erheyi.com/index/user/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/login/respass_html' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
 [ info ] [ CACHE ] INIT File
 [ info ] [ LOG ] INIT File
 [ error ] [8]unserialize(): Error at offset 0 of 1903 bytes[C:\code\weipan21_2019-4-18\weipan21\thinkphp\library\think\cache\driver\File.php:122]
