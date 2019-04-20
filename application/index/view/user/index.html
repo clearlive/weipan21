@@ -4,7 +4,10 @@
 <script>
 
 </script>
-<body class="sticky-header user-body">
+<style>
+
+</style>
+<body class="sticky-header user-body" style="position: relative;z-index: 1"   >
 
     <section>
         <div class="main-content" style="margin-left:0px;">
@@ -24,50 +27,54 @@
                                     </div>
                                     <div class="user-top-grzc">
                                         <span>个人资产：</span>
-                                        <img src="__HOME__/img/dd-ye.png"
-                                            alt=""><b>{$userinfo.userdollor}</b><span>USDT</span>
+                                        <img src="__HOME__/img/dd-ye1.png"
+                                             alt=""><b>{$userinfo.usermoney}</b><span>CNY</span>
+
                                             <!--{volist name="bl" id="vo2"}
                                                 <p>{$userinfo.usermoney*($vo2.gamecoin/$vo2.rmbcoin)}</p>
                                                 {/volist}-->
                                     </div>
                                     <div class="user-top-grzc1" style="margin-top:5px;margin-bottom:5px;">
-                                        <span>≈</span>
-                                        <img src="__HOME__/img/dd-ye1.png"
-                                            alt=""><b>{$userinfo.usermoney}</b><span>CNY</span>
-                                    </div>
-                                    <div class="user-top-cy">
-                                        
-                                        <ul class="clearfix">
 
-                                            <li>
-                                                <p>持仓手数</p>
-                                                <p>持仓手数</p>
-                                                {volist name="orders" id="vo"}
-                                                	<p>{$vo.orderCount}</p>
-                                                {/volist}
-                                                
-                                            </li>
-                                            <li>
-                                                <p>持有数量(USDT)</p>
-                                                <p>{$userinfo.userdollor}</p>
-                                                <!--{volist name="bl" id="vo2"}
-                                                <p>{$userinfo.usermoney*($vo2.gamecoin/$vo2.rmbcoin)}</p>
-                                                {/volist}-->
-                                            </li>
-
-                                        </ul>
-                                        
                                     </div>
+                                    <!--<div class="user-top-cy">-->
+                                        <!---->
+                                        <!--<ul class="clearfix">-->
+
+                                            <!--<li>-->
+                                                <!--<p>持仓手数</p>-->
+                                                <!--<p>持仓手数</p>-->
+                                                <!--{volist name="orders" id="vo"}-->
+                                                	<!--<p>{$vo.orderCount}</p>-->
+                                                <!--{/volist}-->
+                                                <!---->
+                                            <!--</li>-->
+                                            <!--<li>-->
+                                                <!--<p>持有数量(USDT)</p>-->
+                                                <!--<p>{$userinfo.userdollor}</p>-->
+                                                <!--&lt;!&ndash;{volist name="bl" id="vo2"}-->
+                                                <!--<p>{$userinfo.usermoney*($vo2.gamecoin/$vo2.rmbcoin)}</p>-->
+                                                <!--{/volist}&ndash;&gt;-->
+                                            <!--</li>-->
+
+                                        <!--</ul>-->
+                                        <!---->
+                                    <!--</div>-->
                                     <div class="user-body-middle">
                                         <ul class="clearfix">
                                             <li>
-                                                <a  data-toggle="modal" id="tixian">
-                                                    <div class="tb">提币已锁定</div>
+
+
+
+
+                                                <a href="{:url('cash')}"  data-toggle="modal" id="tixian">
+
+                                                    <div class="tb">提币</div>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a data-toggle="modal" id="chongzhi">
-                                                    <div class="cz">充值已锁定</div>
+                                                <a href="{:url('recharge')}" data-toggle="modal" id="chongzhi">
+                                                    <div class="cz">充值</div>
                                                 </a>
                                             </li>
                                         </ul>
@@ -168,7 +175,7 @@
                     <!-- <div class="ico-bottom-left col-lg-12 col-xs-12 col-md-12">
                         <section class="ico-bottom panel">
                             <div class="panel-body">
-                                <a href="#myModal" data-toggle="modal"  id="chongzhi"> 
+                                <a href="#myModal" data-toggle="modal"  id="chongzhi">
                                 <a href="http://www.y7by.cn/codepay/" data-toggle="modal" id="chongzhi">
                                     <div class="avatar ">
                                         <div class="ioc-fa ioc-fa-coc"><i class="fa  fa-money ico-fa"></i></div>
@@ -203,7 +210,7 @@
                                         <div class="ioc-fa ioc-fa-coc"></i></div>
                                     </div>
                                     <div class="ico-title">
-                                        <h5><img src="__HOME__/img/user-zj.png" alt="">资金流水<img
+                                        <h5><img src="__HOME__/img/user-zj.png" alt="">我的交易轨迹<img
                                                 src="__HOME__/img/user-yjt.png" alt="" class="yjt"></h5>
                                     </div>
 
@@ -251,7 +258,6 @@
                         <a href="{:url('order/hold')}">
                             <section class="ico-bottom panel">
                                 <div class="panel-body">
-
                                     <div>
                                         <div class="ioc-fa ioc-fa-coc"></div>
                                     </div>
@@ -264,39 +270,56 @@
                             </section>
                         </a>
                     </div>
-                    <!-- <div class="ico-bottom-left col-lg-12 col-xs-12 col-md-12">
-                        <section class="ico-bottom panel">
-                            <div class=" panel-body">
-                                <a href="{:url('ercode')}">
-                                    <div class="avatar ">
-                                        <div class="ioc-fa ioc-fa-coc"><i class="fa fa-external-link-square ico-fa"></i>
-                                        </div>
-                                    </div>
-                                    <div class="ico-title">
-                                        <h5>分享二维码</h5>
-                                    </div>
-                                </a>
-                            </div>
-                        </section>
-                    </div> -->
-                    <div class="ico-bottom-center col-lg-12 col-xs-12 col-md-12">
-                        <a href="{:url('/index/login/respass')}">
+                    <div class="ico-bottom-right col-lg-12 col-xs-12 col-md-12">
+                        <a href="{:url('/index/user/ercode')}">
                             <section class="ico-bottom panel">
                                 <div class="panel-body">
-
                                     <div>
                                         <div class="ioc-fa ioc-fa-coc"></div>
                                     </div>
                                     <div class="ico-title">
-                                        <h5><img src="__HOME__/img/user-sz.png" alt="">修改密码<img
-                                                src="__HOME__/img/user-yjt.png" alt="" class="yjt" style="right:15px;">
-                                        </h5>
+                                        <h5><img src="__HOME__/img/dd-ye.png" alt="">分享二维码<img
+                                                src="__HOME__/img/user-yjt.png" alt="" class="yjt"></h5>
                                     </div>
 
                                 </div>
                             </section>
                         </a>
                     </div>
+                    
+                    <div class="ico-bottom-center col-lg-12 col-xs-12 col-md-12">
+                        <a href="{:url('/index/login/respass')}">
+                            <section class="ico-bottom panel">
+                                <div class="panel-body">
+                                    <div>
+                                        <div class="ioc-fa ioc-fa-coc"></div>
+                                    </div>
+                                    <div class="ico-title">
+                                        <h5><img src="__HOME__/img/user-sz.png" alt="">个人设置<img
+                                                src="__HOME__/img/user-yjt.png" alt="" class="yjt" style="right:15px;">
+                                        </h5>
+                                    </div>
+                                </div>
+                            </section>
+                        </a>
+                    </div>
+                    <div class="ico-bottom-center col-lg-12 col-xs-12 col-md-12">
+                        <a class="connect" href="javascript:void(0);">
+                            <section class="ico-bottom panel">
+                                <div class="panel-body">
+                                    <div>
+                                        <div class="ioc-fa ioc-fa-coc"></div>
+                                    </div>
+                                    <div class="ico-title">
+                                        <h5><img src="__HOME__/img/user-dd.png" alt="">联系客服<img
+                                                src="__HOME__/img/user-yjt.png" alt="" class="yjt" style="right:15px;">
+                                        </h5>
+                                    </div>
+                                </div>
+                            </section>
+                        </a>
+                    </div>
+
                     <div class="ico-bottom-right col-lg-12 col-xs-12 col-md-12">
                         <a href="javascript:;" onclick="app_exit()">
                             <section class="ico-bottom panel">
@@ -319,6 +342,54 @@
             </div>
         </div>
     </section>
+
+<div class="kefu hides" >
+    <img style="width: 80%;height: 400px;" src="/codeimg/kefu.jpg" alt="">
+</div>
+    <div class="masks">
+
+    </div>
+    <style>
+        .hides{
+            display: none;
+        }
+        .isshow{
+            width: 90%;position: absolute;display: flex;top:120px;left:5%;justify-content: center;align-items: center;z-index: 9999;
+        }
+        .mask{
+            position: fixed;
+            left: 0;
+            top: 0;
+            opacity: 0.2;
+            background: #8cccec;
+            z-index: 1000;
+            width: 100000px;
+            height: 100000px;
+            overflow: hidden;
+        }
+    </style>
+    <script>
+        $(function () {
+            $('.connect').click(function () {
+                $('.kefu').addClass('isshow')
+                $('.kefu').removeClass('hides')
+                $('.masks').addClass('mask')
+            })
+
+            $('.masks').click(function () {
+                $('.kefu').addClass('hides')
+                $('.kefu').removeClass('isshow')
+                $('.masks').removeClass('mask')
+            })
+            $('.kefu').click(function () {
+                $('.kefu').addClass('hides')
+                $('.kefu').removeClass('isshow')
+                $('.masks').removeClass('mask')
+            })
+        })
+
+    </script>
+
     {include file="foot" /}
 
     <script src="__HOME__/js/lk/user.js"></script>

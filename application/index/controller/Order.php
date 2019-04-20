@@ -162,6 +162,7 @@ class Order extends Base
 	public function ajaxorder_list()
 	{
 		$uid = $this->uid;
+
 		if (empty($uid)) {
 			return false;
 		}
@@ -173,7 +174,7 @@ class Order extends Base
 		];
 		//array('uid'=>$uid,'ostaus'=>0);
 		$hold = Db::name('order')->where($map)->order('oid desc')->select();
-		
+
 		if($hold){
 			$hold[0]['time'] = time();
 		}
@@ -263,10 +264,14 @@ class Order extends Base
 	public function orderlist()
 	{
 		$uid = $this->uid;
-		$hold = Db::name('order')->where(array('uid'=>$uid,'ostaus'=>1))->order('selltime desc')->paginate(20);
+		$time = input('get.times')?input('get.times'):1;
+		if ($time == 1){
 
+            $hold = Db::name('order')->where(array('uid'=>$uid,'ostaus'=>1))->order('selltime desc')->paginate(50);
+        }else{
+            $hold = Db::name('order')->where(array('uid'=>$uid,'ostaus'=>1))->whereTime('buytime','today')->order('selltime desc')->paginate(20);
+        }
 		return base64_encode(json_encode($hold));
-		
 	}
 
 	

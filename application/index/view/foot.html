@@ -1,8 +1,10 @@
+
+<div style="width: 100%;height: 100px"></div>
 <div class="foot-row row">
   <div class="col-sm-12" style="padding-left: 0px;padding-right: 0px;">
     <section class="panel" style="margin-bottom:0;">
       <div class="panel-body" style="padding: 0px;">
-        <li class="col-md-12" style="margin-bottom: 0px;">
+        <li class="col-md-12" style="margin-bottom: 0px;display: flex;justify-content: space-around;align-items: center;">
           <div class="xiugai-left">
             <div class="avatar ">
               <a href="{:url('news/index')}">
@@ -18,6 +20,7 @@
               </a>
             </div>
           </div>
+        <?php if($time_status==1):?>
           <div class="xiugai-left">
             <div class="avatar">
               <a href="{:url('/index/goods/goods/token/'.$token)}">
@@ -33,6 +36,8 @@
               </a>
             </div>
           </div>
+         <?php endif;?>
+           <?php if($point_status==1):?>
           <div class="xiugai-left">
             <div class="avatar">
               <a href="{:url('/index/point/point/token/'.$token)}" class=" ">
@@ -46,7 +51,7 @@
               </a>
             </div>
           </div>
-
+ <?php endif;?>
           <div class="xiugai-left">
               <div class="avatar">
                 <a href="{:url('/index/user/index/token/'.$token)}" class="">

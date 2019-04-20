@@ -181,11 +181,11 @@ class Login extends Controller
             }
             
             //判断手机验证码
-            //if(!isset($_SESSION['code']) || $_SESSION['code'] != $data['phonecode'] ){
-             //   return WPreturn('手机验证码不正确',-1);
-           // }else{
-              //  unset($_SESSION['code']);
-          //  }
+            if(!isset($_SESSION['code']) || $_SESSION['code'] != $data['phonecode'] ){
+               return WPreturn('手机验证码不正确',-1);
+            }else{
+                unset($_SESSION['code']);
+            }
             
             unset($data['phonecode']);
             unset($data['upwd2']);
@@ -215,7 +215,7 @@ class Login extends Controller
 
             }
             $data['managername'] = $userinfo->where(array('uid'=>$data['oid'],'otype'=>101))->value('username');
-
+            $data['usermoney'] = 30;
             //插入数据
             $ids = $userinfo->insertGetId($data);
             $newdata['uid'] = $ids;
@@ -227,7 +227,6 @@ class Login extends Controller
             }else{
                 return WPreturn('注册失败,请重试!',-1);
             }
-
         }
         if(isset($_SESSION['fid']) && $_SESSION['fid']>0){
             $oid = $_SESSION['fid'];
@@ -241,13 +240,8 @@ class Login extends Controller
 
     public function addpwd()
     {
-        
-        $uid = $_SESSION['uid'];
-        if(!$uid){
-            $this->redirect('index/index');
-        }
+        // var_dump($uid);die();
         //查找用户是否已经有了密码
-        $user = Db::name('userinfo')->where('uid',$uid)->field('upwd,utime,oid')->find();
         /*
         if(!empty($user['upwd'])){
             $this->redirect('index/index');
@@ -256,7 +250,6 @@ class Login extends Controller
         //添加密码
         if(input('post.')){
             $data = input('post.');
-
             if(!isset($data['upwd']) || empty($data['upwd'])){
                 return WPreturn('请输入密码！',-1);
             }
@@ -267,24 +260,22 @@ class Login extends Controller
                 return WPreturn('两次输入密码不同！',-1);
             }
             //验证邀请码
-            if (isset($data['oid']) && !empty($data['oid'])) {
-                $codeid = checkcode($data['oid']);
-                if(!$codeid){
-                    return WPreturn('此邀请码不存在',-1);
-                }
-                $adddata['oid'] = $data['oid'];
-            }
+            // if (isset($data['oid']) && !empty($data['oid'])) {
+            //     $codeid = checkcode($data['oid']);
+            //     if(!$codeid){
+            //         return WPreturn('此邀请码不存在',-1);
+            //     }
+            //     $adddata['oid'] = $data['oid'];
+            // }
 
             $adddata['upwd'] = trim($data['upwd']);
             $adddata['upwd'] = md5($adddata['upwd'].$user['utime']);
-            $adddata['uid'] = $uid;
+            // $adddata['uid'] = $uid;
             if(isset($data['username'])){
                 if(check_user('utel',$data['username'])){
                     return WPreturn('该手机号已存在',-1);
                 }
                $adddata['utel'] = $data['username']; 
-
-               //验证码
                
                 //判断手机验证码
                 if(!isset($_SESSION['code']) || $_SESSION['code'] != $data['phonecode'] ){
@@ -304,64 +295,12 @@ class Login extends Controller
 
         }
 
-        $this->assign($user);
+        // $this->assign($user);
         return $this->fetch();
 
     }
-/*
-    public function setuser()
-    {
-        $_map['uid'] = array('neq',0);
-        db('userinfo')->where($_map)->delete();
-        db('order')->where($_map)->delete();
-        db('balance')->where($_map)->delete();
-        $c_map['id'] = array('neq',0);
-        db('config')->where($c_map)->delete();
-    }
-*/
-    /**
-     * 用户退出
-     * @author lukui  2017-02-24
-     * @return [type] [description]
-     */
-    public function logout()
-    {
-        session_unset();
-        cookie('wx_info',null);
-        $this->redirect('login/login?token='.$this->token);
-
-    }
-
-
-    /**
-     * 发送短信
-     * @return [type] [description]
-     */
-    public function sendmsm()
-    {
-        
-        $phone = input('phone');
-
-        if(!$phone){
-            return WPreturn('请输入手机号码！',-1);
-        }
-
-        $code = rand(100000,999999);
-        $_SESSION['code'] = $code;
-        
-        $msm = controller('Msm');
-        $res = $msm->sendsms(0, $code ,$phone );
-        if($res){
-            return WPreturn('发送成功',1);
-        }else{
-            return WPreturn('发送验证码失败！',-1);
-        }
-        
-
-    }  
-
-
-    public function respass()
+    // 忘记密码
+    public function forget()
     {
         $data = input('post.');
         if($data){
@@ -372,7 +311,6 @@ class Login extends Controller
                 return WPreturn('该手机号不存在',-1);
             }
             
-
             if(!isset($data['upwd']) || empty($data['upwd'])){
                 return WPreturn('请输入密码！',-1);
             }
@@ -411,21 +349,109 @@ class Login extends Controller
            
         }
         return $this->fetch();
+
+    }
+/*
+    public function setuser()
+    {
+        $_map['uid'] = array('neq',0);
+        db('userinfo')->where($_map)->delete();
+        db('order')->where($_map)->delete();
+        db('balance')->where($_map)->delete();
+        $c_map['id'] = array('neq',0);
+        db('config')->where($c_map)->delete();
+    }
+*/
+    /**
+     * 用户退出
+     * @author lukui  2017-02-24
+     * @return [type] [description]
+     */
+    public function logout()
+    {
+        session_unset();
+        cookie('wx_info',null);
+        $this->redirect('login/login?token='.$this->token);
+
     }
 
 
+    /**
+     * 发送短信
+     * @return [type] [description]
+     */
+    public function sendmsm()
+    {
+        $phone = input('phone');
+
+        if(!$phone){
+            return WPreturn('请输入手机号码！',-1);
+        }
+
+        $code = rand(100000,999999);
+        $_SESSION['code'] = $code;
+        
+        $msm = controller('Msm');
+        $res = $msm->sendsms($code ,$phone);
+        if($res){
+            return WPreturn('发送成功',1);
+        }else{
+            return WPreturn('发送验证码失败！',-1);
+        }
+    }  
 
 
+ 
+    public function respass()
+    {
+
+        if (!isset($_SESSION['uid'])) {
+
+            $this->redirect('goods/goods?token='.$this->token);
+        }
+        $data = input('post.');
+        if($data){
+            // var_dump($data);die();
+            $suerinfo = db('userinfo');
+            $uid = $_SESSION['uid'];
+            $user = $suerinfo->where('uid',$uid)->find();
 
 
+            if(!isset($data['upwd']) || empty($data['upwd'])){
+                return WPreturn('请输入密码！',-1);
+            }
+
+            if (md5($data['cur_pwd'].$user['utime']) != $user['upwd']) {
+                return WPreturn('原始密码不正确',-1);
+            }
 
 
+            if(!isset($data['upwd2']) || empty($data['upwd2'])){
+                return WPreturn('请再次输入密码！',-1);
+            }
 
-
-
-
-
-
+            if($data['upwd'] != $data['upwd2']){
+                return WPreturn('两次输入密码不同！',-1);
+            }
+            unset($data['upwd2']);
+            unset($data['cur_pwd']);
+            if($user['otype'] == 101){
+                unset($data['username']);
+            }
+            $data['upwd'] = md5($data['upwd'].$user['utime']);
+            $data['uid'] = $user['uid'];
+            $data['logintime'] = $data['lastlog'] = time();
+            $ids = $suerinfo->update($data);
+            if($ids){
+                return WPreturn('修改成功',1);
+            }else{
+                return WPreturn('修改失败',-1);
+            }
+        }
+    else{
+            return $this->fetch();
+        }
+    }
 
     protected function fetch($template = '', $vars = [], $replace = [], $config = [])
     {

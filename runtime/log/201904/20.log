@@ -1,12 +1,20 @@
+<<<<<<< HEAD
 [ 2019-04-20T22:03:37+08:00 ] 172.26.115.141 39.98.44.169 GET /index/api/allotorder
 [ log ] www.3b4y2.cn/index/api/allotorder [运行时间：0.053332s][吞吐率：18.75req/s] [内存消耗：3,268.47kb] [文件加载：54]
 [ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
 [ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+=======
+[ 2019-04-20T21:59:33+08:00 ] 127.0.0.1 127.0.0.1 GET /index/login/register.html
+[ log ] www.erheyi.com/index/login/register.html [运行时间：0.053341s][吞吐率：18.75req/s] [内存消耗：2,206.27kb] [文件加载：61]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+>>>>>>> 6249840c564ca401f90cd9bbbb3794364c0d3803
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
     0 => 'index',
+<<<<<<< HEAD
     1 => 'api',
     2 => 'allotorder',
   ),
@@ -36,11 +44,49 @@
 [ log ] www.3b4y2.cn/index/api/order [运行时间：0.071621s][吞吐率：13.96req/s] [内存消耗：3,431.38kb] [文件加载：57]
 [ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
 [ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+=======
+    1 => 'login',
+    2 => 'register',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'referer' => 'http://www.erheyi.com/index/login/login/token/b03bae31a5ac3ed8e2ff1362747e5cb8.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/login/register_html' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Login->register[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\code\weipan21_2019-4-18\weipan21/application/index\view\login\register.html [ array (
+  0 => 'conf',
+  1 => 'token',
+  2 => 'oid',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:59:40+08:00 ] 127.0.0.1 127.0.0.1 GET /index/login/sendmsm/phone/13037196021
+[ log ] www.erheyi.com/index/login/sendmsm/phone/13037196021 [运行时间：0.096874s][吞吐率：10.32req/s] [内存消耗：2,122.98kb] [文件加载：64]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+>>>>>>> 6249840c564ca401f90cd9bbbb3794364c0d3803
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
     0 => 'index',
+<<<<<<< HEAD
     1 => 'api',
     2 => 'order',
   ),
@@ -74,11 +120,44 @@
 [ log ] www.3b4y2.cn/index/api/allotorder [运行时间：0.047269s][吞吐率：21.16req/s] [内存消耗：3,268.48kb] [文件加载：54]
 [ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
 [ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+=======
+    1 => 'login',
+    2 => 'sendmsm',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/index/login/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/login/sendmsm/phone/13037196021' => '',
+  'phone' => '13037196021',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Login->sendmsm[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: errorMsg[C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Msm.php:63]
+
+---------------------------------------------------------------
+[ 2019-04-20T21:59:41+08:00 ] 127.0.0.1 127.0.0.1 GET /index/login/sendmsm/phone/13037196021
+[ log ] www.erheyi.com/index/login/sendmsm/phone/13037196021 [运行时间：0.114883s][吞吐率：8.70req/s] [内存消耗：2,122.98kb] [文件加载：64]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+>>>>>>> 6249840c564ca401f90cd9bbbb3794364c0d3803
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
     0 => 'index',
+<<<<<<< HEAD
     1 => 'api',
     2 => 'allotorder',
   ),
@@ -180,11 +259,44 @@
 [ log ] www.3b4y2.cn/index/api/order [运行时间：0.074583s][吞吐率：13.41req/s] [内存消耗：3,431.38kb] [文件加载：57]
 [ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
 [ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+=======
+    1 => 'login',
+    2 => 'sendmsm',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/index/login/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/login/sendmsm/phone/13037196021' => '',
+  'phone' => '13037196021',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Login->sendmsm[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: errorMsg[C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Msm.php:63]
+
+---------------------------------------------------------------
+[ 2019-04-20T21:59:42+08:00 ] 127.0.0.1 127.0.0.1 GET /index/login/sendmsm/phone/13037196021
+[ log ] www.erheyi.com/index/login/sendmsm/phone/13037196021 [运行时间：0.100778s][吞吐率：9.92req/s] [内存消耗：2,122.98kb] [文件加载：64]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+>>>>>>> 6249840c564ca401f90cd9bbbb3794364c0d3803
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
     0 => 'index',
+<<<<<<< HEAD
     1 => 'api',
     2 => 'order',
   ),
@@ -218,11 +330,44 @@
 [ log ] www.3b4y2.cn/index/api/allotorder [运行时间：0.048486s][吞吐率：20.62req/s] [内存消耗：3,268.48kb] [文件加载：54]
 [ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
 [ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+=======
+    1 => 'login',
+    2 => 'sendmsm',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/index/login/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/login/sendmsm/phone/13037196021' => '',
+  'phone' => '13037196021',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Login->sendmsm[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: errorMsg[C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Msm.php:63]
+
+---------------------------------------------------------------
+[ 2019-04-20T21:59:42+08:00 ] 127.0.0.1 127.0.0.1 GET /index/login/sendmsm/phone/13037196021
+[ log ] www.erheyi.com/index/login/sendmsm/phone/13037196021 [运行时间：0.117559s][吞吐率：8.51req/s] [内存消耗：2,122.98kb] [文件加载：64]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+>>>>>>> 6249840c564ca401f90cd9bbbb3794364c0d3803
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
     0 => 'index',
+<<<<<<< HEAD
     1 => 'api',
     2 => 'allotorder',
   ),
@@ -252,11 +397,44 @@
 [ log ] www.3b4y2.cn/index/api/order [运行时间：0.073405s][吞吐率：13.62req/s] [内存消耗：3,431.38kb] [文件加载：57]
 [ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
 [ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+=======
+    1 => 'login',
+    2 => 'sendmsm',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/index/login/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/login/sendmsm/phone/13037196021' => '',
+  'phone' => '13037196021',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Login->sendmsm[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: errorMsg[C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Msm.php:63]
+
+---------------------------------------------------------------
+[ 2019-04-20T21:59:47+08:00 ] 127.0.0.1 127.0.0.1 GET /index/login/sendmsm/phone/13037196021
+[ log ] www.erheyi.com/index/login/sendmsm/phone/13037196021 [运行时间：0.096764s][吞吐率：10.33req/s] [内存消耗：2,122.98kb] [文件加载：64]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+>>>>>>> 6249840c564ca401f90cd9bbbb3794364c0d3803
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
     0 => 'index',
+<<<<<<< HEAD
     1 => 'api',
     2 => 'order',
   ),
@@ -290,10 +468,43 @@
 [ log ] www.3b4y2.cn/index/api/allotorder [运行时间：0.044991s][吞吐率：22.23req/s] [内存消耗：3,268.48kb] [文件加载：54]
 [ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
 [ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+=======
+    1 => 'login',
+    2 => 'sendmsm',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/index/login/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/login/sendmsm/phone/13037196021' => '',
+  'phone' => '13037196021',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Login->sendmsm[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: errorMsg[C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Msm.php:63]
+
+---------------------------------------------------------------
+[ 2019-04-20T22:00:14+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] www.erheyi.com/ [运行时间：0.070110s][吞吐率：14.26req/s] [内存消耗：1,989.65kb] [文件加载：56]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+>>>>>>> 6249840c564ca401f90cd9bbbb3794364c0d3803
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
     0 => 'index',
     1 => 'api',
     2 => 'allotorder',
@@ -316,19 +527,48 @@
 [ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
 [ info ] [ DB ] INIT mysql
 [ info ] [ RUN ] app\index\controller\Api->allotorder[ C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Api.php ]
+=======
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+>>>>>>> 6249840c564ca401f90cd9bbbb3794364c0d3803
 [ info ] [ DB ] INIT mysql
 [ info ] [ LOG ] INIT File
 
 ---------------------------------------------------------------
+<<<<<<< HEAD
 [ 2019-04-20T22:03:42+08:00 ] 172.26.115.141 39.98.44.169 GET /index/api/order
 [ log ] www.3b4y2.cn/index/api/order [运行时间：0.073771s][吞吐率：13.56req/s] [内存消耗：3,431.38kb] [文件加载：57]
 [ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
 [ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+=======
+[ 2019-04-20T22:00:14+08:00 ] 127.0.0.1 127.0.0.1 GET /index/login/login/token/a9bc5e69a235e64256740b26dca17392.html
+[ log ] www.erheyi.com/index/login/login/token/a9bc5e69a235e64256740b26dca17392.html [运行时间：0.036486s][吞吐率：27.41req/s] [内存消耗：2,197.70kb] [文件加载：61]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+>>>>>>> 6249840c564ca401f90cd9bbbb3794364c0d3803
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
     0 => 'index',
+<<<<<<< HEAD
     1 => 'api',
     2 => 'order',
   ),
@@ -362,11 +602,47 @@
 [ log ] www.3b4y2.cn/index/api/allotorder [运行时间：0.045943s][吞吐率：21.77req/s] [内存消耗：3,268.48kb] [文件加载：54]
 [ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
 [ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+=======
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/login/login/token/a9bc5e69a235e64256740b26dca17392_html' => '',
+  'token' => 'a9bc5e69a235e64256740b26dca17392',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Login->login[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\code\weipan21_2019-4-18\weipan21/application/index\view\login\login.html [ array (
+  0 => 'conf',
+  1 => 'token',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T22:00:17+08:00 ] 127.0.0.1 127.0.0.1 POST /index/login/login.html
+[ log ] www.erheyi.com/index/login/login.html [运行时间：0.053769s][吞吐率：18.60req/s] [内存消耗：2,058.76kb] [文件加载：57]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+>>>>>>> 6249840c564ca401f90cd9bbbb3794364c0d3803
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
     0 => 'index',
+<<<<<<< HEAD
     1 => 'api',
     2 => 'allotorder',
   ),
@@ -388,19 +664,54 @@
 [ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
 [ info ] [ DB ] INIT mysql
 [ info ] [ RUN ] app\index\controller\Api->allotorder[ C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Api.php ]
+=======
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'content-length' => '27',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.erheyi.com/index/login/login/token/a9bc5e69a235e64256740b26dca17392.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/login/login_html' => '',
+  'username' => '123456',
+  'upwd' => '111111',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Login->login[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Login.php ]
+>>>>>>> 6249840c564ca401f90cd9bbbb3794364c0d3803
 [ info ] [ DB ] INIT mysql
 [ info ] [ LOG ] INIT File
 
 ---------------------------------------------------------------
+<<<<<<< HEAD
 [ 2019-04-20T22:03:43+08:00 ] 172.26.115.141 39.98.44.169 GET /index/api/order
 [ log ] www.3b4y2.cn/index/api/order [运行时间：0.073936s][吞吐率：13.53req/s] [内存消耗：3,431.38kb] [文件加载：57]
 [ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
 [ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+=======
+[ 2019-04-20T22:00:18+08:00 ] 127.0.0.1 127.0.0.1 GET /index/news/index/token/f7f268ab37c40a8b38f0afa5603fe96e.html
+[ log ] www.erheyi.com/index/news/index/token/f7f268ab37c40a8b38f0afa5603fe96e.html [运行时间：0.081789s][吞吐率：12.23req/s] [内存消耗：2,118.52kb] [文件加载：59]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+>>>>>>> 6249840c564ca401f90cd9bbbb3794364c0d3803
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
     0 => 'index',
+<<<<<<< HEAD
     1 => 'api',
     2 => 'order',
   ),
@@ -423,10 +734,33 @@
 [ info ] [ DB ] INIT mysql
 [ info ] [ RUN ] app\index\controller\Api->order[ C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Api.php ]
 [ info ] [ DB ] INIT mysql
+=======
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'referer' => 'http://www.erheyi.com/index/login/login/token/a9bc5e69a235e64256740b26dca17392.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/news/index/token/f7f268ab37c40a8b38f0afa5603fe96e_html' => '',
+  'token' => 'f7f268ab37c40a8b38f0afa5603fe96e',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+>>>>>>> 6249840c564ca401f90cd9bbbb3794364c0d3803
 [ info ] [ DB ] INIT mysql
 [ info ] [ DB ] INIT mysql
 [ info ] [ DB ] INIT mysql
 [ info ] [ CACHE ] INIT File
+<<<<<<< HEAD
 [ info ] [ LOG ] INIT File
 
 ---------------------------------------------------------------
@@ -434,11 +768,30 @@
 [ log ] www.3b4y2.cn/index/api/allotorder [运行时间：0.045947s][吞吐率：21.76req/s] [内存消耗：3,268.48kb] [文件加载：54]
 [ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
 [ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+=======
+[ info ] [ RUN ] app\index\controller\News->index[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\News.php ]
+[ info ] [ VIEW ] C:\code\weipan21_2019-4-18\weipan21/application/index\view\news\index.html [ array (
+  0 => 'token',
+  1 => 'time_status',
+  2 => 'point_status',
+  3 => 'actionname',
+  4 => 'userinfo',
+  5 => 'conf',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T22:00:20+08:00 ] 127.0.0.1 127.0.0.1 GET /index/user/index/token/e9a9e20f05c928fa9bd550b568fb8b85.html
+[ log ] www.erheyi.com/index/user/index/token/e9a9e20f05c928fa9bd550b568fb8b85.html [运行时间：0.228022s][吞吐率：4.39req/s] [内存消耗：2,698.88kb] [文件加载：62]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+>>>>>>> 6249840c564ca401f90cd9bbbb3794364c0d3803
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
     0 => 'index',
+<<<<<<< HEAD
     1 => 'api',
     2 => 'allotorder',
   ),
@@ -528,10 +881,40 @@
 [ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
 [ info ] [ DB ] INIT mysql
 [ info ] [ RUN ] app\index\controller\Api->order[ C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Api.php ]
+=======
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'referer' => 'http://www.erheyi.com/index/news/index/token/f7f268ab37c40a8b38f0afa5603fe96e.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/user/index/token/e9a9e20f05c928fa9bd550b568fb8b85_html' => '',
+  'token' => 'e9a9e20f05c928fa9bd550b568fb8b85',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\User->index[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+>>>>>>> 6249840c564ca401f90cd9bbbb3794364c0d3803
 [ info ] [ DB ] INIT mysql
 [ info ] [ DB ] INIT mysql
 [ info ] [ DB ] INIT mysql
 [ info ] [ DB ] INIT mysql
+<<<<<<< HEAD
 [ info ] [ CACHE ] INIT File
 [ info ] [ LOG ] INIT File
 
@@ -540,11 +923,39 @@
 [ log ] www.3b4y2.cn/index/api/order [运行时间：0.074860s][吞吐率：13.36req/s] [内存消耗：3,431.38kb] [文件加载：57]
 [ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
 [ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+=======
+[ info ] [ VIEW ] C:\code\weipan21_2019-4-18\weipan21/application/index\view\user\index.html [ array (
+  0 => 'token',
+  1 => 'time_status',
+  2 => 'point_status',
+  3 => 'actionname',
+  4 => 'userinfo',
+  5 => 'conf',
+  6 => 'bl',
+  7 => 'province',
+  8 => 'banks',
+  9 => 'mybank',
+  10 => 'order_list',
+  11 => 'oid_url',
+  12 => 'sub_bankno',
+  13 => 'orders',
+  14 => 'payment',
+  15 => 'reg_push',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T22:00:25+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/hold.html
+[ log ] www.erheyi.com/index/order/hold.html [运行时间：0.109881s][吞吐率：9.10req/s] [内存消耗：2,343.94kb] [文件加载：62]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+>>>>>>> 6249840c564ca401f90cd9bbbb3794364c0d3803
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
     0 => 'index',
+<<<<<<< HEAD
     1 => 'api',
     2 => 'order',
   ),
@@ -567,10 +978,32 @@
 [ info ] [ DB ] INIT mysql
 [ info ] [ RUN ] app\index\controller\Api->order[ C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Api.php ]
 [ info ] [ DB ] INIT mysql
+=======
+    1 => 'order',
+    2 => 'hold',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'referer' => 'http://www.erheyi.com/index/user/index/token/e9a9e20f05c928fa9bd550b568fb8b85.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/order/hold_html' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+>>>>>>> 6249840c564ca401f90cd9bbbb3794364c0d3803
 [ info ] [ DB ] INIT mysql
 [ info ] [ DB ] INIT mysql
 [ info ] [ DB ] INIT mysql
 [ info ] [ CACHE ] INIT File
+<<<<<<< HEAD
 [ info ] [ LOG ] INIT File
 
 ---------------------------------------------------------------
@@ -612,11 +1045,32 @@
 [ log ] www.3b4y2.cn/index/api/allotorder [运行时间：0.045620s][吞吐率：21.92req/s] [内存消耗：3,268.48kb] [文件加载：54]
 [ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
 [ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+=======
+[ info ] [ RUN ] app\index\controller\Order->hold[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\code\weipan21_2019-4-18\weipan21/application/index\view\order\hold.html [ array (
+  0 => 'token',
+  1 => 'time_status',
+  2 => 'point_status',
+  3 => 'actionname',
+  4 => 'userinfo',
+  5 => 'conf',
+  6 => 'hold',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T22:00:25+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/ajaxorder_list
+[ log ] www.erheyi.com/index/order/ajaxorder_list [运行时间：0.069947s][吞吐率：14.30req/s] [内存消耗：2,184.01kb] [文件加载：58]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+>>>>>>> 6249840c564ca401f90cd9bbbb3794364c0d3803
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
     0 => 'index',
+<<<<<<< HEAD
     1 => 'api',
     2 => 'allotorder',
   ),
@@ -673,10 +1127,32 @@
 [ info ] [ DB ] INIT mysql
 [ info ] [ RUN ] app\index\controller\Api->order[ C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Api.php ]
 [ info ] [ DB ] INIT mysql
+=======
+    1 => 'order',
+    2 => 'ajaxorder_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/index/order/hold.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/order/ajaxorder_list' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+>>>>>>> 6249840c564ca401f90cd9bbbb3794364c0d3803
 [ info ] [ DB ] INIT mysql
 [ info ] [ DB ] INIT mysql
 [ info ] [ DB ] INIT mysql
 [ info ] [ CACHE ] INIT File
+<<<<<<< HEAD
 [ info ] [ LOG ] INIT File
 
 ---------------------------------------------------------------
@@ -684,11 +1160,23 @@
 [ log ] www.3b4y2.cn/index/api/order [运行时间：0.061304s][吞吐率：16.31req/s] [内存消耗：3,431.38kb] [文件加载：57]
 [ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
 [ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+=======
+[ info ] [ RUN ] app\index\controller\Order->ajaxorder_list[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T22:00:26+08:00 ] 127.0.0.1 127.0.0.1 GET /index/order/orderlist?page=1
+[ log ] www.erheyi.com/index/order/orderlist?page=1 [运行时间：0.102630s][吞吐率：9.74req/s] [内存消耗：2,339.10kb] [文件加载：61]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+>>>>>>> 6249840c564ca401f90cd9bbbb3794364c0d3803
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
     0 => 'index',
+<<<<<<< HEAD
     1 => 'api',
     2 => 'order',
   ),
@@ -711,10 +1199,33 @@
 [ info ] [ DB ] INIT mysql
 [ info ] [ RUN ] app\index\controller\Api->order[ C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Api.php ]
 [ info ] [ DB ] INIT mysql
+=======
+    1 => 'order',
+    2 => 'orderlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/index/order/hold.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/order/orderlist' => '',
+  'page' => '1',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+>>>>>>> 6249840c564ca401f90cd9bbbb3794364c0d3803
 [ info ] [ DB ] INIT mysql
 [ info ] [ DB ] INIT mysql
 [ info ] [ DB ] INIT mysql
 [ info ] [ CACHE ] INIT File
+<<<<<<< HEAD
 [ info ] [ LOG ] INIT File
 
 ---------------------------------------------------------------
@@ -1940,6 +2451,662 @@
   1 => 'actionname',
   2 => 'userinfo',
   3 => 'conf',
+) ]
+=======
+[ info ] [ RUN ] app\index\controller\Order->orderlist[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+>>>>>>> 6249840c564ca401f90cd9bbbb3794364c0d3803
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T22:04:45+08:00 ] 172.26.115.141 39.98.44.169 GET /
+[ log ] www.3b4y2.cn/ [运行时间：0.052730s][吞吐率：18.96req/s] [内存消耗：3,084.05kb] [文件加载：56]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => 'www.3b4y2.cn',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T22:04:45+08:00 ] 172.26.115.141 39.98.44.169 GET /index/login/login/token/41b9f4dda5e8174c202679ea58f17928.html
+[ log ] www.3b4y2.cn/index/login/login/token/41b9f4dda5e8174c202679ea58f17928.html [运行时间：0.061110s][吞吐率：16.36req/s] [内存消耗：3,416.20kb] [文件加载：61]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'dnt' => '1',
+  'connection' => 'close',
+  'host' => 'www.3b4y2.cn',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+  '/index/login/login/token/41b9f4dda5e8174c202679ea58f17928_html' => '',
+  'token' => '41b9f4dda5e8174c202679ea58f17928',
+)
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Login->login[ C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\view\login\login.html [ array (
+  0 => 'conf',
+  1 => 'token',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T22:04:48+08:00 ] 172.26.115.141 39.98.44.169 GET /index/login/login/token/41b9f4dda5e8174c202679ea58f17928.html
+[ log ] www.3b4y2.cn/index/login/login/token/41b9f4dda5e8174c202679ea58f17928.html [运行时间：0.035968s][吞吐率：27.80req/s] [内存消耗：3,224.13kb] [文件加载：58]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => 'www.3b4y2.cn',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+  '/index/login/login/token/41b9f4dda5e8174c202679ea58f17928_html' => '',
+  'token' => '41b9f4dda5e8174c202679ea58f17928',
+)
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Login->login[ C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\view\login\login.html [ array (
+  0 => 'conf',
+  1 => 'token',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T22:04:49+08:00 ] 172.26.115.141 39.98.44.169 GET /index/login/login/token/41b9f4dda5e8174c202679ea58f17928.html
+[ log ] www.3b4y2.cn/index/login/login/token/41b9f4dda5e8174c202679ea58f17928.html [运行时间：0.039493s][吞吐率：25.32req/s] [内存消耗：3,224.13kb] [文件加载：58]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => 'www.3b4y2.cn',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+  '/index/login/login/token/41b9f4dda5e8174c202679ea58f17928_html' => '',
+  'token' => '41b9f4dda5e8174c202679ea58f17928',
+)
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Login->login[ C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\view\login\login.html [ array (
+  0 => 'conf',
+  1 => 'token',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T22:04:49+08:00 ] 172.26.115.141 61.129.6.151 GET /index/login/login/token/c37492697d972b5bc044524b1857061a.html
+[ log ] www.3b4y2.cn/index/login/login/token/c37492697d972b5bc044524b1857061a.html [运行时间：0.039430s][吞吐率：25.36req/s] [内存消耗：3,223.48kb] [文件加载：58]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => 'www.3b4y2.cn',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 MicroMessenger/6.5.5 NetType/WIFI Language/en',
+)
+[ info ] [ PARAM ] array (
+  '/index/login/login/token/c37492697d972b5bc044524b1857061a_html' => '',
+  'token' => 'c37492697d972b5bc044524b1857061a',
+)
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Login->login[ C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\view\login\login.html [ array (
+  0 => 'conf',
+  1 => 'token',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T22:04:50+08:00 ] 172.26.115.141 39.98.44.169 GET /index/login/login/token/41b9f4dda5e8174c202679ea58f17928.html
+[ log ] www.3b4y2.cn/index/login/login/token/41b9f4dda5e8174c202679ea58f17928.html [运行时间：0.040047s][吞吐率：24.97req/s] [内存消耗：3,224.13kb] [文件加载：58]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => 'www.3b4y2.cn',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+  '/index/login/login/token/41b9f4dda5e8174c202679ea58f17928_html' => '',
+  'token' => '41b9f4dda5e8174c202679ea58f17928',
+)
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Login->login[ C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\view\login\login.html [ array (
+  0 => 'conf',
+  1 => 'token',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T22:05:03+08:00 ] 172.26.115.141 61.151.178.236 GET /index/news/index/token/05a0f0d972d2d5b60dc596b234b271eb.html
+[ log ] www.3b4y2.cn/index/news/index/token/05a0f0d972d2d5b60dc596b234b271eb.html [运行时间：0.058591s][吞吐率：17.07req/s] [内存消耗：3,073.99kb] [文件加载：56]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => 'www.3b4y2.cn',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; OPPO R9s Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/37.0.0.0 Mobile MQQBrowser/6.9 TBS/036906 Safari/537.36 MicroMessenger/6.5.4.1000 NetType/4G Language/zh_CN',
+)
+[ info ] [ PARAM ] array (
+  '/index/news/index/token/05a0f0d972d2d5b60dc596b234b271eb_html' => '',
+  'token' => '05a0f0d972d2d5b60dc596b234b271eb',
+)
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T22:05:05+08:00 ] 172.26.115.141 58.48.146.122 GET /
+[ log ] www.3b4y2.cn/ [运行时间：0.057456s][吞吐率：17.40req/s] [内存消耗：3,084.31kb] [文件加载：56]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.3b4y2.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T22:05:06+08:00 ] 172.26.115.141 58.48.146.122 GET /index/login/login/token/8e36ffe37294025b0b07c422baf755cb.html
+[ log ] www.3b4y2.cn/index/login/login/token/8e36ffe37294025b0b07c422baf755cb.html [运行时间：0.034325s][吞吐率：29.13req/s] [内存消耗：3,224.09kb] [文件加载：58]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=0juoenugrs87robmjn2jria8s1; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.3b4y2.cn',
+)
+[ info ] [ PARAM ] array (
+  '/index/login/login/token/8e36ffe37294025b0b07c422baf755cb_html' => '',
+  'token' => '8e36ffe37294025b0b07c422baf755cb',
+)
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Login->login[ C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\view\login\login.html [ array (
+  0 => 'conf',
+  1 => 'token',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T22:05:06+08:00 ] 172.26.115.141 58.48.146.122 GET /favicon.ico
+[ log ] www.3b4y2.cn/favicon.ico [运行时间：0.021147s][吞吐率：47.29req/s] [内存消耗：1,855.65kb] [文件加载：42]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=0juoenugrs87robmjn2jria8s1; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.3b4y2.cn/index/login/login/token/8e36ffe37294025b0b07c422baf755cb.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.3b4y2.cn',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T22:05:08+08:00 ] 172.26.115.141 58.48.146.122 GET /index/login/login/token/8e36ffe37294025b0b07c422baf755cb.html
+[ log ] www.3b4y2.cn/index/login/login/token/8e36ffe37294025b0b07c422baf755cb.html [运行时间：0.034552s][吞吐率：28.94req/s] [内存消耗：3,224.69kb] [文件加载：58]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=0juoenugrs87robmjn2jria8s1; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.3b4y2.cn',
+)
+[ info ] [ PARAM ] array (
+  '/index/login/login/token/8e36ffe37294025b0b07c422baf755cb_html' => '',
+  'token' => '8e36ffe37294025b0b07c422baf755cb',
+)
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Login->login[ C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\view\login\login.html [ array (
+  0 => 'conf',
+  1 => 'token',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T22:05:09+08:00 ] 172.26.115.141 58.48.146.122 GET /index/login/login/token/8e36ffe37294025b0b07c422baf755cb.html
+[ log ] www.3b4y2.cn/index/login/login/token/8e36ffe37294025b0b07c422baf755cb.html [运行时间：0.035086s][吞吐率：28.50req/s] [内存消耗：3,224.69kb] [文件加载：58]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=0juoenugrs87robmjn2jria8s1; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.3b4y2.cn',
+)
+[ info ] [ PARAM ] array (
+  '/index/login/login/token/8e36ffe37294025b0b07c422baf755cb_html' => '',
+  'token' => '8e36ffe37294025b0b07c422baf755cb',
+)
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Login->login[ C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\view\login\login.html [ array (
+  0 => 'conf',
+  1 => 'token',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T22:05:09+08:00 ] 172.26.115.141 58.48.146.122 GET /index/login/login/token/8e36ffe37294025b0b07c422baf755cb.html
+[ log ] www.3b4y2.cn/index/login/login/token/8e36ffe37294025b0b07c422baf755cb.html [运行时间：0.035381s][吞吐率：28.26req/s] [内存消耗：3,224.69kb] [文件加载：58]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=0juoenugrs87robmjn2jria8s1; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.3b4y2.cn',
+)
+[ info ] [ PARAM ] array (
+  '/index/login/login/token/8e36ffe37294025b0b07c422baf755cb_html' => '',
+  'token' => '8e36ffe37294025b0b07c422baf755cb',
+)
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Login->login[ C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\view\login\login.html [ array (
+  0 => 'conf',
+  1 => 'token',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T22:05:09+08:00 ] 172.26.115.141 58.48.146.122 GET /index/login/login/token/8e36ffe37294025b0b07c422baf755cb.html
+[ log ] www.3b4y2.cn/index/login/login/token/8e36ffe37294025b0b07c422baf755cb.html [运行时间：0.038069s][吞吐率：26.27req/s] [内存消耗：3,224.69kb] [文件加载：58]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=0juoenugrs87robmjn2jria8s1; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.3b4y2.cn',
+)
+[ info ] [ PARAM ] array (
+  '/index/login/login/token/8e36ffe37294025b0b07c422baf755cb_html' => '',
+  'token' => '8e36ffe37294025b0b07c422baf755cb',
+)
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Login->login[ C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\view\login\login.html [ array (
+  0 => 'conf',
+  1 => 'token',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T22:05:09+08:00 ] 172.26.115.141 58.48.146.122 GET /index/login/login/token/8e36ffe37294025b0b07c422baf755cb.html
+[ log ] www.3b4y2.cn/index/login/login/token/8e36ffe37294025b0b07c422baf755cb.html [运行时间：0.035429s][吞吐率：28.23req/s] [内存消耗：3,224.69kb] [文件加载：58]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=0juoenugrs87robmjn2jria8s1; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.3b4y2.cn',
+)
+[ info ] [ PARAM ] array (
+  '/index/login/login/token/8e36ffe37294025b0b07c422baf755cb_html' => '',
+  'token' => '8e36ffe37294025b0b07c422baf755cb',
+)
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Login->login[ C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\view\login\login.html [ array (
+  0 => 'conf',
+  1 => 'token',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T22:05:09+08:00 ] 172.26.115.141 58.48.146.122 GET /index/login/login/token/8e36ffe37294025b0b07c422baf755cb.html
+[ log ] www.3b4y2.cn/index/login/login/token/8e36ffe37294025b0b07c422baf755cb.html [运行时间：0.034023s][吞吐率：29.39req/s] [内存消耗：3,224.69kb] [文件加载：58]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=0juoenugrs87robmjn2jria8s1; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.3b4y2.cn',
+)
+[ info ] [ PARAM ] array (
+  '/index/login/login/token/8e36ffe37294025b0b07c422baf755cb_html' => '',
+  'token' => '8e36ffe37294025b0b07c422baf755cb',
+)
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Login->login[ C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\view\login\login.html [ array (
+  0 => 'conf',
+  1 => 'token',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T22:05:09+08:00 ] 172.26.115.141 58.48.146.122 GET /index/login/login/token/8e36ffe37294025b0b07c422baf755cb.html
+[ log ] www.3b4y2.cn/index/login/login/token/8e36ffe37294025b0b07c422baf755cb.html [运行时间：0.036883s][吞吐率：27.11req/s] [内存消耗：3,224.69kb] [文件加载：58]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=0juoenugrs87robmjn2jria8s1; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.3b4y2.cn',
+)
+[ info ] [ PARAM ] array (
+  '/index/login/login/token/8e36ffe37294025b0b07c422baf755cb_html' => '',
+  'token' => '8e36ffe37294025b0b07c422baf755cb',
+)
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Login->login[ C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\view\login\login.html [ array (
+  0 => 'conf',
+  1 => 'token',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T22:05:09+08:00 ] 172.26.115.141 58.48.146.122 GET /index/login/login/token/8e36ffe37294025b0b07c422baf755cb.html
+[ log ] www.3b4y2.cn/index/login/login/token/8e36ffe37294025b0b07c422baf755cb.html [运行时间：0.034897s][吞吐率：28.66req/s] [内存消耗：3,224.69kb] [文件加载：58]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=0juoenugrs87robmjn2jria8s1; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.3b4y2.cn',
+)
+[ info ] [ PARAM ] array (
+  '/index/login/login/token/8e36ffe37294025b0b07c422baf755cb_html' => '',
+  'token' => '8e36ffe37294025b0b07c422baf755cb',
+)
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Login->login[ C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\youpi\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\view\login\login.html [ array (
+  0 => 'conf',
+  1 => 'token',
 ) ]
 [ info ] [ LOG ] INIT File
 

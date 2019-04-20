@@ -88,16 +88,16 @@ var order_max_price = {:getconf('order_max_price')};
                             <img src="__HOME__/img/logot.png" alt="" class="dd-index-img">
                             <div class="dd-index-ye">
                                 余额：
-                                <span>≈</span>
+
                             </div>
                             <div class="index-top-left-right">
-                                <p><img src="__HOME__/img/dd-ye.png" alt=""><span>{$userinfo.userdollor}</span> </p>
+
                                 <p><img src="__HOME__/img/dd-ye1.png" alt=""><span>{$userinfo.usermoney}</span></p>
                             </div>
                         </div> 
                        
                         <div class="index-top-right clearfix">
-                                <div class="ico-bottom-right dd-index-cc ">
+                                <!-- <div class="ico-bottom-right dd-index-cc ">
                                         <section   >
                                              <div class="">
                                                    <a href="/index/user/?id=tixian" >
@@ -108,11 +108,11 @@ var order_max_price = {:getconf('order_max_price')};
                                                   </a>
                                                 </div>
                                              </section>
-                                         </div>
+                                         </div> -->
                                 <div class="ico-bottom-right dd-index-cz ">
                                         <section   >
                                              <div class="">
-                                                   <a href="/index/user/?id=tixian" >
+                                                   <a href="/index/user/cash" >
                                                        
                                                         <div class="ico-title" style="color: #fff;">
                                                               <span>提币</span>
@@ -125,7 +125,7 @@ var order_max_price = {:getconf('order_max_price')};
                                     <section >
                                          <div class="">
                                                <!-- <a href="/index/user/?id=chongzhi" > -->
-                                                  <a href="/index/user/?id=chongzhi" >
+                                                  <a href="/index/user/recharge" >
                                                     <div class="ico-title" style="color: #fff;">
                                                           <span>充值</span>
                                                    </div>
@@ -141,7 +141,7 @@ var order_max_price = {:getconf('order_max_price')};
             <ul class="nav nav-pills nav-stacked custom-nav xz-ul">
                     <!-- {volist name="proname1" id="vo"} -->
                     
-                      <li class="xz-dw look" onclick="parent.location='{:url('point/point',array('pid'=>$vo['pid'],'token'=>$token))}';"  id="pid{$vo.pid}" style="padding:10px 0;"><a ><span>{$vo.ptitle}</span></a>
+                      <li pid="{$vo.pid}" class="xz-dw look qwee" onclick="parent.location='{:url('point/point',array('pid'=>$vo['pid'],'token'=>$token))}';"  id="pid{$vo.pid}" style="padding:10px 0;"><a ><span>{$vo.ptitle}</span></a>
                               
                        <span><i class="ng-binding  data-price{$vo.pid}">{$vo.Price}</i> </span>
                         
@@ -149,7 +149,28 @@ var order_max_price = {:getconf('order_max_price')};
                     <!-- {/volist} --> 
                   </ul>
             <!--sidebar nav end-->
+            <style>
+                .bg{
+                    background: #e8af2e;padding: 0px 15px
+                }
+            </style>
+            <script>
 
+                $(function () {
+                    var cur_url = window.location.href;
+                    var arr = cur_url .split("pid/");
+                    if (arr[1] !== undefined){
+                        var num = arr[1].indexOf('/');
+                        var pid = arr[1].substring(0,num);
+                        $('.qwee').each(function (k1,v1) {
+                            var _pid = $(this).attr('pid')
+                            if (_pid == pid){
+                                $(this).addClass('bg')
+                            }
+                        })
+                    }
+                })
+            </script>
         </div>
     
     <!-- left side end-->
@@ -252,12 +273,16 @@ var order_max_price = {:getconf('order_max_price')};
   <div class="foot-xiadan">
         <ul class="goods-bottom-ul clearfix" >
             
-                <li class="trade-chart-period line " ><a href="#" onclick="change_chart_type('line')">走势</a></li>
-                <li class="trade-chart-period 1M active" onclick="change_chart_period('1M','stock')"><a href="#">1M</a></li>
-                <li class="trade-chart-period 5M" onclick="change_chart_period('5M','stock')"><a href="#">5M</a></li> 
-                <li   class="trade-chart-period 15M" onclick="change_chart_period('15M','stock')"><a href="#">15M</a></li> 
-                <li class="trade-chart-period 30M" onclick="change_chart_period('30M','stock')"><a href="#">30M</a></li> 
-                <li class="trade-chart-period 1D" onclick="change_chart_period('1D','stock')"><a href="#">1D</a></li>
+
+                <li class="trade-chart-period line " ><a href="#" onclick="change_chart_type('line')">分时图</a></li>
+                <li class="trade-chart-period 1M active" onclick="change_chart_period('1M','stock')"><a href="#">1分钟k线</a></li>
+                <li class="trade-chart-period 5M" onclick="change_chart_period('5M','stock')"><a href="#">5分钟k线</a></li>
+                <li   class="trade-chart-period 15M" onclick="change_chart_period('15M','stock')"><a href="#">15分钟k线</a></li>
+                <li class="trade-chart-period 30M" onclick="change_chart_period('30M','stock')"><a href="#">30分钟k线</a></li>
+                <li class="trade-chart-period 1D" onclick="change_chart_period('1D','stock')"><a href="#">日线</a></li>
+
+
+
         </ul>
      {if $isopen == 1}
                   <div class="col-md-12" style="padding-left: 0px;padding-right: 0px; ">
@@ -391,7 +416,7 @@ var order_max_price = {:getconf('order_max_price')};
                                                                   
                                                                   <div style="width: 100%;">
                                                                    	{volist name="pay_choose_arr" id="vo" key='k'}
-                                                                        <a class="{if $k==1} active {/if} btn bth-color amount-box ng-binding" href="javascript:checkPrice({$vo});" data-price="{$vo}" style="width: 31%;    margin-top: 3px;">${$vo}</a>
+                                                                        <a class="{if $k==1} active {/if} btn bth-color amount-box ng-binding" href="javascript:checkPrice({$vo});" data-price="{$vo}" style="width: 31%;    margin-top: 3px;">￥{$vo}</a>
                                                                      {/volist}
                                                                     
                                                                      
