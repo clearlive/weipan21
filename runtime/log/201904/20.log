@@ -23819,3 +23819,973 @@
 [ info ] [ LOG ] INIT File
 
 ---------------------------------------------------------------
+[ 2019-04-20T19:32:34+08:00 ] ::1 ::1 GET /index/user/index.html
+[ log ] localhost/index/user/index.html [运行时间：0.216968s][吞吐率：4.61req/s] [内存消耗：3,777.71kb] [文件加载：59]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lrclsatsp0h5kackfi8lvphcb6; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/login/respass.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/user/index_html' => '',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\User->index[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\view\user\index.html [ array (
+  0 => 'token',
+  1 => 'time_status',
+  2 => 'point_status',
+  3 => 'actionname',
+  4 => 'userinfo',
+  5 => 'conf',
+  6 => 'bl',
+  7 => 'province',
+  8 => 'banks',
+  9 => 'mybank',
+  10 => 'order_list',
+  11 => 'oid_url',
+  12 => 'sub_bankno',
+  13 => 'orders',
+  14 => 'payment',
+  15 => 'reg_push',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T19:32:36+08:00 ] ::1 ::1 GET /index/login/logout
+[ log ] localhost/index/login/logout [运行时间：0.031544s][吞吐率：31.70req/s] [内存消耗：2,356.48kb] [文件加载：52]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'logout',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lrclsatsp0h5kackfi8lvphcb6; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/user/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/login/logout' => '',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Login->logout[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T19:32:36+08:00 ] ::1 ::1 GET /index/login/login/token/d06f3a8f244a18ba3b760d3e8cd1bc6f.html
+[ log ] localhost/index/login/login/token/d06f3a8f244a18ba3b760d3e8cd1bc6f.html [运行时间：0.036535s][吞吐率：27.37req/s] [内存消耗：3,194.98kb] [文件加载：58]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lrclsatsp0h5kackfi8lvphcb6; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/user/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/login/login/token/d06f3a8f244a18ba3b760d3e8cd1bc6f_html' => '',
+  'token' => 'd06f3a8f244a18ba3b760d3e8cd1bc6f',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Login->login[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\view\login\login.html [ array (
+  0 => 'conf',
+  1 => 'token',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T19:32:37+08:00 ] ::1 ::1 GET /index/login/register.html
+[ log ] localhost/index/login/register.html [运行时间：0.036992s][吞吐率：27.03req/s] [内存消耗：3,194.54kb] [文件加载：58]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'register',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lrclsatsp0h5kackfi8lvphcb6; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/login/login/token/d06f3a8f244a18ba3b760d3e8cd1bc6f.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/login/register_html' => '',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Login->register[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\view\login\register.html [ array (
+  0 => 'conf',
+  1 => 'token',
+  2 => 'oid',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T19:32:40+08:00 ] ::1 ::1 GET /index/login/login.html
+[ log ] localhost/index/login/login.html [运行时间：0.035112s][吞吐率：28.48req/s] [内存消耗：3,194.45kb] [文件加载：58]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lrclsatsp0h5kackfi8lvphcb6; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/login/register.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/login/login_html' => '',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Login->login[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\view\login\login.html [ array (
+  0 => 'conf',
+  1 => 'token',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T19:32:42+08:00 ] ::1 ::1 GET /index/login/addpwd.html
+[ log ] localhost/index/login/addpwd.html [运行时间：0.035897s][吞吐率：27.86req/s] [内存消耗：2,375.32kb] [文件加载：54]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'addpwd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lrclsatsp0h5kackfi8lvphcb6; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/login/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/login/addpwd_html' => '',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Login->addpwd[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: uid[D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Login.php:245]
+
+---------------------------------------------------------------
+[ 2019-04-20T19:32:45+08:00 ] ::1 ::1 GET /index/login/login.html
+[ log ] localhost/index/login/login.html [运行时间：0.034947s][吞吐率：28.61req/s] [内存消耗：3,194.45kb] [文件加载：58]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lrclsatsp0h5kackfi8lvphcb6; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/login/register.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/login/login_html' => '',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Login->login[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\view\login\login.html [ array (
+  0 => 'conf',
+  1 => 'token',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T19:33:32+08:00 ] ::1 ::1 GET /index/login/login.html
+[ log ] localhost/index/login/login.html [运行时间：0.133012s][吞吐率：7.52req/s] [内存消耗：3,386.38kb] [文件加载：61]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lrclsatsp0h5kackfi8lvphcb6; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/login/register.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/login/login_html' => '',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Login->login[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\view\login\login.html [ array (
+  0 => 'conf',
+  1 => 'token',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T19:33:38+08:00 ] ::1 ::1 POST /index/login/login.html
+[ log ] localhost/index/login/login.html [运行时间：0.045356s][吞吐率：22.05req/s] [内存消耗：3,175.03kb] [文件加载：57]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lrclsatsp0h5kackfi8lvphcb6; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/login/login.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '32',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/login/login_html' => '',
+  'username' => '18866666666',
+  'upwd' => '123456',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Login->login[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T19:33:41+08:00 ] ::1 ::1 POST /index/login/login.html
+[ log ] localhost/index/login/login.html [运行时间：0.039844s][吞吐率：25.10req/s] [内存消耗：3,170.13kb] [文件加载：57]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lrclsatsp0h5kackfi8lvphcb6; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/login/login.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '32',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/login/login_html' => '',
+  'username' => '18866666666',
+  'upwd' => '123123',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Login->login[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T19:33:43+08:00 ] ::1 ::1 GET /index/news/index/token/10264f8dc476f52251af7dccdc4e4611.html
+[ log ] localhost/index/news/index/token/10264f8dc476f52251af7dccdc4e4611.html [运行时间：0.068638s][吞吐率：14.57req/s] [内存消耗：3,256.53kb] [文件加载：59]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lrclsatsp0h5kackfi8lvphcb6; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/login/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/news/index/token/10264f8dc476f52251af7dccdc4e4611_html' => '',
+  'token' => '10264f8dc476f52251af7dccdc4e4611',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\News->index[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\News.php ]
+[ info ] [ VIEW ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\view\news\index.html [ array (
+  0 => 'token',
+  1 => 'time_status',
+  2 => 'point_status',
+  3 => 'actionname',
+  4 => 'userinfo',
+  5 => 'conf',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T19:33:44+08:00 ] ::1 ::1 GET /index/user/index/token/371b8200ef6491606e70a0b617919be8.html
+[ log ] localhost/index/user/index/token/371b8200ef6491606e70a0b617919be8.html [运行时间：0.118121s][吞吐率：8.47req/s] [内存消耗：3,778.73kb] [文件加载：59]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lrclsatsp0h5kackfi8lvphcb6; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/news/index/token/10264f8dc476f52251af7dccdc4e4611.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/user/index/token/371b8200ef6491606e70a0b617919be8_html' => '',
+  'token' => '371b8200ef6491606e70a0b617919be8',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\User->index[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\view\user\index.html [ array (
+  0 => 'token',
+  1 => 'time_status',
+  2 => 'point_status',
+  3 => 'actionname',
+  4 => 'userinfo',
+  5 => 'conf',
+  6 => 'bl',
+  7 => 'province',
+  8 => 'banks',
+  9 => 'mybank',
+  10 => 'order_list',
+  11 => 'oid_url',
+  12 => 'sub_bankno',
+  13 => 'orders',
+  14 => 'payment',
+  15 => 'reg_push',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T19:33:49+08:00 ] ::1 ::1 GET /index/user/index/token/371b8200ef6491606e70a0b617919be8.html
+[ log ] localhost/index/user/index/token/371b8200ef6491606e70a0b617919be8.html [运行时间：0.080708s][吞吐率：12.39req/s] [内存消耗：3,778.69kb] [文件加载：59]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lrclsatsp0h5kackfi8lvphcb6; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/news/index/token/10264f8dc476f52251af7dccdc4e4611.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/user/index/token/371b8200ef6491606e70a0b617919be8_html' => '',
+  'token' => '371b8200ef6491606e70a0b617919be8',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\User->index[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\view\user\index.html [ array (
+  0 => 'token',
+  1 => 'time_status',
+  2 => 'point_status',
+  3 => 'actionname',
+  4 => 'userinfo',
+  5 => 'conf',
+  6 => 'bl',
+  7 => 'province',
+  8 => 'banks',
+  9 => 'mybank',
+  10 => 'order_list',
+  11 => 'oid_url',
+  12 => 'sub_bankno',
+  13 => 'orders',
+  14 => 'payment',
+  15 => 'reg_push',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T19:33:49+08:00 ] ::1 ::1 GET /index/login/logout
+[ log ] localhost/index/login/logout [运行时间：0.034721s][吞吐率：28.80req/s] [内存消耗：2,356.82kb] [文件加载：52]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'logout',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lrclsatsp0h5kackfi8lvphcb6; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/user/index/token/371b8200ef6491606e70a0b617919be8.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/login/logout' => '',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Login->logout[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T19:33:49+08:00 ] ::1 ::1 GET /index/login/login/token/4e7a043c8be79160e9c51b5267ffb903.html
+[ log ] localhost/index/login/login/token/4e7a043c8be79160e9c51b5267ffb903.html [运行时间：0.041016s][吞吐率：24.38req/s] [内存消耗：3,195.31kb] [文件加载：58]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lrclsatsp0h5kackfi8lvphcb6; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/user/index/token/371b8200ef6491606e70a0b617919be8.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/login/login/token/4e7a043c8be79160e9c51b5267ffb903_html' => '',
+  'token' => '4e7a043c8be79160e9c51b5267ffb903',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Login->login[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\view\login\login.html [ array (
+  0 => 'conf',
+  1 => 'token',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T19:33:54+08:00 ] ::1 ::1 POST /index/login/login.html
+[ log ] localhost/index/login/login.html [运行时间：0.043372s][吞吐率：23.06req/s] [内存消耗：3,175.48kb] [文件加载：57]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lrclsatsp0h5kackfi8lvphcb6; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/login/login/token/4e7a043c8be79160e9c51b5267ffb903.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '32',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/login/login_html' => '',
+  'username' => '18866666666',
+  'upwd' => '123456',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Login->login[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T19:33:56+08:00 ] ::1 ::1 POST /index/login/login.html
+[ log ] localhost/index/login/login.html [运行时间：0.048187s][吞吐率：20.75req/s] [内存消耗：3,170.49kb] [文件加载：57]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lrclsatsp0h5kackfi8lvphcb6; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/login/login/token/4e7a043c8be79160e9c51b5267ffb903.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '32',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/login/login_html' => '',
+  'username' => '18866666666',
+  'upwd' => '123123',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Login->login[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T19:33:57+08:00 ] ::1 ::1 GET /index/news/index/token/44625062b33c1b711c9458270efde3e6.html
+[ log ] localhost/index/news/index/token/44625062b33c1b711c9458270efde3e6.html [运行时间：0.056808s][吞吐率：17.60req/s] [内存消耗：3,256.89kb] [文件加载：59]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lrclsatsp0h5kackfi8lvphcb6; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/login/login/token/4e7a043c8be79160e9c51b5267ffb903.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/news/index/token/44625062b33c1b711c9458270efde3e6_html' => '',
+  'token' => '44625062b33c1b711c9458270efde3e6',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\News->index[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\News.php ]
+[ info ] [ VIEW ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\view\news\index.html [ array (
+  0 => 'token',
+  1 => 'time_status',
+  2 => 'point_status',
+  3 => 'actionname',
+  4 => 'userinfo',
+  5 => 'conf',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T19:33:58+08:00 ] ::1 ::1 GET /index/user/index/token/06c1b45374e5efc6925020f3de69f2a0.html
+[ log ] localhost/index/user/index/token/06c1b45374e5efc6925020f3de69f2a0.html [运行时间：0.105277s][吞吐率：9.50req/s] [内存消耗：3,779.27kb] [文件加载：59]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lrclsatsp0h5kackfi8lvphcb6; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/news/index/token/44625062b33c1b711c9458270efde3e6.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/user/index/token/06c1b45374e5efc6925020f3de69f2a0_html' => '',
+  'token' => '06c1b45374e5efc6925020f3de69f2a0',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\User->index[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\view\user\index.html [ array (
+  0 => 'token',
+  1 => 'time_status',
+  2 => 'point_status',
+  3 => 'actionname',
+  4 => 'userinfo',
+  5 => 'conf',
+  6 => 'bl',
+  7 => 'province',
+  8 => 'banks',
+  9 => 'mybank',
+  10 => 'order_list',
+  11 => 'oid_url',
+  12 => 'sub_bankno',
+  13 => 'orders',
+  14 => 'payment',
+  15 => 'reg_push',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T19:34:02+08:00 ] ::1 ::1 GET /index/login/logout
+[ log ] localhost/index/login/logout [运行时间：0.032712s][吞吐率：30.57req/s] [内存消耗：2,356.75kb] [文件加载：52]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'logout',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lrclsatsp0h5kackfi8lvphcb6; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/user/index/token/06c1b45374e5efc6925020f3de69f2a0.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/login/logout' => '',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Login->logout[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T19:34:02+08:00 ] ::1 ::1 GET /index/login/login/token/72c3b8a79bb58fd236db279d57cfc340.html
+[ log ] localhost/index/login/login/token/72c3b8a79bb58fd236db279d57cfc340.html [运行时间：0.036271s][吞吐率：27.57req/s] [内存消耗：3,195.29kb] [文件加载：58]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lrclsatsp0h5kackfi8lvphcb6; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/user/index/token/06c1b45374e5efc6925020f3de69f2a0.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/login/login/token/72c3b8a79bb58fd236db279d57cfc340_html' => '',
+  'token' => '72c3b8a79bb58fd236db279d57cfc340',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Login->login[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\view\login\login.html [ array (
+  0 => 'conf',
+  1 => 'token',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T19:34:04+08:00 ] ::1 ::1 GET /index/login/addpwd.html
+[ log ] localhost/index/login/addpwd.html [运行时间：0.036607s][吞吐率：27.32req/s] [内存消耗：2,375.22kb] [文件加载：54]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'addpwd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=lrclsatsp0h5kackfi8lvphcb6; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/login/login/token/72c3b8a79bb58fd236db279d57cfc340.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/login/addpwd_html' => '',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Login->addpwd[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: uid[D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Login.php:245]
+
+---------------------------------------------------------------

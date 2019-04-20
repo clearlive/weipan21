@@ -242,10 +242,11 @@ class Login extends Controller
     public function addpwd()
     {
         
-        $uid = $_SESSION['uid'];
-        if(!$uid){
+        if(isset($_SESSION['uid'])){
             $this->redirect('index/index');
         }
+        $uid = $_SESSION['uid'];
+        var_dump($uid);die();
         //查找用户是否已经有了密码
         $user = Db::name('userinfo')->where('uid',$uid)->field('upwd,utime,oid')->find();
         /*
