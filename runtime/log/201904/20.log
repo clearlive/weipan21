@@ -40726,3 +40726,253 @@
 [ info ] [ LOG ] INIT File
 
 ---------------------------------------------------------------
+[ 2019-04-20T19:22:22+08:00 ] 127.0.0.1 127.0.0.1 GET /index/user/cash.html
+[ log ] www.erheyi.com/index/user/cash.html [运行时间：0.104017s][吞吐率：9.61req/s] [内存消耗：2,253.41kb] [文件加载：59]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'cash',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'pid32=5307.91; pid29=82.075; pid27=145.48; pid25=1.32388; pid23=82.045; pid13=109.613; pid12=5307.51; pid11=1.73956; pid10=1.81697; pid9=0.86523; pid8=0.98572; pid7=1.29942; pid6=145.4502; PHPSESSID=6i0lnv568g0115m5annss6snn4',
+  'connection' => 'close',
+  'referer' => 'http://www.erheyi.com/index/user/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/user/cash_html' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\User->cash[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\code\weipan21_2019-4-18\weipan21/application/index\view\user\cash.html [ array (
+  0 => 'token',
+  1 => 'time_status',
+  2 => 'point_status',
+  3 => 'actionname',
+  4 => 'userinfo',
+  5 => 'conf',
+  6 => 'mybank',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T19:22:25+08:00 ] 127.0.0.1 127.0.0.1 GET /index/user/index.html
+[ log ] www.erheyi.com/index/user/index.html [运行时间：0.205069s][吞吐率：4.88req/s] [内存消耗：2,494.12kb] [文件加载：59]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'pid32=5307.91; pid29=82.075; pid27=145.48; pid25=1.32388; pid23=82.045; pid13=109.613; pid12=5307.51; pid11=1.73956; pid10=1.81697; pid9=0.86523; pid8=0.98572; pid7=1.29942; pid6=145.4502; PHPSESSID=6i0lnv568g0115m5annss6snn4; think_var=zh-cn',
+  'connection' => 'close',
+  'referer' => 'http://www.erheyi.com/index/login/respass.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/user/index_html' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\User->index[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\code\weipan21_2019-4-18\weipan21/application/index\view\user\index.html [ array (
+  0 => 'token',
+  1 => 'time_status',
+  2 => 'point_status',
+  3 => 'actionname',
+  4 => 'userinfo',
+  5 => 'conf',
+  6 => 'bl',
+  7 => 'province',
+  8 => 'banks',
+  9 => 'mybank',
+  10 => 'order_list',
+  11 => 'oid_url',
+  12 => 'sub_bankno',
+  13 => 'orders',
+  14 => 'payment',
+  15 => 'reg_push',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T19:22:25+08:00 ] 127.0.0.1 127.0.0.1 GET /index/user/cash.html
+[ log ] www.erheyi.com/index/user/cash.html [运行时间：0.137053s][吞吐率：7.30req/s] [内存消耗：2,252.55kb] [文件加载：59]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'cash',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'pid32=5307.91; pid29=82.075; pid27=145.48; pid25=1.32388; pid23=82.045; pid13=109.613; pid12=5307.51; pid11=1.73956; pid10=1.81697; pid9=0.86523; pid8=0.98572; pid7=1.29942; pid6=145.4502; PHPSESSID=6i0lnv568g0115m5annss6snn4; think_var=zh-cn',
+  'connection' => 'close',
+  'referer' => 'http://www.erheyi.com/index/user/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/user/cash_html' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\User->cash[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\code\weipan21_2019-4-18\weipan21/application/index\view\user\cash.html [ array (
+  0 => 'token',
+  1 => 'time_status',
+  2 => 'point_status',
+  3 => 'actionname',
+  4 => 'userinfo',
+  5 => 'conf',
+  6 => 'mybank',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T19:22:29+08:00 ] 127.0.0.1 127.0.0.1 GET /index/user/index.html
+[ log ] www.erheyi.com/index/user/index.html [运行时间：0.229043s][吞吐率：4.37req/s] [内存消耗：2,494.12kb] [文件加载：59]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'pid32=5307.91; pid29=82.075; pid27=145.48; pid25=1.32388; pid23=82.045; pid13=109.613; pid12=5307.51; pid11=1.73956; pid10=1.81697; pid9=0.86523; pid8=0.98572; pid7=1.29942; pid6=145.4502; PHPSESSID=6i0lnv568g0115m5annss6snn4; think_var=zh-cn',
+  'connection' => 'close',
+  'referer' => 'http://www.erheyi.com/index/login/respass.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/user/index_html' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\User->index[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\code\weipan21_2019-4-18\weipan21/application/index\view\user\index.html [ array (
+  0 => 'token',
+  1 => 'time_status',
+  2 => 'point_status',
+  3 => 'actionname',
+  4 => 'userinfo',
+  5 => 'conf',
+  6 => 'bl',
+  7 => 'province',
+  8 => 'banks',
+  9 => 'mybank',
+  10 => 'order_list',
+  11 => 'oid_url',
+  12 => 'sub_bankno',
+  13 => 'orders',
+  14 => 'payment',
+  15 => 'reg_push',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T19:27:04+08:00 ] 127.0.0.1 127.0.0.1 GET /index/login/respass.html
+[ log ] www.erheyi.com/index/login/respass.html [运行时间：0.032283s][吞吐率：30.98req/s] [内存消耗：1,551.64kb] [文件加载：52]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'respass',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'pid32=5307.91; pid29=82.075; pid27=145.48; pid25=1.32388; pid23=82.045; pid13=109.613; pid12=5307.51; pid11=1.73956; pid10=1.81697; pid9=0.86523; pid8=0.98572; pid7=1.29942; pid6=145.4502; PHPSESSID=6i0lnv568g0115m5annss6snn4; think_var=zh-cn',
+  'connection' => 'close',
+  'referer' => 'http://www.erheyi.com/index/user/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/login/respass_html' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Login->respass[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Login.php ]
+[ info ] [ VIEW ] C:\code\weipan21_2019-4-18\weipan21/application/index\view\login\respass.html [ array (
+  0 => 'conf',
+  1 => 'token',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
