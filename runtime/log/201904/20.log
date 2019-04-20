@@ -38973,3 +38973,3100 @@
 [ info ] [ LOG ] INIT File
 
 ---------------------------------------------------------------
+[ 2019-04-20T21:57:37+08:00 ] 127.0.0.1 127.0.0.1 GET /index/api/order
+[ log ] www.erheyi.com/index/api/order [运行时间：0.162663s][吞吐率：6.15req/s] [内存消耗：2,461.42kb] [文件加载：57]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'order',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/coller123.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/order' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->order[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:57:39+08:00 ] 127.0.0.1 127.0.0.1 GET /index/api/getdate
+[ log ] www.erheyi.com/index/api/getdate [运行时间：0.982605s][吞吐率：1.02req/s] [内存消耗：2,733.91kb] [文件加载：56]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'getdate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/coller123.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/getdate' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->getdate[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:57:39+08:00 ] 127.0.0.1 127.0.0.1 GET /index/api/allotorder
+[ log ] www.erheyi.com/index/api/allotorder [运行时间：0.043384s][吞吐率：23.05req/s] [内存消耗：2,103.87kb] [文件加载：54]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'allotorder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/coller123.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/allotorder' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->allotorder[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:57:39+08:00 ] 127.0.0.1 127.0.0.1 GET /index/api/order
+[ log ] www.erheyi.com/index/api/order [运行时间：0.173183s][吞吐率：5.77req/s] [内存消耗：2,461.42kb] [文件加载：57]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'order',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/coller123.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/order' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->order[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:57:40+08:00 ] 127.0.0.1 127.0.0.1 GET /index/api/allotorder
+[ log ] www.erheyi.com/index/api/allotorder [运行时间：0.050094s][吞吐率：19.96req/s] [内存消耗：2,103.87kb] [文件加载：54]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'allotorder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/coller123.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/allotorder' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->allotorder[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:57:40+08:00 ] 127.0.0.1 127.0.0.1 GET /index/api/order
+[ log ] www.erheyi.com/index/api/order [运行时间：0.203756s][吞吐率：4.91req/s] [内存消耗：2,461.42kb] [文件加载：57]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'order',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/coller123.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/order' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->order[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:57:41+08:00 ] 127.0.0.1 127.0.0.1 GET /index/api/getdate
+[ log ] www.erheyi.com/index/api/getdate [运行时间：0.886818s][吞吐率：1.13req/s] [内存消耗：2,733.93kb] [文件加载：56]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'getdate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/coller123.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/getdate' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->getdate[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:57:41+08:00 ] 127.0.0.1 127.0.0.1 GET /index/api/allotorder
+[ log ] www.erheyi.com/index/api/allotorder [运行时间：0.050621s][吞吐率：19.75req/s] [内存消耗：2,103.87kb] [文件加载：54]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'allotorder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/coller123.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/allotorder' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->allotorder[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:57:42+08:00 ] 127.0.0.1 127.0.0.1 GET /index/api/order
+[ log ] www.erheyi.com/index/api/order [运行时间：0.242141s][吞吐率：4.13req/s] [内存消耗：2,461.42kb] [文件加载：57]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'order',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/coller123.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/order' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->order[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:57:43+08:00 ] 127.0.0.1 127.0.0.1 GET /index/api/allotorder
+[ log ] www.erheyi.com/index/api/allotorder [运行时间：0.059289s][吞吐率：16.87req/s] [内存消耗：2,103.87kb] [文件加载：54]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'allotorder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/coller123.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/allotorder' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->allotorder[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:57:43+08:00 ] 127.0.0.1 127.0.0.1 GET /index/api/order
+[ log ] www.erheyi.com/index/api/order [运行时间：0.244214s][吞吐率：4.09req/s] [内存消耗：2,461.42kb] [文件加载：57]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'order',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/coller123.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/order' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->order[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:57:44+08:00 ] 127.0.0.1 127.0.0.1 GET /index/api/getdate
+[ log ] www.erheyi.com/index/api/getdate [运行时间：0.879684s][吞吐率：1.14req/s] [内存消耗：2,733.91kb] [文件加载：56]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'getdate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/coller123.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/getdate' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->getdate[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:57:44+08:00 ] 127.0.0.1 127.0.0.1 GET /index/api/allotorder
+[ log ] www.erheyi.com/index/api/allotorder [运行时间：0.039951s][吞吐率：25.03req/s] [内存消耗：2,103.87kb] [文件加载：54]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'allotorder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/coller123.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/allotorder' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->allotorder[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:57:45+08:00 ] 127.0.0.1 127.0.0.1 GET /index/api/order
+[ log ] www.erheyi.com/index/api/order [运行时间：0.276378s][吞吐率：3.62req/s] [内存消耗：2,461.42kb] [文件加载：57]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'order',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/coller123.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/order' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->order[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:57:46+08:00 ] 127.0.0.1 127.0.0.1 GET /index/api/allotorder
+[ log ] www.erheyi.com/index/api/allotorder [运行时间：0.062999s][吞吐率：15.87req/s] [内存消耗：2,103.87kb] [文件加载：54]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'allotorder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/coller123.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/allotorder' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->allotorder[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:57:46+08:00 ] 127.0.0.1 127.0.0.1 GET /index/api/order
+[ log ] www.erheyi.com/index/api/order [运行时间：0.209774s][吞吐率：4.77req/s] [内存消耗：2,461.42kb] [文件加载：57]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'order',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/coller123.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/order' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->order[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:57:47+08:00 ] 127.0.0.1 127.0.0.1 GET /index/api/getdate
+[ log ] www.erheyi.com/index/api/getdate [运行时间：0.880358s][吞吐率：1.14req/s] [内存消耗：2,733.91kb] [文件加载：56]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'getdate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/coller123.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/getdate' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->getdate[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:57:47+08:00 ] 127.0.0.1 127.0.0.1 GET /index/api/allotorder
+[ log ] www.erheyi.com/index/api/allotorder [运行时间：0.043036s][吞吐率：23.24req/s] [内存消耗：2,103.87kb] [文件加载：54]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'allotorder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/coller123.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/allotorder' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->allotorder[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:57:48+08:00 ] 127.0.0.1 127.0.0.1 GET /index/api/order
+[ log ] www.erheyi.com/index/api/order [运行时间：0.174167s][吞吐率：5.74req/s] [内存消耗：2,461.42kb] [文件加载：57]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'order',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/coller123.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/order' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->order[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:57:49+08:00 ] 127.0.0.1 127.0.0.1 GET /index/api/allotorder
+[ log ] www.erheyi.com/index/api/allotorder [运行时间：0.052839s][吞吐率：18.93req/s] [内存消耗：2,103.87kb] [文件加载：54]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'allotorder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/coller123.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/allotorder' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->allotorder[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:57:49+08:00 ] 127.0.0.1 127.0.0.1 GET /index/api/order
+[ log ] www.erheyi.com/index/api/order [运行时间：0.227052s][吞吐率：4.40req/s] [内存消耗：2,461.42kb] [文件加载：57]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'order',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/coller123.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/order' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->order[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:57:50+08:00 ] 127.0.0.1 127.0.0.1 GET /index/api/getdate
+[ log ] www.erheyi.com/index/api/getdate [运行时间：0.964773s][吞吐率：1.04req/s] [内存消耗：2,733.91kb] [文件加载：56]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'getdate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/coller123.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/getdate' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->getdate[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:57:51+08:00 ] 127.0.0.1 127.0.0.1 GET /index/api/allotorder
+[ log ] www.erheyi.com/index/api/allotorder [运行时间：0.060945s][吞吐率：16.41req/s] [内存消耗：2,103.87kb] [文件加载：54]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'allotorder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/coller123.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/allotorder' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->allotorder[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:57:51+08:00 ] 127.0.0.1 127.0.0.1 GET /index/api/order
+[ log ] www.erheyi.com/index/api/order [运行时间：0.243196s][吞吐率：4.11req/s] [内存消耗：2,461.42kb] [文件加载：57]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'order',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/coller123.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/order' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->order[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:57:52+08:00 ] 127.0.0.1 127.0.0.1 GET /index/api/allotorder
+[ log ] www.erheyi.com/index/api/allotorder [运行时间：0.055859s][吞吐率：17.90req/s] [内存消耗：2,103.87kb] [文件加载：54]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'allotorder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/coller123.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/allotorder' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->allotorder[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:57:52+08:00 ] 127.0.0.1 127.0.0.1 GET /index/api/order
+[ log ] www.erheyi.com/index/api/order [运行时间：0.135996s][吞吐率：7.35req/s] [内存消耗：2,461.42kb] [文件加载：57]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'order',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/coller123.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/order' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->order[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:57:53+08:00 ] 127.0.0.1 127.0.0.1 GET /index/api/getdate
+[ log ] www.erheyi.com/index/api/getdate [运行时间：0.929344s][吞吐率：1.08req/s] [内存消耗：2,733.91kb] [文件加载：56]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'getdate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/coller123.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/getdate' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->getdate[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:57:54+08:00 ] 127.0.0.1 127.0.0.1 GET /index/api/allotorder
+[ log ] www.erheyi.com/index/api/allotorder [运行时间：0.068166s][吞吐率：14.67req/s] [内存消耗：2,103.87kb] [文件加载：54]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'allotorder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/coller123.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/allotorder' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->allotorder[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:57:54+08:00 ] 127.0.0.1 127.0.0.1 GET /index/api/order
+[ log ] www.erheyi.com/index/api/order [运行时间：0.255890s][吞吐率：3.91req/s] [内存消耗：2,461.42kb] [文件加载：57]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'order',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/coller123.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/order' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->order[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:57:55+08:00 ] 127.0.0.1 127.0.0.1 GET /index/api/order
+[ log ] www.erheyi.com/index/api/order [运行时间：0.144139s][吞吐率：6.94req/s] [内存消耗：2,461.58kb] [文件加载：57]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'order',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/coller123.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/order' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->order[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:57:56+08:00 ] 127.0.0.1 127.0.0.1 GET /index/api/order
+[ log ] www.erheyi.com/index/api/order [运行时间：0.237248s][吞吐率：4.21req/s] [内存消耗：2,461.42kb] [文件加载：57]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'order',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/coller123.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/order' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->order[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:57:56+08:00 ] 127.0.0.1 127.0.0.1 GET /index/api/allotorder
+[ log ] www.erheyi.com/index/api/allotorder [运行时间：0.063244s][吞吐率：15.81req/s] [内存消耗：2,103.87kb] [文件加载：54]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'allotorder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/coller123.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/allotorder' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->allotorder[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:57:57+08:00 ] 127.0.0.1 127.0.0.1 GET /index/api/order
+[ log ] www.erheyi.com/index/api/order [运行时间：0.237855s][吞吐率：4.20req/s] [内存消耗：2,461.42kb] [文件加载：57]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'order',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/coller123.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/order' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->order[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:57:57+08:00 ] 127.0.0.1 127.0.0.1 GET /index/login/register.html
+[ log ] www.erheyi.com/index/login/register.html [运行时间：0.034852s][吞吐率：28.69req/s] [内存消耗：2,068.36kb] [文件加载：58]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'register',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'referer' => 'http://www.erheyi.com/index/login/login/token/b03bae31a5ac3ed8e2ff1362747e5cb8.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/login/register_html' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Login->register[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\code\weipan21_2019-4-18\weipan21/application/index\view\login\register.html [ array (
+  0 => 'conf',
+  1 => 'token',
+  2 => 'oid',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:57:58+08:00 ] 127.0.0.1 127.0.0.1 GET /index/api/allotorder
+[ log ] www.erheyi.com/index/api/allotorder [运行时间：0.067250s][吞吐率：14.87req/s] [内存消耗：2,103.87kb] [文件加载：54]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'allotorder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/coller123.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/allotorder' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->allotorder[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:57:59+08:00 ] 127.0.0.1 127.0.0.1 GET /index/api/getdate
+[ log ] www.erheyi.com/index/api/getdate [运行时间：0.921119s][吞吐率：1.09req/s] [内存消耗：2,733.91kb] [文件加载：56]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'getdate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/coller123.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/getdate' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->getdate[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:57:59+08:00 ] 127.0.0.1 127.0.0.1 GET /index/api/order
+[ log ] www.erheyi.com/index/api/order [运行时间：0.207396s][吞吐率：4.82req/s] [内存消耗：2,461.42kb] [文件加载：57]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'order',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/coller123.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/order' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->order[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:57:59+08:00 ] 127.0.0.1 127.0.0.1 GET /index/api/allotorder
+[ log ] www.erheyi.com/index/api/allotorder [运行时间：0.041118s][吞吐率：24.32req/s] [内存消耗：2,103.87kb] [文件加载：54]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'allotorder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/coller123.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/allotorder' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->allotorder[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:58:00+08:00 ] 127.0.0.1 127.0.0.1 GET /index/api/order
+[ log ] www.erheyi.com/index/api/order [运行时间：0.237755s][吞吐率：4.21req/s] [内存消耗：2,461.42kb] [文件加载：57]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'order',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/coller123.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/order' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->order[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:58:01+08:00 ] 127.0.0.1 127.0.0.1 GET /index/api/allotorder
+[ log ] www.erheyi.com/index/api/allotorder [运行时间：0.056233s][吞吐率：17.78req/s] [内存消耗：2,103.87kb] [文件加载：54]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'allotorder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/coller123.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/allotorder' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->allotorder[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:58:03+08:00 ] 127.0.0.1 127.0.0.1 GET /index/api/getdate
+[ log ] www.erheyi.com/index/api/getdate [运行时间：0.886005s][吞吐率：1.13req/s] [内存消耗：2,733.91kb] [文件加载：56]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'getdate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/coller123.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/getdate' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->getdate[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:58:03+08:00 ] 127.0.0.1 127.0.0.1 GET /index/api/order
+[ log ] www.erheyi.com/index/api/order [运行时间：0.255796s][吞吐率：3.91req/s] [内存消耗：2,461.42kb] [文件加载：57]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'order',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/coller123.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/order' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->order[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:58:03+08:00 ] 127.0.0.1 127.0.0.1 GET /index/api/allotorder
+[ log ] www.erheyi.com/index/api/allotorder [运行时间：0.069587s][吞吐率：14.37req/s] [内存消耗：2,103.87kb] [文件加载：54]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'allotorder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/coller123.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/allotorder' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->allotorder[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:58:04+08:00 ] 127.0.0.1 127.0.0.1 GET /index/api/allotorder
+[ log ] www.erheyi.com/index/api/allotorder [运行时间：0.051144s][吞吐率：19.55req/s] [内存消耗：2,103.87kb] [文件加载：54]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'allotorder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/coller123.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/allotorder' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->allotorder[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:58:04+08:00 ] 127.0.0.1 127.0.0.1 GET /index/api/order
+[ log ] www.erheyi.com/index/api/order [运行时间：0.237148s][吞吐率：4.22req/s] [内存消耗：2,461.42kb] [文件加载：57]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'order',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/coller123.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/order' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->order[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:58:06+08:00 ] 127.0.0.1 127.0.0.1 GET /index/api/getdate
+[ log ] www.erheyi.com/index/api/getdate [运行时间：0.902783s][吞吐率：1.11req/s] [内存消耗：2,733.91kb] [文件加载：56]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'getdate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/coller123.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/getdate' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->getdate[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:58:06+08:00 ] 127.0.0.1 127.0.0.1 GET /index/api/allotorder
+[ log ] www.erheyi.com/index/api/allotorder [运行时间：0.060794s][吞吐率：16.45req/s] [内存消耗：2,103.87kb] [文件加载：54]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'allotorder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/coller123.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/allotorder' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->allotorder[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:58:06+08:00 ] 127.0.0.1 127.0.0.1 GET /index/login/sendmsm/phone/13037196025
+[ log ] www.erheyi.com/index/login/sendmsm/phone/13037196025 [运行时间：0.111290s][吞吐率：8.99req/s] [内存消耗：2,118.95kb] [文件加载：64]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'sendmsm',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/index/login/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/login/sendmsm/phone/13037196025' => '',
+  'phone' => '13037196025',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Login->sendmsm[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: errorMsg[C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Msm.php:63]
+
+---------------------------------------------------------------
+[ 2019-04-20T21:58:06+08:00 ] 127.0.0.1 127.0.0.1 GET /index/api/order
+[ log ] www.erheyi.com/index/api/order [运行时间：0.233752s][吞吐率：4.28req/s] [内存消耗：2,461.42kb] [文件加载：57]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'order',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/coller123.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/order' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->order[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:58:07+08:00 ] 127.0.0.1 127.0.0.1 GET /index/api/allotorder
+[ log ] www.erheyi.com/index/api/allotorder [运行时间：0.049189s][吞吐率：20.33req/s] [内存消耗：2,103.87kb] [文件加载：54]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'allotorder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/coller123.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/allotorder' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->allotorder[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:58:08+08:00 ] 127.0.0.1 127.0.0.1 GET /index/api/order
+[ log ] www.erheyi.com/index/api/order [运行时间：0.223039s][吞吐率：4.48req/s] [内存消耗：2,461.42kb] [文件加载：57]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'order',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/coller123.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/order' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->order[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:58:09+08:00 ] 127.0.0.1 127.0.0.1 GET /index/api/getdate
+[ log ] www.erheyi.com/index/api/getdate [运行时间：0.864640s][吞吐率：1.16req/s] [内存消耗：2,733.94kb] [文件加载：56]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'getdate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/coller123.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/getdate' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->getdate[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:58:09+08:00 ] 127.0.0.1 127.0.0.1 GET /index/api/allotorder
+[ log ] www.erheyi.com/index/api/allotorder [运行时间：0.049433s][吞吐率：20.23req/s] [内存消耗：2,103.87kb] [文件加载：54]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'allotorder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/coller123.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/allotorder' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->allotorder[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:58:09+08:00 ] 127.0.0.1 127.0.0.1 GET /index/api/order
+[ log ] www.erheyi.com/index/api/order [运行时间：0.243856s][吞吐率：4.10req/s] [内存消耗：2,461.43kb] [文件加载：57]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'order',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/coller123.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/order' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->order[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:58:10+08:00 ] 127.0.0.1 127.0.0.1 GET /index/api/allotorder
+[ log ] www.erheyi.com/index/api/allotorder [运行时间：0.049967s][吞吐率：20.01req/s] [内存消耗：2,103.87kb] [文件加载：54]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'allotorder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/coller123.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/allotorder' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->allotorder[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:58:10+08:00 ] 127.0.0.1 127.0.0.1 GET /index/api/order
+[ log ] www.erheyi.com/index/api/order [运行时间：0.262055s][吞吐率：3.82req/s] [内存消耗：2,461.43kb] [文件加载：57]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'order',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/coller123.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/order' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->order[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:58:12+08:00 ] 127.0.0.1 127.0.0.1 GET /index/api/getdate
+[ log ] www.erheyi.com/index/api/getdate [运行时间：1.000913s][吞吐率：1.00req/s] [内存消耗：2,733.91kb] [文件加载：56]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'getdate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/coller123.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/getdate' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->getdate[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:58:12+08:00 ] 127.0.0.1 127.0.0.1 GET /index/api/allotorder
+[ log ] www.erheyi.com/index/api/allotorder [运行时间：0.054604s][吞吐率：18.31req/s] [内存消耗：2,103.87kb] [文件加载：54]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'allotorder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/coller123.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/allotorder' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->allotorder[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:58:12+08:00 ] 127.0.0.1 127.0.0.1 GET /index/api/order
+[ log ] www.erheyi.com/index/api/order [运行时间：0.237627s][吞吐率：4.21req/s] [内存消耗：2,461.42kb] [文件加载：57]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'order',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/coller123.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/order' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->order[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:58:13+08:00 ] 127.0.0.1 127.0.0.1 GET /index/api/order
+[ log ] www.erheyi.com/index/api/order [运行时间：0.242019s][吞吐率：4.13req/s] [内存消耗：2,461.42kb] [文件加载：57]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'order',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/coller123.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/order' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->order[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:58:13+08:00 ] 127.0.0.1 127.0.0.1 GET /index/api/allotorder
+[ log ] www.erheyi.com/index/api/allotorder [运行时间：0.057177s][吞吐率：17.49req/s] [内存消耗：2,103.87kb] [文件加载：54]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'allotorder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/coller123.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/allotorder' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->allotorder[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:58:15+08:00 ] 127.0.0.1 127.0.0.1 GET /index/api/getdate
+[ log ] www.erheyi.com/index/api/getdate [运行时间：0.848113s][吞吐率：1.18req/s] [内存消耗：2,733.93kb] [文件加载：56]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'getdate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/coller123.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/getdate' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->getdate[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:58:15+08:00 ] 127.0.0.1 127.0.0.1 GET /index/api/order
+[ log ] www.erheyi.com/index/api/order [运行时间：0.211957s][吞吐率：4.72req/s] [内存消耗：2,461.42kb] [文件加载：57]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'order',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/coller123.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/order' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->order[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:58:15+08:00 ] 127.0.0.1 127.0.0.1 GET /index/api/allotorder
+[ log ] www.erheyi.com/index/api/allotorder [运行时间：0.060124s][吞吐率：16.63req/s] [内存消耗：2,103.87kb] [文件加载：54]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'allotorder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/coller123.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/allotorder' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->allotorder[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:58:16+08:00 ] 127.0.0.1 127.0.0.1 GET /index/api/allotorder
+[ log ] www.erheyi.com/index/api/allotorder [运行时间：0.058587s][吞吐率：17.07req/s] [内存消耗：2,103.87kb] [文件加载：54]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'allotorder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/coller123.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/allotorder' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->allotorder[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:58:16+08:00 ] 127.0.0.1 127.0.0.1 GET /index/api/order
+[ log ] www.erheyi.com/index/api/order [运行时间：0.211424s][吞吐率：4.73req/s] [内存消耗：2,461.42kb] [文件加载：57]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'order',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/coller123.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/order' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->order[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:58:18+08:00 ] 127.0.0.1 127.0.0.1 GET /index/api/getdate
+[ log ] www.erheyi.com/index/api/getdate [运行时间：0.864423s][吞吐率：1.16req/s] [内存消耗：2,733.91kb] [文件加载：56]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'getdate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/coller123.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/getdate' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->getdate[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:58:18+08:00 ] 127.0.0.1 127.0.0.1 GET /index/api/allotorder
+[ log ] www.erheyi.com/index/api/allotorder [运行时间：0.041175s][吞吐率：24.29req/s] [内存消耗：2,103.87kb] [文件加载：54]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'allotorder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/coller123.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/allotorder' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->allotorder[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T21:58:18+08:00 ] 127.0.0.1 127.0.0.1 GET /index/api/order
+[ log ] www.erheyi.com/index/api/order [运行时间：0.201272s][吞吐率：4.97req/s] [内存消耗：2,461.43kb] [文件加载：57]
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'order',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pid32=5288.2; pid29=81.012; pid27=145.48; pid25=1.32388; pid23=80.952; pid13=109.613; pid12=5288.5; pid11=1.73957; pid10=1.81705; pid9=0.8653; pid8=0.98572; pid7=1.29953; pid6=145.4504; think_var=zh-cn; PHPSESSID=qnj5aosruu7t3271388di7r6k4',
+  'connection' => 'close',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.erheyi.com/coller123.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+  'host' => 'www.erheyi.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/order' => '',
+)
+[ info ] [ LANG ] C:\code\weipan21_2019-4-18\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->order[ C:\code\weipan21_2019-4-18\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
