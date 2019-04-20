@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:75:"C:\code\weipan21_2019-4-18\weipan21/application/index\view\goods\goods.html";i:1555740632;s:75:"C:\code\weipan21_2019-4-18\weipan21/application/index\view\head-gaiban.html";i:1529895948;s:68:"C:\code\weipan21_2019-4-18\weipan21/application/index\view\foot.html";i:1555586984;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:75:"C:\code\weipan21_2019-4-18\weipan21/application/index\view\goods\goods.html";i:1555752840;s:75:"C:\code\weipan21_2019-4-18\weipan21/application/index\view\head-gaiban.html";i:1529895948;s:68:"C:\code\weipan21_2019-4-18\weipan21/application/index\view\foot.html";i:1555754923;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -177,13 +177,32 @@ var order_max_price = <?php echo getconf('order_max_price'); ?>;
                      </div> 
             <!--sidebar nav start-->
             <ul class="nav nav-pills nav-stacked custom-nav xz-ul">
-                    <!-- <?php if(is_array($proname1) || $proname1 instanceof \think\Collection || $proname1 instanceof \think\Paginator): $k = 0; $__LIST__ = $proname1;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($k % 2 );++$k;?> -->
+                   <?php if(is_array($proname1) || $proname1 instanceof \think\Collection || $proname1 instanceof \think\Paginator): $k = 0; $__LIST__ = $proname1;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($k % 2 );++$k;?>
                     
-                      <li class="xz-dw look" onclick="parent.location='<?php echo url('goods/goods',array('pid'=>$vo['pid'],'token'=>$token)); ?>';"  id="pid<?php echo $vo['pid']; ?>"><a ><span><?php echo $vo['ptitle']; ?></span></a>
+                      <li pid="<?php echo $vo['pid']; ?>"  class="xz-dw look qwe " onclick="parent.location='<?php echo url('goods/goods',array('pid'=>$vo['pid'],'token'=>$token)); ?>';"  id="pid<?php echo $vo['pid']; ?>"><a ><span  ><?php echo $vo['ptitle']; ?></span></a>
+                          <style>
+                              .bg{
+                                  background: #e2ffe2;padding: 0px 15px
+                              }
+                          </style>
+                          <script>
+                              $(function () {
+                                  var cur_url = window.location.href;
+                                  var arr = cur_url .split("pid/");
+                                  var num = arr[1].indexOf('/');
+                                 var pid = arr[1].substring(0,num);
+                                  $('.qwe').each(function (k1,v1) {
+                                      var _pid = $(this).attr('pid')
+                                      if (_pid == pid){
+                                          $(this).addClass('bg')
+                                      }
+                                  })
+                              })
+                          </script>
                               
                        <span><i class="ng-binding  data-price<?php echo $vo['pid']; ?>"><?php echo $vo['Price']; ?></i> </span>
                       </li>
-                    <!-- <?php endforeach; endif; else: echo "" ;endif; ?> --> 
+                    <?php endforeach; endif; else: echo "" ;endif; ?>
                   </ul>
             <!--sidebar nav end-->
 
@@ -329,14 +348,9 @@ var order_max_price = <?php echo getconf('order_max_price'); ?>;
                 <li class="trade-chart-period 30M " onclick="change_chart_period('30M','stock')"><a href="#">30分钟k线</a></li>
                 <li class="trade-chart-period 1D " onclick="change_chart_period('1D','stock')"><a href="#">日线</a></li>
         </ul>
-      <!--<script>-->
-          <!--$(function(){-->
-              <!--setTimeout(function () {-->
-                  <!--$('.line').click()-->
-                  <!--change_chart_type('line','stock')-->
-              <!--}, 1);-->
-          <!--});-->
-      <!--</script>-->
+
+
+
      <?php if($isopen == 1): ?>
                   <div class="col-md-12" style="padding-left: 0px;padding-right: 0px; ">
                        <section class="panel" style="margin-bottom: 0px;-webkit-box-shadow:none;box-shadow: none;">
@@ -1053,7 +1067,7 @@ var order_max_price = <?php echo getconf('order_max_price'); ?>;
   <div class="col-sm-12" style="padding-left: 0px;padding-right: 0px;">
     <section class="panel" style="margin-bottom:0;">
       <div class="panel-body" style="padding: 0px;">
-        <li class="col-md-12" style="margin-bottom: 0px;">
+        <li class="col-md-12" style="margin-bottom: 0px;display: flex;justify-content: space-around;align-items: center;">
           <div class="xiugai-left">
             <div class="avatar ">
               <a href="<?php echo url('news/index'); ?>">
@@ -1069,6 +1083,7 @@ var order_max_price = <?php echo getconf('order_max_price'); ?>;
               </a>
             </div>
           </div>
+        <?php if($time_status==1):?>
           <div class="xiugai-left">
             <div class="avatar">
               <a href="<?php echo url('/index/goods/goods/token/'.$token); ?>">
@@ -1084,6 +1099,7 @@ var order_max_price = <?php echo getconf('order_max_price'); ?>;
               </a>
             </div>
           </div>
+         <?php endif;if($point_status==1):?>
           <div class="xiugai-left">
             <div class="avatar">
               <a href="<?php echo url('/index/point/point/token/'.$token); ?>" class=" ">
@@ -1097,7 +1113,7 @@ var order_max_price = <?php echo getconf('order_max_price'); ?>;
               </a>
             </div>
           </div>
-
+ <?php endif;?>
           <div class="xiugai-left">
               <div class="avatar">
                 <a href="<?php echo url('/index/user/index/token/'.$token); ?>" class="">

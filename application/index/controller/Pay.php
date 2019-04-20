@@ -202,6 +202,7 @@ if($sign==$mysign){
     }
 
     public function pays(){
+
         if ($_REQUEST['pay_type'] == 5){    //支付宝1
             // $data0 = input('post.');
 
@@ -233,6 +234,14 @@ if($sign==$mysign){
 
         }
     }
+
+
+
+
+
+        
+
+
 
 
     public function mcb_notify()

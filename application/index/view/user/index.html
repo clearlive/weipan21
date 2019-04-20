@@ -37,34 +37,38 @@
                                     <div class="user-top-grzc1" style="margin-top:5px;margin-bottom:5px;">
 
                                     </div>
-                                    <div class="user-top-cy">
-                                        
-                                        <ul class="clearfix">
+                                    <!--<div class="user-top-cy">-->
+                                        <!---->
+                                        <!--<ul class="clearfix">-->
 
-                                            <li>
-                                                <p>持仓手数</p>
-                                                <p>持仓手数</p>
-                                                {volist name="orders" id="vo"}
-                                                	<p>{$vo.orderCount}</p>
-                                                {/volist}
-                                                
-                                            </li>
-                                            <li>
-                                                <p>持有数量(USDT)</p>
-                                                <p>{$userinfo.userdollor}</p>
-                                                <!--{volist name="bl" id="vo2"}
-                                                <p>{$userinfo.usermoney*($vo2.gamecoin/$vo2.rmbcoin)}</p>
-                                                {/volist}-->
-                                            </li>
+                                            <!--<li>-->
+                                                <!--<p>持仓手数</p>-->
+                                                <!--<p>持仓手数</p>-->
+                                                <!--{volist name="orders" id="vo"}-->
+                                                	<!--<p>{$vo.orderCount}</p>-->
+                                                <!--{/volist}-->
+                                                <!---->
+                                            <!--</li>-->
+                                            <!--<li>-->
+                                                <!--<p>持有数量(USDT)</p>-->
+                                                <!--<p>{$userinfo.userdollor}</p>-->
+                                                <!--&lt;!&ndash;{volist name="bl" id="vo2"}-->
+                                                <!--<p>{$userinfo.usermoney*($vo2.gamecoin/$vo2.rmbcoin)}</p>-->
+                                                <!--{/volist}&ndash;&gt;-->
+                                            <!--</li>-->
 
-                                        </ul>
-                                        
-                                    </div>
+                                        <!--</ul>-->
+                                        <!---->
+                                    <!--</div>-->
                                     <div class="user-body-middle">
                                         <ul class="clearfix">
                                             <li>
 
-                                                <a href="{:url('cashlist')}"  data-toggle="modal" id="tixian">
+
+
+
+                                                <a href="{:url('cash')}"  data-toggle="modal" id="tixian">
+
                                                     <div class="tb">提币</div>
                                                 </a>
                                             </li>

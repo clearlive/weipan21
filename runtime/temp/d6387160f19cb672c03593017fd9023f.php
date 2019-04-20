@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:74:"C:\code\weipan21_2019-4-18\weipan21/application/index\view\user\index.html";i:1555735119;s:75:"C:\code\weipan21_2019-4-18\weipan21/application/index\view\head-gaiban.html";i:1529895948;s:68:"C:\code\weipan21_2019-4-18\weipan21/application/index\view\foot.html";i:1555586984;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:74:"C:\code\weipan21_2019-4-18\weipan21/application/index\view\user\index.html";i:1555755357;s:75:"C:\code\weipan21_2019-4-18\weipan21/application/index\view\head-gaiban.html";i:1529895948;s:68:"C:\code\weipan21_2019-4-18\weipan21/application/index\view\foot.html";i:1555754923;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -67,34 +67,38 @@
                                     <div class="user-top-grzc1" style="margin-top:5px;margin-bottom:5px;">
 
                                     </div>
-                                    <div class="user-top-cy">
-                                        
-                                        <ul class="clearfix">
+                                    <!--<div class="user-top-cy">-->
+                                        <!---->
+                                        <!--<ul class="clearfix">-->
 
-                                            <li>
-                                                <p>持仓手数</p>
-                                                <p>持仓手数</p>
-                                                <?php if(is_array($orders) || $orders instanceof \think\Collection || $orders instanceof \think\Paginator): $i = 0; $__LIST__ = $orders;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>
-                                                	<p><?php echo $vo['orderCount']; ?></p>
-                                                <?php endforeach; endif; else: echo "" ;endif; ?>
-                                                
-                                            </li>
-                                            <li>
-                                                <p>持有数量(USDT)</p>
-                                                <p><?php echo $userinfo['userdollor']; ?></p>
-                                                <!--<?php if(is_array($bl) || $bl instanceof \think\Collection || $bl instanceof \think\Paginator): $i = 0; $__LIST__ = $bl;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo2): $mod = ($i % 2 );++$i;?>
-                                                <p><?php echo $userinfo['usermoney']*($vo2['gamecoin']/$vo2['rmbcoin']); ?></p>
-                                                <?php endforeach; endif; else: echo "" ;endif; ?>-->
-                                            </li>
+                                            <!--<li>-->
+                                                <!--<p>持仓手数</p>-->
+                                                <!--<p>持仓手数</p>-->
+                                                <!--<?php if(is_array($orders) || $orders instanceof \think\Collection || $orders instanceof \think\Paginator): $i = 0; $__LIST__ = $orders;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>-->
+                                                	<!--<p><?php echo $vo['orderCount']; ?></p>-->
+                                                <!--<?php endforeach; endif; else: echo "" ;endif; ?>-->
+                                                <!---->
+                                            <!--</li>-->
+                                            <!--<li>-->
+                                                <!--<p>持有数量(USDT)</p>-->
+                                                <!--<p><?php echo $userinfo['userdollor']; ?></p>-->
+                                                <!--&lt;!&ndash;<?php if(is_array($bl) || $bl instanceof \think\Collection || $bl instanceof \think\Paginator): $i = 0; $__LIST__ = $bl;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo2): $mod = ($i % 2 );++$i;?>-->
+                                                <!--<p><?php echo $userinfo['usermoney']*($vo2['gamecoin']/$vo2['rmbcoin']); ?></p>-->
+                                                <!--<?php endforeach; endif; else: echo "" ;endif; ?>&ndash;&gt;-->
+                                            <!--</li>-->
 
-                                        </ul>
-                                        
-                                    </div>
+                                        <!--</ul>-->
+                                        <!---->
+                                    <!--</div>-->
                                     <div class="user-body-middle">
                                         <ul class="clearfix">
                                             <li>
 
-                                                <a href="<?php echo url('cashlist'); ?>"  data-toggle="modal" id="tixian">
+
+
+
+                                                <a href="<?php echo url('cash'); ?>"  data-toggle="modal" id="tixian">
+
                                                     <div class="tb">提币</div>
                                                 </a>
                                             </li>
@@ -425,7 +429,7 @@
   <div class="col-sm-12" style="padding-left: 0px;padding-right: 0px;">
     <section class="panel" style="margin-bottom:0;">
       <div class="panel-body" style="padding: 0px;">
-        <li class="col-md-12" style="margin-bottom: 0px;">
+        <li class="col-md-12" style="margin-bottom: 0px;display: flex;justify-content: space-around;align-items: center;">
           <div class="xiugai-left">
             <div class="avatar ">
               <a href="<?php echo url('news/index'); ?>">
@@ -441,6 +445,7 @@
               </a>
             </div>
           </div>
+        <?php if($time_status==1):?>
           <div class="xiugai-left">
             <div class="avatar">
               <a href="<?php echo url('/index/goods/goods/token/'.$token); ?>">
@@ -456,6 +461,7 @@
               </a>
             </div>
           </div>
+         <?php endif;if($point_status==1):?>
           <div class="xiugai-left">
             <div class="avatar">
               <a href="<?php echo url('/index/point/point/token/'.$token); ?>" class=" ">
@@ -469,7 +475,7 @@
               </a>
             </div>
           </div>
-
+ <?php endif;?>
           <div class="xiugai-left">
               <div class="avatar">
                 <a href="<?php echo url('/index/user/index/token/'.$token); ?>" class="">

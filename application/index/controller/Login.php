@@ -362,12 +362,16 @@ class Login extends Controller
     public function respass()
     {
 
+
+
+
         if (!isset($_SESSION['uid'])) {
+
             $this->redirect('goods/goods?token='.$this->token);
         }
         $data = input('post.');
         if($data){
-            
+
             $suerinfo = db('userinfo');
             $uid = $_SESSION['uid'];
             $user = $suerinfo->where('uid',$uid)->find();
@@ -376,22 +380,24 @@ class Login extends Controller
             if(!isset($data['upwd']) || empty($data['upwd'])){
                 return WPreturn('请输入密码！',-1);
             }
-            if (md5($data['cur_pwd'].$user['utime']) != $user['upwd']){
+
+            if (md5($data['cur_pwd'].$user['utime']) != $user['upwd']) {
                 return WPreturn('原始密码不正确',-1);
             }
+
+
             if(!isset($data['upwd2']) || empty($data['upwd2'])){
                 return WPreturn('请再次输入密码！',-1);
             }
+
             if($data['upwd'] != $data['upwd2']){
                 return WPreturn('两次输入密码不同！',-1);
             }
-
             unset($data['upwd2']);
             unset($data['cur_pwd']);
             if($user['otype'] == 101){
                 unset($data['username']);
             }
-            
             $data['upwd'] = md5($data['upwd'].$user['utime']);
             $data['uid'] = $user['uid'];
             $data['logintime'] = $data['lastlog'] = time();
@@ -401,10 +407,12 @@ class Login extends Controller
             }else{
                 return WPreturn('修改失败',-1);
             }
-           
         }
-        return $this->fetch();
-    }
+    else{
+            return $this->fetch();
+        }}
+
+
 
 
 

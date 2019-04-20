@@ -147,13 +147,32 @@ var order_max_price = {:getconf('order_max_price')};
                      </div> 
             <!--sidebar nav start-->
             <ul class="nav nav-pills nav-stacked custom-nav xz-ul">
-                    <!-- {volist name="proname1" id="vo" key='k'} -->
+                   {volist name="proname1" id="vo" key='k'}
                     
-                      <li class="xz-dw look" onclick="parent.location='{:url('goods/goods',array('pid'=>$vo['pid'],'token'=>$token))}';"  id="pid{$vo.pid}"><a ><span>{$vo.ptitle}</span></a>
+                      <li pid="{$vo.pid}"  class="xz-dw look qwe " onclick="parent.location='{:url('goods/goods',array('pid'=>$vo['pid'],'token'=>$token))}';"  id="pid{$vo.pid}"><a ><span  >{$vo.ptitle}</span></a>
+                          <style>
+                              .bg{
+                                  background: #e2ffe2;padding: 0px 15px
+                              }
+                          </style>
+                          <script>
+                              $(function () {
+                                  var cur_url = window.location.href;
+                                  var arr = cur_url .split("pid/");
+                                  var num = arr[1].indexOf('/');
+                                 var pid = arr[1].substring(0,num);
+                                  $('.qwe').each(function (k1,v1) {
+                                      var _pid = $(this).attr('pid')
+                                      if (_pid == pid){
+                                          $(this).addClass('bg')
+                                      }
+                                  })
+                              })
+                          </script>
                               
                        <span><i class="ng-binding  data-price{$vo.pid}">{$vo.Price}</i> </span>
                       </li>
-                    <!-- {/volist} --> 
+                    {/volist}
                   </ul>
             <!--sidebar nav end-->
 
@@ -299,14 +318,9 @@ var order_max_price = {:getconf('order_max_price')};
                 <li class="trade-chart-period 30M " onclick="change_chart_period('30M','stock')"><a href="#">30分钟k线</a></li>
                 <li class="trade-chart-period 1D " onclick="change_chart_period('1D','stock')"><a href="#">日线</a></li>
         </ul>
-      <!--<script>-->
-          <!--$(function(){-->
-              <!--setTimeout(function () {-->
-                  <!--$('.line').click()-->
-                  <!--change_chart_type('line','stock')-->
-              <!--}, 1);-->
-          <!--});-->
-      <!--</script>-->
+
+
+
      {if $isopen == 1}
                   <div class="col-md-12" style="padding-left: 0px;padding-right: 0px; ">
                        <section class="panel" style="margin-bottom: 0px;-webkit-box-shadow:none;box-shadow: none;">

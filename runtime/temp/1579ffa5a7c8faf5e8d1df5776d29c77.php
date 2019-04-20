@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:75:"C:\code\weipan21_2019-4-18\weipan21/application/index\view\point\point.html";i:1555740875;s:75:"C:\code\weipan21_2019-4-18\weipan21/application/index\view\head-gaiban.html";i:1529895948;s:68:"C:\code\weipan21_2019-4-18\weipan21/application/index\view\foot.html";i:1555586984;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:75:"C:\code\weipan21_2019-4-18\weipan21/application/index\view\point\point.html";i:1555748352;s:75:"C:\code\weipan21_2019-4-18\weipan21/application/index\view\head-gaiban.html";i:1529895948;s:68:"C:\code\weipan21_2019-4-18\weipan21/application/index\view\foot.html";i:1555754923;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -282,12 +282,16 @@ var order_max_price = <?php echo getconf('order_max_price'); ?>;
   <div class="foot-xiadan">
         <ul class="goods-bottom-ul clearfix" >
             
+
                 <li class="trade-chart-period line " ><a href="#" onclick="change_chart_type('line')">分时图</a></li>
                 <li class="trade-chart-period 1M active" onclick="change_chart_period('1M','stock')"><a href="#">1分钟k线</a></li>
                 <li class="trade-chart-period 5M" onclick="change_chart_period('5M','stock')"><a href="#">5分钟k线</a></li>
                 <li   class="trade-chart-period 15M" onclick="change_chart_period('15M','stock')"><a href="#">15分钟k线</a></li>
                 <li class="trade-chart-period 30M" onclick="change_chart_period('30M','stock')"><a href="#">30分钟k线</a></li>
                 <li class="trade-chart-period 1D" onclick="change_chart_period('1D','stock')"><a href="#">日线</a></li>
+
+
+
         </ul>
      <?php if($isopen == 1): ?>
                   <div class="col-md-12" style="padding-left: 0px;padding-right: 0px; ">
@@ -615,7 +619,7 @@ var order_max_price = <?php echo getconf('order_max_price'); ?>;
   <div class="col-sm-12" style="padding-left: 0px;padding-right: 0px;">
     <section class="panel" style="margin-bottom:0;">
       <div class="panel-body" style="padding: 0px;">
-        <li class="col-md-12" style="margin-bottom: 0px;">
+        <li class="col-md-12" style="margin-bottom: 0px;display: flex;justify-content: space-around;align-items: center;">
           <div class="xiugai-left">
             <div class="avatar ">
               <a href="<?php echo url('news/index'); ?>">
@@ -631,6 +635,7 @@ var order_max_price = <?php echo getconf('order_max_price'); ?>;
               </a>
             </div>
           </div>
+        <?php if($time_status==1):?>
           <div class="xiugai-left">
             <div class="avatar">
               <a href="<?php echo url('/index/goods/goods/token/'.$token); ?>">
@@ -646,6 +651,7 @@ var order_max_price = <?php echo getconf('order_max_price'); ?>;
               </a>
             </div>
           </div>
+         <?php endif;if($point_status==1):?>
           <div class="xiugai-left">
             <div class="avatar">
               <a href="<?php echo url('/index/point/point/token/'.$token); ?>" class=" ">
@@ -659,7 +665,7 @@ var order_max_price = <?php echo getconf('order_max_price'); ?>;
               </a>
             </div>
           </div>
-
+ <?php endif;?>
           <div class="xiugai-left">
               <div class="avatar">
                 <a href="<?php echo url('/index/user/index/token/'.$token); ?>" class="">
