@@ -408,7 +408,8 @@ class Login extends Controller
         }
     else{
             return $this->fetch();
-        }}
+        }
+    }
 
     protected function fetch($template = '', $vars = [], $replace = [], $config = [])
     {
