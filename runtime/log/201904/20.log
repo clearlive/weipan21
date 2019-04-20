@@ -1,0 +1,2242 @@
+[ 2019-04-20T14:11:17+08:00 ] ::1 ::1 GET /index/api/getprodata?pid=29&_=1555740378776
+[ log ] localhost/index/api/getprodata?pid=29&_=1555740378776 [运行时间：0.037719s][吞吐率：26.51req/s] [内存消耗：3,151.41kb] [文件加载：51]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'getprodata',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6nhv11d53ucml5gof0b3k5sd25; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/goods/goods/token/c5e0899503ad3a706c10e6022df44de4.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/getprodata' => '',
+  'pid' => '29',
+  '_' => '1555740378776',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->getprodata[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T14:11:17+08:00 ] ::1 ::1 GET /index/goods/ajaxpro/pid/12
+[ log ] localhost/index/goods/ajaxpro/pid/12 [运行时间：0.044926s][吞吐率：22.26req/s] [内存消耗：3,229.66kb] [文件加载：58]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'ajaxpro',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6nhv11d53ucml5gof0b3k5sd25; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/goods/goods/token/c5e0899503ad3a706c10e6022df44de4.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/ajaxpro/pid/12' => '',
+  'pid' => '12',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Goods->ajaxpro[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Goods.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T14:11:17+08:00 ] ::1 ::1 GET /index/goods/ajaxpro/pid/6
+[ log ] localhost/index/goods/ajaxpro/pid/6 [运行时间：0.047418s][吞吐率：21.09req/s] [内存消耗：3,221.55kb] [文件加载：58]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'ajaxpro',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6nhv11d53ucml5gof0b3k5sd25; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/goods/goods/token/c5e0899503ad3a706c10e6022df44de4.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/ajaxpro/pid/6' => '',
+  'pid' => '6',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Goods->ajaxpro[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T14:11:17+08:00 ] ::1 ::1 GET /index/goods/ajaxpro/pid/29
+[ log ] localhost/index/goods/ajaxpro/pid/29 [运行时间：0.038208s][吞吐率：26.17req/s] [内存消耗：3,221.55kb] [文件加载：58]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'ajaxpro',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6nhv11d53ucml5gof0b3k5sd25; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/goods/goods/token/c5e0899503ad3a706c10e6022df44de4.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/ajaxpro/pid/29' => '',
+  'pid' => '29',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Goods->ajaxpro[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T14:11:18+08:00 ] ::1 ::1 GET /index/goods/ajaxpro/pid/12
+[ log ] localhost/index/goods/ajaxpro/pid/12 [运行时间：0.048371s][吞吐率：20.67req/s] [内存消耗：3,221.55kb] [文件加载：58]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'ajaxpro',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6nhv11d53ucml5gof0b3k5sd25; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/goods/goods/token/c5e0899503ad3a706c10e6022df44de4.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/ajaxpro/pid/12' => '',
+  'pid' => '12',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Goods->ajaxpro[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T14:11:18+08:00 ] ::1 ::1 GET /index/goods/ajaxpro/pid/29
+[ log ] localhost/index/goods/ajaxpro/pid/29 [运行时间：0.048941s][吞吐率：20.43req/s] [内存消耗：3,221.55kb] [文件加载：58]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'ajaxpro',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6nhv11d53ucml5gof0b3k5sd25; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/goods/goods/token/c5e0899503ad3a706c10e6022df44de4.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/ajaxpro/pid/29' => '',
+  'pid' => '29',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Goods->ajaxpro[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T14:11:18+08:00 ] ::1 ::1 GET /index/goods/ajaxpro/pid/6
+[ log ] localhost/index/goods/ajaxpro/pid/6 [运行时间：0.048011s][吞吐率：20.83req/s] [内存消耗：3,221.55kb] [文件加载：58]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'ajaxpro',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6nhv11d53ucml5gof0b3k5sd25; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/goods/goods/token/c5e0899503ad3a706c10e6022df44de4.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/ajaxpro/pid/6' => '',
+  'pid' => '6',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Goods->ajaxpro[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T14:11:18+08:00 ] ::1 ::1 GET /index/api/getprodata?pid=29&_=1555740378777
+[ log ] localhost/index/api/getprodata?pid=29&_=1555740378777 [运行时间：0.026485s][吞吐率：37.76req/s] [内存消耗：3,151.39kb] [文件加载：51]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'getprodata',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6nhv11d53ucml5gof0b3k5sd25; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/goods/goods/token/c5e0899503ad3a706c10e6022df44de4.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/getprodata' => '',
+  'pid' => '29',
+  '_' => '1555740378777',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->getprodata[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T14:11:18+08:00 ] ::1 ::1 GET /index/goods/ajaxpro/pid/29
+[ log ] localhost/index/goods/ajaxpro/pid/29 [运行时间：0.031365s][吞吐率：31.88req/s] [内存消耗：3,221.55kb] [文件加载：58]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'ajaxpro',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6nhv11d53ucml5gof0b3k5sd25; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/goods/goods/token/c5e0899503ad3a706c10e6022df44de4.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/ajaxpro/pid/29' => '',
+  'pid' => '29',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Goods->ajaxpro[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T14:11:19+08:00 ] ::1 ::1 GET /index/goods/ajaxpro/pid/12
+[ log ] localhost/index/goods/ajaxpro/pid/12 [运行时间：0.032479s][吞吐率：30.79req/s] [内存消耗：3,221.55kb] [文件加载：58]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'ajaxpro',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6nhv11d53ucml5gof0b3k5sd25; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/goods/goods/token/c5e0899503ad3a706c10e6022df44de4.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/ajaxpro/pid/12' => '',
+  'pid' => '12',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Goods->ajaxpro[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T14:11:19+08:00 ] ::1 ::1 GET /index/goods/ajaxpro/pid/6
+[ log ] localhost/index/goods/ajaxpro/pid/6 [运行时间：0.041021s][吞吐率：24.38req/s] [内存消耗：3,221.55kb] [文件加载：58]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'ajaxpro',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6nhv11d53ucml5gof0b3k5sd25; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/goods/goods/token/c5e0899503ad3a706c10e6022df44de4.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/ajaxpro/pid/6' => '',
+  'pid' => '6',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Goods->ajaxpro[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T14:11:19+08:00 ] ::1 ::1 GET /index/api/getprodata?pid=29&_=1555740378778
+[ log ] localhost/index/api/getprodata?pid=29&_=1555740378778 [运行时间：0.025767s][吞吐率：38.81req/s] [内存消耗：3,151.39kb] [文件加载：51]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'getprodata',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6nhv11d53ucml5gof0b3k5sd25; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/goods/goods/token/c5e0899503ad3a706c10e6022df44de4.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/getprodata' => '',
+  'pid' => '29',
+  '_' => '1555740378778',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->getprodata[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T14:11:20+08:00 ] ::1 ::1 GET /index/goods/ajaxpro/pid/29
+[ log ] localhost/index/goods/ajaxpro/pid/29 [运行时间：0.049033s][吞吐率：20.39req/s] [内存消耗：3,221.55kb] [文件加载：58]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'ajaxpro',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6nhv11d53ucml5gof0b3k5sd25; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/goods/goods/token/c5e0899503ad3a706c10e6022df44de4.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/ajaxpro/pid/29' => '',
+  'pid' => '29',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Goods->ajaxpro[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T14:11:20+08:00 ] ::1 ::1 GET /index/goods/ajaxpro/pid/6
+[ log ] localhost/index/goods/ajaxpro/pid/6 [运行时间：0.031606s][吞吐率：31.64req/s] [内存消耗：3,221.55kb] [文件加载：58]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'ajaxpro',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6nhv11d53ucml5gof0b3k5sd25; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/goods/goods/token/c5e0899503ad3a706c10e6022df44de4.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/ajaxpro/pid/6' => '',
+  'pid' => '6',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Goods->ajaxpro[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T14:11:20+08:00 ] ::1 ::1 GET /index/goods/ajaxpro/pid/12
+[ log ] localhost/index/goods/ajaxpro/pid/12 [运行时间：0.042388s][吞吐率：23.59req/s] [内存消耗：3,221.55kb] [文件加载：58]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'ajaxpro',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6nhv11d53ucml5gof0b3k5sd25; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/goods/goods/token/c5e0899503ad3a706c10e6022df44de4.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/ajaxpro/pid/12' => '',
+  'pid' => '12',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Goods->ajaxpro[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T14:11:21+08:00 ] ::1 ::1 GET /index/goods/ajaxpro/pid/12
+[ log ] localhost/index/goods/ajaxpro/pid/12 [运行时间：0.040849s][吞吐率：24.48req/s] [内存消耗：3,221.55kb] [文件加载：58]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'ajaxpro',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6nhv11d53ucml5gof0b3k5sd25; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/goods/goods/token/c5e0899503ad3a706c10e6022df44de4.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/ajaxpro/pid/12' => '',
+  'pid' => '12',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Goods->ajaxpro[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T14:11:21+08:00 ] ::1 ::1 GET /index/goods/ajaxpro/pid/29
+[ log ] localhost/index/goods/ajaxpro/pid/29 [运行时间：0.040052s][吞吐率：24.97req/s] [内存消耗：3,221.55kb] [文件加载：58]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'ajaxpro',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6nhv11d53ucml5gof0b3k5sd25; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/goods/goods/token/c5e0899503ad3a706c10e6022df44de4.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/ajaxpro/pid/29' => '',
+  'pid' => '29',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Goods->ajaxpro[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T14:11:21+08:00 ] ::1 ::1 GET /index/goods/ajaxpro/pid/6
+[ log ] localhost/index/goods/ajaxpro/pid/6 [运行时间：0.040660s][吞吐率：24.59req/s] [内存消耗：3,221.55kb] [文件加载：58]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'ajaxpro',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6nhv11d53ucml5gof0b3k5sd25; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/goods/goods/token/c5e0899503ad3a706c10e6022df44de4.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/ajaxpro/pid/6' => '',
+  'pid' => '6',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Goods->ajaxpro[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T14:11:21+08:00 ] ::1 ::1 GET /index/api/getprodata?pid=29&_=1555740378779
+[ log ] localhost/index/api/getprodata?pid=29&_=1555740378779 [运行时间：0.034589s][吞吐率：28.91req/s] [内存消耗：3,151.39kb] [文件加载：51]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'getprodata',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6nhv11d53ucml5gof0b3k5sd25; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/goods/goods/token/c5e0899503ad3a706c10e6022df44de4.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/getprodata' => '',
+  'pid' => '29',
+  '_' => '1555740378779',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->getprodata[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T14:11:21+08:00 ] ::1 ::1 GET /index/goods/ajaxpro/pid/29
+[ log ] localhost/index/goods/ajaxpro/pid/29 [运行时间：0.030503s][吞吐率：32.78req/s] [内存消耗：3,221.55kb] [文件加载：58]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'ajaxpro',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6nhv11d53ucml5gof0b3k5sd25; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/goods/goods/token/c5e0899503ad3a706c10e6022df44de4.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/ajaxpro/pid/29' => '',
+  'pid' => '29',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Goods->ajaxpro[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T14:11:22+08:00 ] ::1 ::1 GET /index/goods/ajaxpro/pid/12
+[ log ] localhost/index/goods/ajaxpro/pid/12 [运行时间：0.039924s][吞吐率：25.05req/s] [内存消耗：3,221.55kb] [文件加载：58]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'ajaxpro',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6nhv11d53ucml5gof0b3k5sd25; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/goods/goods/token/c5e0899503ad3a706c10e6022df44de4.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/ajaxpro/pid/12' => '',
+  'pid' => '12',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Goods->ajaxpro[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T14:11:22+08:00 ] ::1 ::1 GET /index/goods/ajaxpro/pid/6
+[ log ] localhost/index/goods/ajaxpro/pid/6 [运行时间：0.040085s][吞吐率：24.95req/s] [内存消耗：3,221.55kb] [文件加载：58]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'ajaxpro',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6nhv11d53ucml5gof0b3k5sd25; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/goods/goods/token/c5e0899503ad3a706c10e6022df44de4.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/ajaxpro/pid/6' => '',
+  'pid' => '6',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Goods->ajaxpro[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T14:11:22+08:00 ] ::1 ::1 GET /index/api/getprodata?pid=29&_=1555740378780
+[ log ] localhost/index/api/getprodata?pid=29&_=1555740378780 [运行时间：0.034675s][吞吐率：28.84req/s] [内存消耗：3,151.39kb] [文件加载：51]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'getprodata',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6nhv11d53ucml5gof0b3k5sd25; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/goods/goods/token/c5e0899503ad3a706c10e6022df44de4.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/getprodata' => '',
+  'pid' => '29',
+  '_' => '1555740378780',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->getprodata[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T14:11:23+08:00 ] ::1 ::1 GET /index/goods/ajaxpro/pid/29
+[ log ] localhost/index/goods/ajaxpro/pid/29 [运行时间：0.044628s][吞吐率：22.41req/s] [内存消耗：3,221.55kb] [文件加载：58]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'ajaxpro',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6nhv11d53ucml5gof0b3k5sd25; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/goods/goods/token/c5e0899503ad3a706c10e6022df44de4.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/ajaxpro/pid/29' => '',
+  'pid' => '29',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Goods->ajaxpro[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T14:11:23+08:00 ] ::1 ::1 GET /index/goods/ajaxpro/pid/12
+[ log ] localhost/index/goods/ajaxpro/pid/12 [运行时间：0.039914s][吞吐率：25.05req/s] [内存消耗：3,221.55kb] [文件加载：58]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'ajaxpro',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6nhv11d53ucml5gof0b3k5sd25; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/goods/goods/token/c5e0899503ad3a706c10e6022df44de4.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/ajaxpro/pid/12' => '',
+  'pid' => '12',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Goods->ajaxpro[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T14:11:23+08:00 ] ::1 ::1 GET /index/goods/ajaxpro/pid/6
+[ log ] localhost/index/goods/ajaxpro/pid/6 [运行时间：0.039414s][吞吐率：25.37req/s] [内存消耗：3,221.55kb] [文件加载：58]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'ajaxpro',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6nhv11d53ucml5gof0b3k5sd25; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/goods/goods/token/c5e0899503ad3a706c10e6022df44de4.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/ajaxpro/pid/6' => '',
+  'pid' => '6',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Goods->ajaxpro[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T14:11:24+08:00 ] ::1 ::1 GET /index/goods/ajaxpro/pid/29
+[ log ] localhost/index/goods/ajaxpro/pid/29 [运行时间：0.040186s][吞吐率：24.88req/s] [内存消耗：3,221.55kb] [文件加载：58]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'ajaxpro',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6nhv11d53ucml5gof0b3k5sd25; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/goods/goods/token/c5e0899503ad3a706c10e6022df44de4.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/ajaxpro/pid/29' => '',
+  'pid' => '29',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Goods->ajaxpro[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T14:11:24+08:00 ] ::1 ::1 GET /index/goods/ajaxpro/pid/12
+[ log ] localhost/index/goods/ajaxpro/pid/12 [运行时间：0.039390s][吞吐率：25.39req/s] [内存消耗：3,221.55kb] [文件加载：58]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'ajaxpro',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6nhv11d53ucml5gof0b3k5sd25; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/goods/goods/token/c5e0899503ad3a706c10e6022df44de4.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/ajaxpro/pid/12' => '',
+  'pid' => '12',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Goods->ajaxpro[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T14:11:24+08:00 ] ::1 ::1 GET /index/goods/ajaxpro/pid/6
+[ log ] localhost/index/goods/ajaxpro/pid/6 [运行时间：0.047934s][吞吐率：20.86req/s] [内存消耗：3,221.55kb] [文件加载：58]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'ajaxpro',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6nhv11d53ucml5gof0b3k5sd25; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/goods/goods/token/c5e0899503ad3a706c10e6022df44de4.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/ajaxpro/pid/6' => '',
+  'pid' => '6',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Goods->ajaxpro[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T14:11:24+08:00 ] ::1 ::1 GET /index/api/getprodata?pid=29&_=1555740378781
+[ log ] localhost/index/api/getprodata?pid=29&_=1555740378781 [运行时间：0.035171s][吞吐率：28.43req/s] [内存消耗：3,151.39kb] [文件加载：51]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'getprodata',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6nhv11d53ucml5gof0b3k5sd25; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/goods/goods/token/c5e0899503ad3a706c10e6022df44de4.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/getprodata' => '',
+  'pid' => '29',
+  '_' => '1555740378781',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->getprodata[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T14:11:25+08:00 ] ::1 ::1 GET /index/goods/ajaxpro/pid/29
+[ log ] localhost/index/goods/ajaxpro/pid/29 [运行时间：0.039453s][吞吐率：25.35req/s] [内存消耗：3,221.55kb] [文件加载：58]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'ajaxpro',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6nhv11d53ucml5gof0b3k5sd25; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/goods/goods/token/c5e0899503ad3a706c10e6022df44de4.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/ajaxpro/pid/29' => '',
+  'pid' => '29',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Goods->ajaxpro[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T14:11:25+08:00 ] ::1 ::1 GET /index/goods/ajaxpro/pid/6
+[ log ] localhost/index/goods/ajaxpro/pid/6 [运行时间：0.031195s][吞吐率：32.06req/s] [内存消耗：3,221.55kb] [文件加载：58]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'ajaxpro',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6nhv11d53ucml5gof0b3k5sd25; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/goods/goods/token/c5e0899503ad3a706c10e6022df44de4.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/ajaxpro/pid/6' => '',
+  'pid' => '6',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Goods->ajaxpro[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T14:11:25+08:00 ] ::1 ::1 GET /index/goods/ajaxpro/pid/12
+[ log ] localhost/index/goods/ajaxpro/pid/12 [运行时间：0.038904s][吞吐率：25.70req/s] [内存消耗：3,221.55kb] [文件加载：58]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'ajaxpro',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6nhv11d53ucml5gof0b3k5sd25; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/goods/goods/token/c5e0899503ad3a706c10e6022df44de4.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/ajaxpro/pid/12' => '',
+  'pid' => '12',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Goods->ajaxpro[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T14:11:25+08:00 ] ::1 ::1 GET /index/api/getprodata?pid=29&_=1555740378782
+[ log ] localhost/index/api/getprodata?pid=29&_=1555740378782 [运行时间：0.034402s][吞吐率：29.07req/s] [内存消耗：3,151.39kb] [文件加载：51]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'getprodata',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6nhv11d53ucml5gof0b3k5sd25; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/goods/goods/token/c5e0899503ad3a706c10e6022df44de4.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/getprodata' => '',
+  'pid' => '29',
+  '_' => '1555740378782',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->getprodata[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T14:11:26+08:00 ] ::1 ::1 GET /index/goods/ajaxpro/pid/29
+[ log ] localhost/index/goods/ajaxpro/pid/29 [运行时间：0.043684s][吞吐率：22.89req/s] [内存消耗：3,221.55kb] [文件加载：58]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'ajaxpro',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6nhv11d53ucml5gof0b3k5sd25; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/goods/goods/token/c5e0899503ad3a706c10e6022df44de4.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/ajaxpro/pid/29' => '',
+  'pid' => '29',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Goods->ajaxpro[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T14:11:26+08:00 ] ::1 ::1 GET /index/goods/ajaxpro/pid/12
+[ log ] localhost/index/goods/ajaxpro/pid/12 [运行时间：0.039282s][吞吐率：25.46req/s] [内存消耗：3,221.55kb] [文件加载：58]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'ajaxpro',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6nhv11d53ucml5gof0b3k5sd25; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/goods/goods/token/c5e0899503ad3a706c10e6022df44de4.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/ajaxpro/pid/12' => '',
+  'pid' => '12',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Goods->ajaxpro[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T14:11:26+08:00 ] ::1 ::1 GET /index/goods/ajaxpro/pid/6
+[ log ] localhost/index/goods/ajaxpro/pid/6 [运行时间：0.039341s][吞吐率：25.42req/s] [内存消耗：3,221.55kb] [文件加载：58]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'ajaxpro',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6nhv11d53ucml5gof0b3k5sd25; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/goods/goods/token/c5e0899503ad3a706c10e6022df44de4.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/ajaxpro/pid/6' => '',
+  'pid' => '6',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Goods->ajaxpro[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T14:11:27+08:00 ] ::1 ::1 GET /index/goods/ajaxpro/pid/29
+[ log ] localhost/index/goods/ajaxpro/pid/29 [运行时间：0.047186s][吞吐率：21.19req/s] [内存消耗：3,221.55kb] [文件加载：58]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'ajaxpro',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6nhv11d53ucml5gof0b3k5sd25; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/goods/goods/token/c5e0899503ad3a706c10e6022df44de4.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/ajaxpro/pid/29' => '',
+  'pid' => '29',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Goods->ajaxpro[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T14:11:27+08:00 ] ::1 ::1 GET /index/goods/ajaxpro/pid/12
+[ log ] localhost/index/goods/ajaxpro/pid/12 [运行时间：0.039935s][吞吐率：25.04req/s] [内存消耗：3,221.55kb] [文件加载：58]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'ajaxpro',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6nhv11d53ucml5gof0b3k5sd25; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/goods/goods/token/c5e0899503ad3a706c10e6022df44de4.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/ajaxpro/pid/12' => '',
+  'pid' => '12',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Goods->ajaxpro[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T14:11:27+08:00 ] ::1 ::1 GET /index/goods/ajaxpro/pid/6
+[ log ] localhost/index/goods/ajaxpro/pid/6 [运行时间：0.039322s][吞吐率：25.43req/s] [内存消耗：3,221.55kb] [文件加载：58]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'ajaxpro',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6nhv11d53ucml5gof0b3k5sd25; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/goods/goods/token/c5e0899503ad3a706c10e6022df44de4.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/ajaxpro/pid/6' => '',
+  'pid' => '6',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Goods->ajaxpro[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T14:11:27+08:00 ] ::1 ::1 GET /index/api/getprodata?pid=29&_=1555740378783
+[ log ] localhost/index/api/getprodata?pid=29&_=1555740378783 [运行时间：0.026223s][吞吐率：38.13req/s] [内存消耗：3,151.39kb] [文件加载：51]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'getprodata',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6nhv11d53ucml5gof0b3k5sd25; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/goods/goods/token/c5e0899503ad3a706c10e6022df44de4.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/getprodata' => '',
+  'pid' => '29',
+  '_' => '1555740378783',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->getprodata[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T14:11:28+08:00 ] ::1 ::1 GET /index/goods/ajaxpro/pid/12
+[ log ] localhost/index/goods/ajaxpro/pid/12 [运行时间：0.038337s][吞吐率：26.08req/s] [内存消耗：3,221.55kb] [文件加载：58]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'ajaxpro',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6nhv11d53ucml5gof0b3k5sd25; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/goods/goods/token/c5e0899503ad3a706c10e6022df44de4.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/ajaxpro/pid/12' => '',
+  'pid' => '12',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Goods->ajaxpro[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T14:11:28+08:00 ] ::1 ::1 GET /index/goods/ajaxpro/pid/29
+[ log ] localhost/index/goods/ajaxpro/pid/29 [运行时间：0.038461s][吞吐率：26.00req/s] [内存消耗：3,221.55kb] [文件加载：58]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'ajaxpro',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6nhv11d53ucml5gof0b3k5sd25; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/goods/goods/token/c5e0899503ad3a706c10e6022df44de4.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/ajaxpro/pid/29' => '',
+  'pid' => '29',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Goods->ajaxpro[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T14:11:28+08:00 ] ::1 ::1 GET /index/goods/ajaxpro/pid/6
+[ log ] localhost/index/goods/ajaxpro/pid/6 [运行时间：0.048795s][吞吐率：20.49req/s] [内存消耗：3,221.55kb] [文件加载：58]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'ajaxpro',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6nhv11d53ucml5gof0b3k5sd25; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/goods/goods/token/c5e0899503ad3a706c10e6022df44de4.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/ajaxpro/pid/6' => '',
+  'pid' => '6',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Goods->ajaxpro[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T14:11:28+08:00 ] ::1 ::1 GET /index/api/getprodata?pid=29&_=1555740378784
+[ log ] localhost/index/api/getprodata?pid=29&_=1555740378784 [运行时间：0.034391s][吞吐率：29.08req/s] [内存消耗：3,151.39kb] [文件加载：51]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'getprodata',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6nhv11d53ucml5gof0b3k5sd25; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/goods/goods/token/c5e0899503ad3a706c10e6022df44de4.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/getprodata' => '',
+  'pid' => '29',
+  '_' => '1555740378784',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->getprodata[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T14:11:29+08:00 ] ::1 ::1 GET /index/goods/ajaxpro/pid/29
+[ log ] localhost/index/goods/ajaxpro/pid/29 [运行时间：0.041525s][吞吐率：24.08req/s] [内存消耗：3,221.55kb] [文件加载：58]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'ajaxpro',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6nhv11d53ucml5gof0b3k5sd25; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/goods/goods/token/c5e0899503ad3a706c10e6022df44de4.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/ajaxpro/pid/29' => '',
+  'pid' => '29',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Goods->ajaxpro[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T14:11:29+08:00 ] ::1 ::1 GET /index/goods/ajaxpro/pid/6
+[ log ] localhost/index/goods/ajaxpro/pid/6 [运行时间：0.032280s][吞吐率：30.98req/s] [内存消耗：3,221.55kb] [文件加载：58]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'ajaxpro',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6nhv11d53ucml5gof0b3k5sd25; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/goods/goods/token/c5e0899503ad3a706c10e6022df44de4.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/ajaxpro/pid/6' => '',
+  'pid' => '6',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Goods->ajaxpro[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T14:11:29+08:00 ] ::1 ::1 GET /index/goods/ajaxpro/pid/12
+[ log ] localhost/index/goods/ajaxpro/pid/12 [运行时间：0.039575s][吞吐率：25.27req/s] [内存消耗：3,221.55kb] [文件加载：58]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'ajaxpro',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6nhv11d53ucml5gof0b3k5sd25; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/goods/goods/token/c5e0899503ad3a706c10e6022df44de4.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/ajaxpro/pid/12' => '',
+  'pid' => '12',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Goods->ajaxpro[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T14:11:29+08:00 ] ::1 ::1 GET /index/api/getprodata?pid=29&_=1555740378785
+[ log ] localhost/index/api/getprodata?pid=29&_=1555740378785 [运行时间：0.034625s][吞吐率：28.88req/s] [内存消耗：3,151.39kb] [文件加载：51]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'getprodata',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6nhv11d53ucml5gof0b3k5sd25; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/goods/goods/token/c5e0899503ad3a706c10e6022df44de4.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/getprodata' => '',
+  'pid' => '29',
+  '_' => '1555740378785',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->getprodata[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T14:11:30+08:00 ] ::1 ::1 GET /index/goods/ajaxpro/pid/29
+[ log ] localhost/index/goods/ajaxpro/pid/29 [运行时间：0.042562s][吞吐率：23.50req/s] [内存消耗：3,221.55kb] [文件加载：58]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'ajaxpro',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6nhv11d53ucml5gof0b3k5sd25; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/goods/goods/token/c5e0899503ad3a706c10e6022df44de4.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/ajaxpro/pid/29' => '',
+  'pid' => '29',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Goods->ajaxpro[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T14:11:30+08:00 ] ::1 ::1 GET /index/goods/ajaxpro/pid/12
+[ log ] localhost/index/goods/ajaxpro/pid/12 [运行时间：0.039846s][吞吐率：25.10req/s] [内存消耗：3,221.55kb] [文件加载：58]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'ajaxpro',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6nhv11d53ucml5gof0b3k5sd25; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/goods/goods/token/c5e0899503ad3a706c10e6022df44de4.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/ajaxpro/pid/12' => '',
+  'pid' => '12',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Goods->ajaxpro[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T14:11:30+08:00 ] ::1 ::1 GET /index/goods/ajaxpro/pid/6
+[ log ] localhost/index/goods/ajaxpro/pid/6 [运行时间：0.050373s][吞吐率：19.85req/s] [内存消耗：3,221.55kb] [文件加载：58]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'ajaxpro',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6nhv11d53ucml5gof0b3k5sd25; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/goods/goods/token/c5e0899503ad3a706c10e6022df44de4.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/ajaxpro/pid/6' => '',
+  'pid' => '6',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Goods->ajaxpro[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T14:11:31+08:00 ] ::1 ::1 GET /index/goods/ajaxpro/pid/29
+[ log ] localhost/index/goods/ajaxpro/pid/29 [运行时间：0.040177s][吞吐率：24.89req/s] [内存消耗：3,221.55kb] [文件加载：58]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'ajaxpro',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6nhv11d53ucml5gof0b3k5sd25; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/goods/goods/token/c5e0899503ad3a706c10e6022df44de4.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/ajaxpro/pid/29' => '',
+  'pid' => '29',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Goods->ajaxpro[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T14:11:31+08:00 ] ::1 ::1 GET /index/goods/ajaxpro/pid/12
+[ log ] localhost/index/goods/ajaxpro/pid/12 [运行时间：0.049034s][吞吐率：20.39req/s] [内存消耗：3,221.55kb] [文件加载：58]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'ajaxpro',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6nhv11d53ucml5gof0b3k5sd25; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/goods/goods/token/c5e0899503ad3a706c10e6022df44de4.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/ajaxpro/pid/12' => '',
+  'pid' => '12',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Goods->ajaxpro[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T14:11:31+08:00 ] ::1 ::1 GET /index/goods/ajaxpro/pid/6
+[ log ] localhost/index/goods/ajaxpro/pid/6 [运行时间：0.039050s][吞吐率：25.61req/s] [内存消耗：3,221.55kb] [文件加载：58]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'ajaxpro',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6nhv11d53ucml5gof0b3k5sd25; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/goods/goods/token/c5e0899503ad3a706c10e6022df44de4.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/ajaxpro/pid/6' => '',
+  'pid' => '6',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Goods->ajaxpro[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T14:11:31+08:00 ] ::1 ::1 GET /index/api/getprodata?pid=29&_=1555740378786
+[ log ] localhost/index/api/getprodata?pid=29&_=1555740378786 [运行时间：0.035961s][吞吐率：27.81req/s] [内存消耗：3,151.39kb] [文件加载：51]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'getprodata',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6nhv11d53ucml5gof0b3k5sd25; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/goods/goods/token/c5e0899503ad3a706c10e6022df44de4.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/api/getprodata' => '',
+  'pid' => '29',
+  '_' => '1555740378786',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Api->getprodata[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T14:11:31+08:00 ] ::1 ::1 GET /index/goods/ajaxpro/pid/29
+[ log ] localhost/index/goods/ajaxpro/pid/29 [运行时间：0.030148s][吞吐率：33.17req/s] [内存消耗：3,221.55kb] [文件加载：58]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'ajaxpro',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6nhv11d53ucml5gof0b3k5sd25; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/goods/goods/token/c5e0899503ad3a706c10e6022df44de4.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/ajaxpro/pid/29' => '',
+  'pid' => '29',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Goods->ajaxpro[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T14:11:32+08:00 ] ::1 ::1 GET /index/goods/ajaxpro/pid/12
+[ log ] localhost/index/goods/ajaxpro/pid/12 [运行时间：0.031830s][吞吐率：31.42req/s] [内存消耗：3,221.55kb] [文件加载：58]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'ajaxpro',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6nhv11d53ucml5gof0b3k5sd25; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/goods/goods/token/c5e0899503ad3a706c10e6022df44de4.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/ajaxpro/pid/12' => '',
+  'pid' => '12',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Goods->ajaxpro[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-04-20T14:11:32+08:00 ] ::1 ::1 GET /index/goods/ajaxpro/pid/6
+[ log ] localhost/index/goods/ajaxpro/pid/6 [运行时间：0.041404s][吞吐率：24.15req/s] [内存消耗：3,221.55kb] [文件加载：58]
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'ajaxpro',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=6nhv11d53ucml5gof0b3k5sd25; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/index/goods/goods/token/c5e0899503ad3a706c10e6022df44de4.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/ajaxpro/pid/6' => '',
+  'pid' => '6',
+)
+[ info ] [ LANG ] D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21/application/index\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Goods->ajaxpro[ D:\UPUPW_ANK_W64\WebRoot\Vhosts\weipan21\application\index\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

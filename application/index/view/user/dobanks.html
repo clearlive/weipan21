@@ -1,0 +1,147 @@
+{include file="head-gaiban" /}
+<script src="__HOME__/js/lk/user.js"></script>
+<body class="login-body respass-body">
+ <style type="text/css">
+ #code{
+
+ font-size:20px;
+ font-family:Arial; 
+ font-style:italic; 
+ font-weight:bold; 
+ border:0; 
+ letter-spacing:2px; 
+ color:blue; 
+ }
+ .container{
+   padding:0;
+ }
+ body{
+   background: #f5f5f5;
+ }
+ .phone-text{
+    border-right: 1px solid #c6c6c6;
+    width: 20%;
+    position: absolute;
+ }
+ .phone{
+    margin-left: 22%;
+ }
+ .phone > select,.phone > input{
+    width: 80%;
+ }
+ </style>
+<div class="container">
+    <div class="login-top">
+      <a href="javascript:history.go(-1);" class="login-top-img"><img src="__HOME__/img/ic_back.png" alt=""></a> <h1 class="sign-title">绑定银行卡</h1>
+     </div>
+   <!-- <form class="form-signin" method="post" id="formid" > -->
+         
+        <div class="login-wrap">
+                
+            <div class="respass-cz">
+                <!-- <div class="respass-title clearfix"><div class="fk"></div>银行名称</div> -->
+                <div class="login-item">
+                    <div class="phone-text">银行名称</div>
+                    <div class="phone"  class="form-control">
+                        <select name="bankno" class=" bankno">
+                        {volist name="banks" id="vo"}
+                            <option label="{$vo.bank_nm}" value="{$vo.id}" {if isset($mybank) && $mybank['bankno'] == $vo['id']}selected="selected" {/if} >{$vo.bank_nm}</option>
+                        {/volist}
+                        </select>
+                    </div>
+                </div>
+                <div class="login-item">
+                    <div class="phone-text">省份</div>
+                    <div class="phone"  class="form-control">
+                        <select id="province" class="province" name="province" style="">
+                            <option value="">请选择</option>           
+                            {volist name="province" id="vo"}                                        
+                                <option  value="{$vo.id}" {if isset($mybank) && $mybank['provinceid'] == $vo['id']} selected="selected" {/if} >{$vo.name}</option>
+                            {/volist}
+                        </select>
+                    </div>
+                </div>
+                <div class="login-item">
+                    <div class="phone-text">市名</div>
+                    <div class="phone"  class="form-control">
+                        <select id="city" name="cityno" class="city">
+                            {if isset($mybank)}
+                            <option value="{$mybank.cityno}">{:getarea($mybank['cityno'])}</option>
+                            {else/}
+                            <option value="">请选择</option>
+                            {/if}
+                        </select>
+                    </div>
+                </div>
+                <div class="login-item">
+                    <div class="phone-text">开户支行</div>
+                    <div class="phone"  class="form-control">
+                        <input type="text" placeholder="支行地址" name="address" class="address" value="{:isset($mybank)?$mybank.address:''}">
+                    </div>
+                </div>
+                <div class="login-item">
+                    <div class="phone-text">开户名</div>
+                    <div class="phone"  class="form-control">
+                        <input type="text" placeholder="持卡人姓名" name="accntnm"  class="accntnm" value="{:isset($mybank)?$mybank.accntnm:''}">
+                    </div>
+                </div>
+                <div class="login-item">
+                    <div class="phone-text">卡号</div>
+                    <div class="phone"  class="form-control">
+                        <input type="text" placeholder="银行卡号" name="accntno" class="accntno" value="{:isset($mybank)?$mybank.accntno:''}">
+                    </div>
+                </div>
+                <div class="login-item">
+                    <div class="phone-text">身份证号</div>
+                    <div class="phone"  class="form-control">
+                        <input type="text" placeholder="身份证号" name="scard" class=" scard" value="{:isset($mybank)?$mybank.scard:''}">
+                    </div>
+                </div>
+                <!-- <div class="login-item">
+                    <div class="phone-text">微信账号</div>
+                    <div class="phone"  class="form-control">
+                        <input type="text" placeholder="微信联系方式" name="phone"  class="phone" value="{:isset($mybank)?$mybank.phone:''}">
+                    </div>
+                </div> -->
+                {if isset($mybank)}
+                    <input type="hidden" class="id" name="id" value="{$mybank['id']}">
+                {/if}
+            <!-- <div class="registration">
+                <a href="javascript:history.go(-1);" class="">
+                  ——&nbsp;&nbsp;返回&nbsp;&nbsp;——
+                </a>
+            </div> -->
+
+        </div>
+        <button  class="btn btn-lg btn-login btn-block respass-qr" onclick="update_user()">
+            确定
+        </button>
+    <!-- </form> -->
+
+</div>
+<script type="text/javascript">
+  
+</script> 
+<script>
+    $(function(){
+        $('#province').change(function(){
+            var pid = $(this).val();
+            if(pid != ''){
+                var url = "{:url('getarea')}"+"?id="+pid;
+                $.get(url,function(data){
+                    $("#city").html(data);
+                });
+            }else{
+                $("#city").html('<option value="">请选择城市</option>');
+            }
+        });
+    })
+</script>
+
+
+<script src="/static/gaiban/js/jquery-1.10.2.min.js"></script>
+<script src="/static/gaiban/js/bootstrap.min.js"></script>
+<script src="/static/gaiban/js/modernizr.min.js"></script>
+
+</body>
+</html>

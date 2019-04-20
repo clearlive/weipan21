@@ -1,6 +1,8 @@
 {include file="head-gaiban" /}
 	<link href="/static/gaiban/css/xz-goods.css" rel="stylesheet">
 	<link href="/static/gaiban/css/xz-currency.css" rel="stylesheet">
+<link href="/static/gaiban/css/xz-hold.css" rel="stylesheet">
+<link href="/static/gaiban/css/xz-currency.css" rel="stylesheet">
 
 <style>
   /* .intro{
@@ -15,6 +17,7 @@
    	  border-right-color: #65CEA7;
       border: 1px solid rgba(255, 255, 255, 0.25);
   } */
+
   .xz-li-span a.active{
     background-color: red;
     color:#0072ff;
@@ -93,10 +96,10 @@ var order_max_price = {:getconf('order_max_price')};
                             <img src="__HOME__/img/logot.png" alt="" class="dd-index-img">
                             <div class="dd-index-ye">
                                 余额：
-                                <span>≈</span>
+                                <!--<span>≈</span>-->
                             </div>
                             <div class="index-top-left-right">
-                                <p><img src="__HOME__/img/dd-ye.png" alt=""><span>{$userinfo.userdollor}</span> </p>
+                                <!--<p><img src="__HOME__/img/dd-ye.png" alt=""><span>{$userinfo.userdollor}</span> </p>-->
                                 <p><img src="__HOME__/img/dd-ye1.png" alt=""><span>{$userinfo.usermoney}</span></p>
                             </div>
                         </div> 
@@ -240,7 +243,7 @@ var order_max_price = {:getconf('order_max_price')};
               </section>
               <div class="good-yz claerfix">
               	{volist name="protime" id="vo" key='k'}
-	              	<div class="good-yz-list {if $k == 2 }active{/if}" onclick="getTimeVal({$k})">
+	              	<div class="good-yz-list {if $k == 1 }active{/if}" onclick="getTimeVal({$k})">
 	                    <div class="time">盈战时间</div>
 	                    <div class="time1"><span id="time_val_{$k}">{$vo*60}</span>秒</div>
 	                    <div class="sy">收益率:{$proscale[$k-1]}%</div>
@@ -248,6 +251,9 @@ var order_max_price = {:getconf('order_max_price')};
 	                </div>
               	{/volist}
               </div>
+
+
+
               <!--<div class="good-yz claerfix">
 	                <div class="good-yz-list">
 	                    <div class="time">盈战时间</div>
@@ -286,22 +292,31 @@ var order_max_price = {:getconf('order_max_price')};
   
   <div class="foot-xiadan" style="bottom:15px;">
         <ul class="goods-bottom-ul clearfix" >
-                <li class="trade-chart-period line " ><a href="#" onclick="change_chart_type('line','stock')">走势</a></li>
-                <li class="trade-chart-period 1M active" onclick="change_chart_period('1M','stock')"><a href="#">1M</a></li>
-                <li class="trade-chart-period 5M" onclick="change_chart_period('5M','stock')"><a href="#">5M</a></li> 
-                <li   class="trade-chart-period 15M" onclick="change_chart_period('15M','stock')"><a href="#">15M</a></li> 
-                <li class="trade-chart-period 30M" onclick="change_chart_period('30M','stock')"><a href="#">30M</a></li> 
-                <li class="trade-chart-period 1D" onclick="change_chart_period('1D','stock')"><a href="#">1D</a></li>
+                <li class="trade-chart-period line  " ><a href="#" onclick="change_chart_type('line','stock')">分时图</a></li>
+                <li class="trade-chart-period 1M active " onclick="change_chart_period('1M','stock')"><a href="#">1分钟k线</a></li>
+                <li class="trade-chart-period 5M " onclick="change_chart_period('5M','stock')"><a href="#">5分钟k线</a></li>
+                <li   class="trade-chart-period 15M" onclick="change_chart_period('15M','stock')"><a href="#">15分钟k线</a></li>
+                <li class="trade-chart-period 30M " onclick="change_chart_period('30M','stock')"><a href="#">30分钟k线</a></li>
+                <li class="trade-chart-period 1D " onclick="change_chart_period('1D','stock')"><a href="#">日线</a></li>
         </ul>
-        
+      <script>
+          $(function(){
+              setTimeout(function () {
+                  $('.line').click()
+                  change_chart_type('line','stock')
+              }, 1);
+          });
+      </script>
      {if $isopen == 1}
                   <div class="col-md-12" style="padding-left: 0px;padding-right: 0px; ">
-                       <section class="panel" style="margin-bottom: 40px;">
+                       <section class="panel" style="margin-bottom: 0px;-webkit-box-shadow:none;box-shadow: none;">
                                 <div class="panel-body">
-                                  	<!-- <div class="zx-zhxl"> 
+                                  	<!-- <div class="zx-zhxl">
                                         <span>账户余额:<code>{$userinfo.usermoney}</code></span>
                                       <span class="xz-right"><button class="btn btn-danger btn-sm" style="margin-top: -5px;"><a href="/index/user/?id=chongzhi" style="color: #fff;">立即充值</a></button></span>
                                     </div> -->
+
+
                                     <div class="btn-group btn-group-justified" style="margin-top:20px;">
                                         <a  style="color: #fff;" href="#myModal" data-toggle="modal" onclick="toggle_order_confirm_panel('lookup',1)"   class="btn bth-colorz " id ="btnyu">买涨 </a>
                                         <a  style="color: #fff;"  href="#myModal" data-toggle="modal" onclick="toggle_order_confirm_panel('lookdown',1)"  class="btn bth-colord " id="btnmd"> 买跌  </a>
@@ -310,6 +325,7 @@ var order_max_price = {:getconf('order_max_price')};
                                   	<span>{$proclaima}</span>
                                   </div>
                                </div>
+
                         </section>
                    </div>
     {else/}
@@ -330,20 +346,400 @@ var order_max_price = {:getconf('order_max_price')};
                                </div>
                         </section>
                   </div>
-    
-   				
 	{/if}
-  
-  	
-    </div>     
-  
-  
+
+
+    </div>
+
+    <div style="width: 100%;display: flex;justify-content: center;margin-bottom: 10px;">
+        <a style="color: #e1ab32;font-size:16px;text-decoration:none" href="{:url('index/user/course')}">新手教程</a>
+    </div>
+
+    <div style="font-size:16px;color:black;width: 100%;height:60px;background: #e1edf7;display: flex;justify-content: space-around;align-items: center;">
+        <div type="0" id="first1"  class="list check">持仓明细</div>
+        <div type="2" class="list">今日成交</div>
+        <div type="1" class="list">历史成交</div>
+    </div>
+    <script>
+      $(function () {
+          hold_order_list1()
+          $('.uls').html(' ');
+      })
+
+    </script>
+
+
+    <div class="panel-body " style="width: 100%;margin-top: 10px">
+        <div class="tab-content trade_history_list ">
+
+            <div class="tab-pane active slider-left  " id="home"   data-index="0" >
+                <ul class="activity-list timeout">
+
+                </ul>
+            </div>
+
+
+            <div style="display: block" class="tab-pane slider-right" id="about"  data-index="1" >
+                <ul class="activity-list uls">
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <style>
+        .list{
+            height: 60px;
+            line-height: 60px;
+        }
+        .check{
+            color: #0e90d2;
+            border-bottom: 2px #0e90d2 solid;
+        }
+    </style>
+    <script>
+        var resorderlist = {};
+        var proprice = {};
+        var page = 1;
+        var ispage = 1;
+        var is_ajax_list = 0;
+        var timer_get_price = '';
+        var timer_orderlist = '';
+        var listionhajax = '';
+        var _sell_time = 0;
+        var _ftime = 0;
+        var html_type = 1;
+        $('.list').click(function () {
+            var _this = $(this);
+            type = _this.attr('type');
+            _this.addClass('check');
+            _this.siblings().removeClass('check');
+            // var index = layer.load(2, {shade: false});
+            // layer.close(index)
+            if (type==0){
+                page = 1;
+                //get_price();
+                hold_order_list1()
+                $('.uls').html(' ');
+            }
+
+            if(type == 1){
+
+                clearInterval(timer_get_price);
+                clearInterval(timer_orderlist);
+                page = 1;
+                var time_type=1
+                $('.slider-left').html(' ')
+                orderedlist1(time_type);
+
+                $('.uls').html(' ');
+            }
+            if(type == 2){
+
+                clearInterval(timer_get_price);
+                clearInterval(timer_orderlist);
+                page = 1;
+                var time_type=2
+                orderedlist1(time_type);
+                $('.slider-left').html(' ')
+                $('.uls').html(' ');
+            }
+
+        })
+
+
+        function orderedlist1(time_type) {
+            if(ispage != 1){
+                return;
+            }
+
+            setolist1(html_type,time_type);
+            html_type = 1;
+
+        }
+
+        function hold_order_list1() {
+
+
+            var url = "/index/order/ajaxorder_list";
+
+            $.get(url,function(resdata){
+
+                if(resdata){
+                    console.log(111)
+                    resdata = jQuery.parseJSON(Base64.decode(resdata));
+                    console.log(resdata)
+                }
+
+                resorderlist = resdata;
+
+                if(resorderlist){
+                    if(resorderlist.length >= 1){
+                        _ftime = resorderlist[0]['time'];
+                    }else{
+                        var timestamp = Date.parse(new Date());
+                        _ftime = timestamp/1000;
+                    }
+
+                     show_order_list1();
+                     timer_get_price = setInterval("get_price1()",1000);
+                     timer_orderlist = setInterval("show_order_list1()",1000);
+                }
+            })
+        }
+
+
+        function get_price1() {
+
+            var url = "/index/order/get_price";
+            $.get(url,function(resdata){
+                if(!resdata){
+                    proprice = '';
+                }else{
+                    proprice = jQuery.parseJSON(Base64.decode(resdata));
+                }
+
+                //console.log(proprice);
+
+
+
+            })
+        }
+
+        function setolist1(types,time_type) {
+          var url = "/index/order/orderlist?page="+page+'&times='+time_type;
+            var html = '';
+
+            is_ajax_list = 1;
+            $.get(url,function(resdata){
+
+                resdata = jQuery.parseJSON(Base64.decode(resdata));
+
+                var res_list = resdata.data;
+                console.log(res_list)
+                if(res_list.length == 0){
+
+                    clearInterval(listionhajax);
+                    is_ajax_list = 1;
+                    return;
+                }
+                $.each(res_list,function(k,v){
+                    var trade_type = "时间盘";
+                    var closeprice = 0;
+                    var closeprice_class = '';
+                    var ostyle_name = '';
+                    if(v.trade_type == 2){
+                        trade_type = "点位盘";
+                    }
+                    if(v.ostyle == 0){
+                        var ostyle_class = "buytop";
+                        ostyle_name = "买涨";
+                        if(v.trade_type == 2){
+                            ostyle_name = "预购";
+                        }
+                    }else{
+                        var ostyle_class = "buydown";
+                        ostyle_name = "买跌";
+                        if(v.trade_type == 2){
+                            ostyle_name = "预售";
+                        }
+                    }
+
+                    if(v.is_win == 1){
+                        closeprice = v.fee*(100*10+v.endloss*10)/1000;
+                        closeprice_class = 'in_money';
+                    }else if(v.is_win == 2){
+                        closeprice = v.fee*(-1);
+                        closeprice_class = 'out_money';
+                    }else{
+                        closeprice = 0;
+                        closeprice_class = '';
+                    }
+
+                    html += '<li ng-repeat="o" onclick="get_hold_order('+v.oid+')" class="col-md-12" >';
+                    html += '<div class="panel">';
+                    html += '<div class="panel-body p-states green-box" style="background: linear-gradient(#00c6ff,#0072ff 100%);box-shadow: none">';
+                    html += '<div class="summary pull-left">';
+                    html += '<h4 class="ng-binding">'+v.ptitle+' &nbsp; <span  class="ng-binding">';
+                    html += '<i class="'+ostyle_class+'"></i>'+ostyle_name+'（'+trade_type+'）</span></h4>';
+                    html += '<span>'+getLocalTime(v.buytime)+'</span>';
+                    html += '<h3 class="ng-binding '+closeprice_class+'">$'+closeprice+'</h3>';
+                    html += '</div>';
+                    html += '<div class="chart-bar">';
+                    html += '<span class="ng-binding">'+getLocalTime(v.selltime)+'</span>';
+                    html += '<p class="ng-binding"style="margin-top: 7px;">';
+                    if(v.trade_type == 1){
+                        html += v.buyprice+'-<span>'+v.sellprice+'</span>';
+                    }else{
+                        html += v.buyprice+'-<span>'+v.sellprice+'(<span class="'+closeprice_class+'">'+v.endprofit+'点)</span></span>';
+                    }
+                    html += '</p>';
+                    html += '</div>';
+                    html += '</div>';
+                    html += '</div>';
+                    html += '</li>';
+
+                })
+                if(types == 0){
+                    $('.trade_history_list .slider-right .uls').html(html);
+                }else{
+                    $('.trade_history_list .slider-right .uls').append(html);
+                }
+                html = '';
+                page++;
+                is_ajax_list = 0;
+            })
+        }
+
+
+        function show_order_list1() {
+            var  html = '';
+            if(resorderlist.length == 0){
+                $('.trade_history_list ul').html(' ');
+                return false;
+            }
+            _ftime++;
+            $.each(resorderlist,function(k,v){
+
+                var timestamp = Date.parse(new Date());
+                if(typeof(v.selltime)=="undefined"){v.selltime = 0}
+                var  _end_time = (v.selltime*1 - _ftime*1);
+
+                var newprice = proprice[v.pid];
+                if(typeof(newprice) == "undefined"){
+                    //console.log("newprice="+newprice);
+                    newprice = v.buyprice;
+                }
+                if(!_end_time){
+                    _end_time = 0;
+                }
+                var chaprice = newprice-v.buyprice;
+                var _end_profit = Math.abs(chaprice);
+                var flag = true;
+                //时间盘判断时间，点位盘判断点位大小
+                if(v.trade_type == 1){
+                    if(_end_time >= 0){
+                        flag = true;
+                    }else{
+                        flag = false;
+                    }
+                }else if(v.trade_type == 2){
+                    //将当前的点位增涨计算出来，与购买时的点位进行比较。
+                    if(_end_profit.toFixed(2) < v.endprofit){
+                        //未平仓
+                        flag = true;
+                    }else{
+                        //未平仓
+                        flag = false;
+                    }
+                }
+
+                if(flag){
+                    var closeprice = 0;
+                    var closeprice_class = '';
+                    var ostyle_name = '';
+                    var trade_type = "时间盘";
+                    if(v.trade_type == 2){
+                        trade_type = "点位盘";
+                    }
+                    if(v.ostyle == 0){
+                        //var ostyle_class = "buytop";
+                        //var ostyle_class2 = 'in_money';
+                        ostyle_name = "买涨";
+                        if(chaprice >0){
+                            closeprice = v.fee*(100*10+v.endloss*10)/1000;
+                            closeprice_class = 'in_money';
+                        }else if(chaprice <0){
+                            closeprice = v.fee*(-1);
+                            closeprice_class = 'out_money';
+                        }else{
+                            closeprice = v.fee;
+                            closeprice_class = '';
+                        }
+                        if(v.trade_type == 2){
+                            ostyle_name = "预购";
+                            closeprice = v.fee;
+                            if(chaprice > 0){
+                                closeprice_class = 'in_money';
+                            }else if(chaprice < 0){
+                                closeprice_class = 'out_money';
+                            }
+                        }
+
+                    }else{
+                        //var ostyle_class = "buydown";
+                        //var ostyle_class2 = 'out_money';
+                        ostyle_name = "买跌";
+                        if(chaprice <0){
+                            closeprice = v.fee*(100*10+v.endloss*10)/1000;
+                            closeprice_class = 'in_money';//盈
+                        }else if(chaprice >0){
+                            closeprice = v.fee*(-1);
+                            closeprice_class = 'out_money';//亏
+                        }else{
+                            closeprice = v.fee;
+                            closeprice_class = '';
+                        }
+                        if(v.trade_type == 2){
+                            ostyle_name = "预售";
+                            closeprice = v.fee;
+                            if(chaprice < 0){
+                                closeprice_class = 'in_money';
+                            }else if(chaprice > 0){
+                                closeprice_class = 'out_money';
+                            }
+                        }
+                    }
+
+                    html += '<li ng-repeat="o" class="col-md-12">';
+                    html += '<div class="panel">';
+                    html += '<div class="panel-body p-states green-box " style="background: linear-gradient(#00c6ff,#0072ff 100%);box-shadow: none">';
+                    html += '<div class="summary pull-left">';
+                    html += '<div>';
+                    html += '<h4 class="ng-binding">'+v.ptitle+' &nbsp; <span class="ng-binding">'+ostyle_name+'（'+trade_type+'）</span></h4>';
+                    html += '<span class="ng-binding">'+getLocalTime(v.buytime)+'</span>'
+                    if(v.trade_type == 1){
+                        html += '<h3 class="ng-binding">$'+closeprice+'</h3>';  //$'+closeprice_class+'">'+closeprice+'
+                    }else{
+                        html += '<h3 class="ng-binding">$'+closeprice+'</h3>';
+                    }
+                    html += '</div>';
+                    html += '</div>';
+                    html += '<div class="chart-bar">';
+                    html += '<p class="ng-binding">'+v.buyprice+'-<span  class="ng-binding '+closeprice_class+'">'+newprice+'</span></p>';
+                    if(v.trade_type == 1){
+                        html += '<p class="ng-binding">'+formatSeconds2(_end_time)+'</p>';
+                    }else{
+                        html += '<p class="ng-binding">'+v.endprofit+'点(<span class='+closeprice_class+'>'+_end_profit.toFixed(2)+'</span>)</p>';
+                    }
+                    html += '<span class="move_width" style=" transition-duration: 1s;">';
+                    html += '</span><i><em></em></i>';
+                    html += '</div>';
+                    html += '</div>';
+                    html += '</div>';
+                    html += '</li>';
+
+                    $('.trade_history_list .slider-left ul').html(html);
+
+                }else{
+
+                    resorderlist.splice(k,1);
+                }
+            })
+
+        }
+
+    </script>
+
 	<div class="row">
               <div class="col-lg-12">
                   <section class="panel">
+
                           <div aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" id="myModal" class="modal fade">
                               <div class="modal-dialog">
+
                                   <div class="modal-content">
+
                                       <div class="modal-header" style="background:linear-gradient(#00c6ff,#0072ff 100%);">
                                           <button aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
                                           <h4 class="modal-title goodstitle">买跌</h4>
@@ -468,7 +864,13 @@ var order_max_price = {:getconf('order_max_price')};
 											 <div class="order_mengban" id="div2" style="width:100%;height:100%;"><div>
                                           <div >
                                               <div class="order-state-panel"  >
-
+                                                  <script>
+                                                      $('.close').click(function () {
+                                                          $('#first1').click()
+                                                          hold_order_list1()
+                                                          $('.uls').html(' ');
+                                                      })
+                                                  </script>
                                                   <div class="panel-body">
                                                       <div class="paysuccess  ng-hide" ng-show="order_result.status == 'SUCCESS'">
                                                           <div class="circle_wrapper" ng-show="order_params.cycle.time.indexOf('-') == -1">
@@ -674,7 +1076,7 @@ var sId = location.search.getQueryString("id");
 		var val = $("#time_val_"+k).text();
 		order_sen = val;
 	}
-	getTimeVal(2);
+	getTimeVal(1);
     var titurl = '{:url("goodsinfo")}'
     $.post(titurl, 'pid={$pro.pid}', function(_res){
           
@@ -780,7 +1182,7 @@ var sId = location.search.getQueryString("id");
         $(this).addClass('active').siblings('.trade-chart-period').removeClass('active')
     })
 </script>
-        
+
                 <!-- Placed js at the end of the document so the pages load faster -->
 
 <script src="/static/gaiban/js/jquery-ui-1.9.2.custom.min.js"></script>

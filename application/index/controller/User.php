@@ -100,11 +100,19 @@ class User extends Base
 		}else{
 			$uid = $this->uid;;
 			$user = Db::name('userinfo')->field('usermoney')->where('uid',$uid)->find();
+			$reg_push =  $this->conf['reg_push'];
+            if ($reg_push) {
+                $reg_push = explode('|', $reg_push);
+            }
+            $this->assign('reg_push',$reg_push);
 			$this->assign($user);
 			return $this->fetch();
 		}
 
 	}
+	public function course(){
+	    return view();
+    }
 
 
 	/**
@@ -117,7 +125,6 @@ class User extends Base
 		$uid = $this->uid;
 		if(input('post.')){
 			$data = input('post.');
-
 			if($data){
 				if(!$data['price']){
 					return WPreturn('请输入提现金额！',-1);
@@ -129,7 +136,7 @@ class User extends Base
 				}
 				$conf = $this->conf;
 
-
+				
 				if($conf['is_cash'] != 1){
 					return WPreturn('抱歉！暂时无法出金',-1);
 				}
@@ -139,11 +146,11 @@ class User extends Base
 				if($conf['cash_max'] < $data['price']){
 					return WPreturn('单笔最高提现金额为：'.$conf['cash_max'],-1);
 				}
-
+				
 				$_map['uid'] = $uid;
 				$_map['bptype'] = 0;
 				$cash_num = db('balance')->where($_map)->whereTime('bptime', 'd')->count();
-
+				
 				if($cash_num + 1 > $conf['day_cash']){
 					return WPreturn('每日最多提现次数为：'.$conf['day_cash'].'次',-1);
 				}
@@ -173,7 +180,8 @@ class User extends Base
 				}
 				
 				$bl = Db::name('rate')->where('rid=1')->select();
-				$subprice = ($this->user['userdollor'] - $data['price'])*$bl[0]['rmbcoin']/$bl[0]['gamecoin'];
+				// $subprice = ($this->user['userdollor'] - $data['price'])*$bl[0]['rmbcoin']/$bl[0]['gamecoin'];
+				$subprice = ($this->user['usermoney'] - $data['price']);
 				//代理商的话判断金额是否够
 				if($this->user['otype'] == 101){
 					if( $subprice < $this->user['minprice'] ){
@@ -181,13 +189,13 @@ class User extends Base
 					}
 				}
 
-				if($this->user['otype'] == 0){
-					if (($this->user['userdollor'] - $data['price']) < 0) {
-						return WPreturn('最多提现金额为$'.$this->user['usermoney'],-1);
-					}
-				}
+				// if($this->user['otype'] == 0){
+				// 	if ($subprice < 0) {
+				// 		return WPreturn('最多提现金额为$'.$this->user['usermoney'],-1);
+				// 	}
+				// }
 
-				if( ($this->user['userdollor'] - $data['price']) < 0){
+				if ($subprice < 0) {
 					return WPreturn('最多提现金额为$'.$this->user['usermoney'],-1);
 				}
 
@@ -216,17 +224,16 @@ class User extends Base
 				$bpid = Db::name('balance')->insertGetId($newdata);
 				if($bpid){
 					//插入申请成功后,扣除金额
-					$editmoney = Db::name('userinfo')->where('uid',$uid)->setDec('userdollor',$data['price']);
-					Db::name('userinfo')->where('uid',$uid)->setDec('usermoney', round($data['price'] * $bl[0]['rmbcoin']/$bl[0]['gamecoin'],0));
+					$editmoney = Db::name('userinfo')->where('uid',$uid)->setDec('usermoney',$data['price']);
 					if($editmoney){
 						//插入此刻的余额。
 						$usermoney = Db::name('userinfo')->where('uid',$uid)->value('usermoney');
-						$userdollor = Db::name('userinfo')->where('uid',$uid)->value('userdollor');
+						// $userdollor = Db::name('userinfo')->where('uid',$uid)->value('userdollor');
 						Db::name('balance')->where('bpid',$bpid)->update(array('bpbalance'=>$usermoney));
-						Db::name('balance')->where('bpid',$bpid)->update(array('bpbalancedollor'=>$userdollor));
+						// Db::name('balance')->where('bpid',$bpid)->update(array('bpbalancedollor'=>$userdollor));
 						//资金日志
        					//set_price_log($uid,2,$data['price'],'提现','提现申请',$bpid,$usermoney);
-       					set_price_log($uid,2,$data['price'],'提现','提现申请',$bpid,$userdollor);
+       					set_price_log($uid,2,$data['price'],'提现','提现申请',$bpid,$usermoney);
 						return WPreturn('提现申请提交成功！',1);
 					}else{
 						//扣除金额失败，删除提现记录
@@ -244,9 +251,13 @@ class User extends Base
 				return WPreturn('暂不支付此提现类型！',-1);
 			}
 		}else{
-
-			$user = Db::name('userinfo')->field('usermoney,userdollor')->where('uid',$uid)->find();
-			$this->assign($user);
+			//已签约信息
+			$mybank = db('bankcard')->alias('b')->field('b.*,ba.bank_nm')
+							->join('__BANKS__ ba','ba.id=b.bankno')
+							->where('uid',$uid)->find();
+			// $user = Db::name('userinfo')->field('usermoney,userdollor')->where('uid',$uid)->find();
+			// $this->assign('user',$user);
+			$this->assign('mybank',$mybank);
 			return $this->fetch();
 		}
 	}
@@ -546,39 +557,44 @@ class User extends Base
     public function dobanks()
     {
 
-    	$post = input('post.');
+		$post = input('post.');
+		$uid = $this->uid;
+		if($post){
+			foreach ($post as $k => $v) {
 
-    	foreach ($post as $k => $v) {
+				if(empty($v)||preg_match("/[\'.,:;*?~`!@#$%^&+=)(<>{}]|\]|\[|\/|\\\|\"|\|/",$v)){
+					return WPreturn('请正确填写信息！',-1);
+				}
+				$post[$k] = trim($v);
 
-    		if(empty($v)||preg_match("/[\'.,:;*?~`!@#$%^&+=)(<>{}]|\]|\[|\/|\\\|\"|\|/",$v)){
-    			return WPreturn('请正确填写信息！',-1);
-    		}
-    		$post[$k] = trim($v);
+			}
 
-    	}
+			if(isset($post['id']) && !empty($post['id'])){
+				$list = db('bankcard')->where('id',$post['id'])->find();
+				if($uid!=$list['uid']){
+					return WPreturn('请正确填写信息！',-1);
+				}
+				$ids = db('bankcard')->update($post);
+			}else{
+				unset($post['id']);
+				$post['uid'] = $this->uid;
+				$ids = db('bankcard')->insert($post);
+			}
 
-
-    	if(isset($post['id']) && !empty($post['id'])){
-
-            $uid = $this->uid;
-         	$list = db('bankcard')->where('id',$post['id'])->find();
-              if($uid!=$list['uid']){
-                            return WPreturn('请正确填写信息！',-1);
-              }
-    		$ids = db('bankcard')->update($post);
-    	}else{
-    		unset($post['id']);
-    		$post['uid'] = $this->uid;
-    		$ids = db('bankcard')->insert($post);
-    	}
-
-    	if ($ids) {
-            return WPreturn('操作成功!',1);
-        }else{
-            return WPreturn('操作失败,请重试!',-1);
-        }
-
-
+			if ($ids) {
+				return WPreturn('操作成功!',1);
+			}else{
+				return WPreturn('操作失败,请重试!',-1);
+			}
+		}else{
+			$mybank = db('bankcard')->where('uid',$uid)->find();
+			$banks = db('banks')->select();
+			$province = db('area')->where(array('pid' => 0))->select();
+			$this->assign('mybank',$mybank);
+			$this->assign('banks',$banks);
+			$this->assign('province',$province);
+			return $this->fetch();
+		}
 
     }
 
@@ -862,6 +878,8 @@ class User extends Base
 
    		return $this->fetch();
    	}
+
+
 
    	/**
    	 * 二维码
